@@ -1,0 +1,66 @@
+{
+  "page_info": {
+    "url": "https://www.analog.com/cn/solutions/aerospace-and-defense/phased-array/digital-beamforming.html",
+    "title": "Digital Beamforming",
+    "keywords": "digital beamforming, phased array, multibeam, uhf, ka band, adef",
+    "description": "ADI offers digital beamforming solutions with growing portfolio of up/downconverters, GaN power amplifiers and T/R modules, c",
+    "component_overview": "High speed converters with integrated, hardened DSP and sampling rates up to 10.25 GSPS are bringing processing closer to the edge and making digital beamforming a commercial reality—from UHF to Ka band using direct Sampling or up/downconversion.",
+    "navigation_path": "主页/解决方案概要/航空航天和防务/相控阵/Digital Beamforming"
+  },
+  "value_and_benefits": {
+    "title": "The Value of Digital Beamforming",
+    "contents": "ADI’s digital beamforming technology enables lower power, more capable DBF phased arrays for reduced RF design time, streamlined bill of materials, and new capabilities like simultaneous, multibeam operation and improved MIMO data links.",
+    "characteristics": [
+      "Faster time to product",
+      "Reduced component count",
+      "Enables advanced capabilities"
+    ]
+  },
+  "hardware_products": [
+    {
+      "category": "Featured Products",
+      "model": "AD9084",
+      "description": "Apollo MxFE 四路 16 位 28GSPS 射频 DAC 和四路 12 位 20 GSPS 射频 ADC",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/ad9084-fbl.png?rev=57ead717a98945d7a7ce9606be7941e5&sc_lang=zh&h=100px&w=100px&hash=96D45087C2BAE83EEE79DDE988161F36",
+      "image_filename": "ad9084-fbl.png",
+      "local_image_path": "analog_devices_data_final\\Digital_Beamforming\\product_images\\ad9084-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/ad9084.html"
+    },
+    {
+      "category": "Featured Products",
+      "model": "AD9081",
+      "description": "MxFE™ 四通道 16 位 12GSPS RFDAC 和四通道 12 位 4GSPS RFADC",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/ad9081-fbl.png?rev=167cd373dacf4c3f839df88bebee8eda&sc_lang=zh&h=100px&w=100px&hash=8C847781BA69BBC14FF785A8E2BBD139",
+      "image_filename": "ad9081-fbl.png",
+      "local_image_path": "analog_devices_data_final\\Digital_Beamforming\\product_images\\ad9081-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/ad9081.html"
+    },
+    {
+      "category": "Featured Products",
+      "model": "AD9088",
+      "description": "Apollo MxFE八通道16位、16 GSPS RF DAC和八通道12位、8 GSPS RF ADC",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/ad9088-fbl.png?rev=8890ab91143b4a2fa6ec7a6b6491a94b&sc_lang=zh&h=100px&w=100px&hash=9CB768D91C950FB5DA3CC5445E17DB8F",
+      "image_filename": "ad9088-fbl.png",
+      "local_image_path": "analog_devices_data_final\\Digital_Beamforming\\product_images\\ad9088-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/ad9088.html"
+    }
+  ],
+  "evaluation_products": [
+    {
+      "category": "Evaluation Boards",
+      "model": "QUAD-MxFE平台",
+      "description": "16Tx/16Rx直接L/S/C频段采样相控阵/雷达/电子战/卫星通信开发平台",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/evaluation-board-images/images/adquadmxfe1ebzangle-web.gif?rev=693a10ebcf8a44feb9eff7465c3fcd56&sc_lang=zh&h=100px&w=100px&hash=0FEE84D5FBB35B6B9AC140330F7D8EFA",
+      "image_filename": "QUAD-MxFE平台_adquadmxfe1ebzangle-web.gif",
+      "local_image_path": "analog_devices_data_final\\Digital_Beamforming\\product_images\\QUAD-MxFE平台_adquadmxfe1ebzangle-web.gif",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/quad-mxfe.html"
+    }
+  ],
+  "reference_products": [],
+  "signal_chains": {
+    "module_title": "信号链",
+    "total_count": 0,
+    "active_chain_id": null,
+    "chains": []
+  }
+}

@@ -1,0 +1,6 @@
+﻿组件名称,DAC
+模块名称,Precision DAC
+Part #,Eval / Ref Circuit,# of Channels,Resolution (bit),DAC Type,DAC INL (max) (LSB),DAC DNL (max) (LSB),Vout Range,Iout FS (max) (A),Interface,Settling Time (typ) (s),Power (typ) (W),US Price 1000 to 4999 ($ US),Temp Range,Update Rate (SPS),Converter Primary Function,Gain Error % FS (max) (% FSR),Gain Error % FS (typ) (% FSR),Vos Error-ppm (max) (ppm),VOffset Error (V),Multiplying BW (typ) (Hz),Automotive,Features,Output Polarity,Vs- (max) (V),Vs- (min) (V),Vs+ (max) (V),Vs+ (min) (V),SFDR (typ) (dB),VNoise Density (typ) (V/rtHz),Vref Source,Glitch (typ) (V-s),Vref External (typ) (V),Vref Level Internal (typ),Vref TC (typ) (ppm/C),THD (typ) (dB),Product Description,Status,Package,Reliability Level,Data Input Format,Vnoise (typ) (V p-p),产品链接
+AD9122,,2,16,Current Out,3.7,2.1,,,LVDS,20n,1.5,$34.50 (AD9122BCPZRL),,,,,,,,,,,,,,,,,,,,,,,,,,"72 ld LFCSP (10x10mm, 6.0mm exposed pad)",,,,http://www.analog.com/zh/ad9122
+AD9148,,4,16,Current Out,3.7,2.1,,,LVDS,20n,1.49,$56.80 (AD9148BBCZ),,,,,,,,,,,,,,,,,,,,,,,,,,"196 ball CSPBGA (12x12x1.3mm),196 ball (12x12x1.32 w/7.5mm EP)",,,,http://www.analog.com/zh/ad9148
+AD9739,,1,14,Current Out,1.3,0.8,,,LVDS,13n,1.16,$45.00 (AD9739BBCZRL),,,,,,,,,,,,,,,,,,,,,,,,,,160 ball CSPBGA (12x12x1.4mm),,,,http://www.analog.com/zh/ad9739

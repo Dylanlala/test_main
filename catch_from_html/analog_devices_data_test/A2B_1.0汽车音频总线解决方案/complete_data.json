@@ -1,0 +1,258 @@
+{
+  "page_info": {
+    "url": "https://www.analog.com/cn/solutions/a2b-automotive-audio-bus/a2b-audio-bus-solutions.html",
+    "title": "A2B™ 1.0汽车音频总线解决方案",
+    "keywords": "a2b 1.0, automotive audio bus, car audio, audio data bus, audio connectivity",
+    "description": "A2B 1.0技术广泛应用于总线供电的麦克风/加速度计模块，这类模块是路噪降噪、车内通信和麦克风阵列系统的关键组成部分。",
+    "component_overview": "A 2 B 1.0是一款高带宽(50 Mbps)、低延迟(50 µs)的双向数字音频总线，可通过单根低成本非屏蔽双绞线(UTP)，同步传输I2S/TDM/PDM数据、SPI/I2C控制信息以及时钟信号和电力（最高可达50W）。系统拓扑由单个主节点和最多16个可菊花链连接的子节点组成，节点间最大传输距离可达30米，整个菊花链的总传输距离最长可达300米。在A2B 1.0网络中，所有节点的时钟与数据保持同步，确保无论节点位置如何，整个网络都能实现一致的低延迟传输。 过去十年间，A 2 B 1.0已成为高性能、低延迟音频互连技术的代名词，其部署量已达数亿台，广泛应用于汽车电子、消费电子及工业应用等多个领域。",
+    "navigation_path": "主页/解决方案概要/A2B汽车音频总线技术/A2B™ 1.0汽车音频总线解决方案"
+  },
+  "value_and_benefits": {
+    "title": "价值和优势",
+    "contents": "",
+    "characteristics": [
+      "确定性低延迟（50微秒以内):对于路噪降噪(RNC)和车内通信(ICC)等延迟敏感型应用至关重要。",
+      "设计简化，成本降低：菊花链拓扑结构可将布线重量/成本降低高达75%。",
+      "电源效率：总线供电功率可达50W，无需额外部署专用的电源线/接地线及本地电源。",
+      "软件优势：设备发现后无需额外软件开销；无需昂贵的MCU或存储器。",
+      "开发提速：ADI和庞大的第三方合作伙伴网络，为开发者提供低成本评估套件和全功能调试工具。"
+    ]
+  },
+  "layout2_modules": [
+    {
+      "module_name": "价值和优势",
+      "description": "",
+      "table": {
+        "headers": [],
+        "rows": []
+      },
+      "images": []
+    }
+  ],
+  "hardware_products": [
+    {
+      "category": "硬件产品",
+      "model": "AD2433",
+      "description": "汽车音频总线 A2B 收发器",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/ad243x-fbl.png?rev=3dcf5a4c3f6b4b7abab1b0e6824388c1&sc_lang=zh&h=100px&w=100px&hash=5ED5C24F50C9CC54B835731C1445670A",
+      "image_filename": "AD2433_ad243x-fbl.png",
+      "local_image_path": "analog_devices_data_final\\A2B_1.0汽车音频总线解决方案\\product_images\\AD2433_ad243x-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/ad2433w.html"
+    },
+    {
+      "category": "硬件产品",
+      "model": "AD2430",
+      "description": "汽车音频总线 (A2B) 收发器",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/ad2430-ad2438-fbl.png?rev=a62d3ca17d894b52bc748acfcd7f4f01&sc_lang=zh&h=100px&w=100px&hash=EC04A23B9E046F8314B3D9125D2FB87C",
+      "image_filename": "ad2430-ad2438-fbl.png",
+      "local_image_path": "analog_devices_data_final\\A2B_1.0汽车音频总线解决方案\\product_images\\ad2430-ad2438-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/ad2430w.html"
+    },
+    {
+      "category": "硬件产品",
+      "model": "AD2438",
+      "description": "汽车音频总线 (A2B) 收发器",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/ad2430-ad2438-fbl.png?rev=a62d3ca17d894b52bc748acfcd7f4f01&sc_lang=zh&h=100px&w=100px&hash=EC04A23B9E046F8314B3D9125D2FB87C",
+      "image_filename": "ad2430-ad2438-fbl.png",
+      "local_image_path": "analog_devices_data_final\\A2B_1.0汽车音频总线解决方案\\product_images\\ad2430-ad2438-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/ad2438w.html"
+    },
+    {
+      "category": "硬件产品",
+      "model": "AD2428",
+      "description": "集成 I2S/时分复用 的 A2B 主/从 4xPDM XCVR",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/ad242x-fbl.png?rev=f37a74b7e852460ca767c5a74e8a0bf7&sc_lang=zh&h=100px&w=100px&hash=F7AF76D31E69914441599E7634C34053",
+      "image_filename": "AD2428_ad242x-fbl.png",
+      "local_image_path": "analog_devices_data_final\\A2B_1.0汽车音频总线解决方案\\product_images\\AD2428_ad242x-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/ad2428.html"
+    },
+    {
+      "category": "硬件产品",
+      "model": "AD2435",
+      "description": "汽车音频总线 A2B 收发器",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/ad243x-fbl.png?rev=3dcf5a4c3f6b4b7abab1b0e6824388c1&sc_lang=zh&h=100px&w=100px&hash=5ED5C24F50C9CC54B835731C1445670A",
+      "image_filename": "AD2435_ad243x-fbl.png",
+      "local_image_path": "analog_devices_data_final\\A2B_1.0汽车音频总线解决方案\\product_images\\AD2435_ad243x-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/ad2435w.html"
+    },
+    {
+      "category": "硬件产品",
+      "model": "AD2432",
+      "description": "汽车音频总线 A2B 收发器",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/ad243x-fbl.png?rev=3dcf5a4c3f6b4b7abab1b0e6824388c1&sc_lang=zh&h=100px&w=100px&hash=5ED5C24F50C9CC54B835731C1445670A",
+      "image_filename": "AD2432_ad243x-fbl.png",
+      "local_image_path": "analog_devices_data_final\\A2B_1.0汽车音频总线解决方案\\product_images\\AD2432_ad243x-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/ad2432w.html"
+    },
+    {
+      "category": "硬件产品",
+      "model": "AD2431",
+      "description": "汽车音频总线 A2B 收发器",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/ad243x-fbl.png?rev=3dcf5a4c3f6b4b7abab1b0e6824388c1&sc_lang=zh&h=100px&w=100px&hash=5ED5C24F50C9CC54B835731C1445670A",
+      "image_filename": "AD2431_ad243x-fbl.png",
+      "local_image_path": "analog_devices_data_final\\A2B_1.0汽车音频总线解决方案\\product_images\\AD2431_ad243x-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/ad2431w.html"
+    },
+    {
+      "category": "硬件产品",
+      "model": "AD2427",
+      "description": "A2B 中线从机 4xPDM XCVR",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/ad242x-fbl.png?rev=f37a74b7e852460ca767c5a74e8a0bf7&sc_lang=zh&h=100px&w=100px&hash=F7AF76D31E69914441599E7634C34053",
+      "image_filename": "AD2427_ad242x-fbl.png",
+      "local_image_path": "analog_devices_data_final\\A2B_1.0汽车音频总线解决方案\\product_images\\AD2427_ad242x-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/ad2427.html"
+    },
+    {
+      "category": "硬件产品",
+      "model": "AD2426",
+      "description": "A2B 最后在线的从机 4xPDM XCVR",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/ad242x-fbl.png?rev=f37a74b7e852460ca767c5a74e8a0bf7&sc_lang=zh&h=100px&w=100px&hash=F7AF76D31E69914441599E7634C34053",
+      "image_filename": "AD2426_ad242x-fbl.png",
+      "local_image_path": "analog_devices_data_final\\A2B_1.0汽车音频总线解决方案\\product_images\\AD2426_ad242x-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/ad2426.html"
+    },
+    {
+      "category": "硬件产品",
+      "model": "AD2437",
+      "description": "A2B Transceiver Supporting 50W Bus Power and Extended Distance",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/ad2437-fbl.png?rev=5a8dec79beb7415d8592d659567a71a7&sc_lang=zh&h=100px&w=100px&hash=D19F8EED5EDC65F3031840C04392A686",
+      "image_filename": "ad2437-fbl.png",
+      "local_image_path": "analog_devices_data_final\\A2B_1.0汽车音频总线解决方案\\product_images\\ad2437-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/ad2437.html"
+    }
+  ],
+  "evaluation_products": [
+    {
+      "category": "评估版",
+      "model": "EVAL-AD2428WB1BZ",
+      "description": "由总线供电的A2B®从机模式（I2S/TDM，2个PDM麦克风）",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/evaluation-board-images/images/eval-ad2428wb1bzangle-web.gif?rev=7a12f93d9a784a29a4fa8117ef3a742f&sc_lang=zh&h=100px&w=100px&hash=74CBCEDB2A062AF290BBA8478EF5AE81",
+      "image_filename": "eval-ad2428wb1bzangle-web.gif",
+      "local_image_path": "analog_devices_data_final\\A2B_1.0汽车音频总线解决方案\\product_images\\eval-ad2428wb1bzangle-web.gif",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-ad2428wb1bz.html"
+    },
+    {
+      "category": "评估版",
+      "model": "EVAL-AD2428WC1BZ",
+      "description": "由总线供电的 A2B®从机模式（无 I2S/TDM，4 个 PDM 麦克风）",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/evaluation-board-images/images/eval-ad2428wc1bzangle-web.gif?rev=2fc68a67f89a49f2b46386723d867448&sc_lang=zh&h=100px&w=100px&hash=D4815F28822CF0030D00339902AB4554",
+      "image_filename": "eval-ad2428wc1bzangle-web.gif",
+      "local_image_path": "analog_devices_data_final\\A2B_1.0汽车音频总线解决方案\\product_images\\eval-ad2428wc1bzangle-web.gif",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-ad2428wc1bz.html"
+    },
+    {
+      "category": "评估版",
+      "model": "EVAL-AD2428WD1BZ",
+      "description": "A2B®主机或本地电源从机模式（I2S/TDM，3 个 PDM 麦克风）",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/evaluation-board-images/images/eval-ad2428wd1bzangle-web.gif?rev=3b588b3a343446b69c2f909116ae91e5&sc_lang=zh&h=100px&w=100px&hash=051A3FE3B8E139D63BF4FD6FA565C54C",
+      "image_filename": "eval-ad2428wd1bzangle-web.gif",
+      "local_image_path": "analog_devices_data_final\\A2B_1.0汽车音频总线解决方案\\product_images\\eval-ad2428wd1bzangle-web.gif",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-ad2428wd1bz.html"
+    },
+    {
+      "category": "评估版",
+      "model": "EVAL-AD2428WG1BZ",
+      "description": "本地电源 A2B®从机模式（I2S/TDM，无 PDM 麦克风）",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/evaluation-board-images/images/eval-ad2428wg1bzangle-web.gif?rev=8181950537564b868e323cfc2626f6e8&sc_lang=zh&h=100px&w=100px&hash=E0F106B2D336B237D24F0B385929BA32",
+      "image_filename": "eval-ad2428wg1bzangle-web.gif",
+      "local_image_path": "analog_devices_data_final\\A2B_1.0汽车音频总线解决方案\\product_images\\eval-ad2428wg1bzangle-web.gif",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-ad2428wg1bz.html"
+    },
+    {
+      "category": "评估版",
+      "model": "ADZS-AUDIOA2BAMP",
+      "description": "A2B®D 类放大器模块",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/evaluation-board-images/images/adzs-audioa2bamp-angle-web.gif?rev=91684d09328a4d729de8485151df6c22&sc_lang=zh&h=100px&w=100px&hash=6FF816DD35A359CE560E45E2209FE078",
+      "image_filename": "adzs-audioa2bamp-angle-web.gif",
+      "local_image_path": "analog_devices_data_final\\A2B_1.0汽车音频总线解决方案\\product_images\\adzs-audioa2bamp-angle-web.gif",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/adzs-audioa2bamp.html"
+    },
+    {
+      "category": "评估版",
+      "model": "SHARC音频模块(ADZS-SC589-MINI)",
+      "description": "SHARC音频模块(SAM)是适合音频应用的可扩展硬件/软件平台。",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/evaluation-board-images/images/adzs-sc589-miniangle-web.gif?rev=e9b5d89dfae04c8a8ff90bcb219587bc&sc_lang=zh&h=100px&w=100px&hash=770AB8B02D19A303914FC685FF3D34BE",
+      "image_filename": "SHARC音频模块_ADZS-SC589-MINI__adzs-sc589-miniangle-web.gif",
+      "local_image_path": "analog_devices_data_final\\A2B_1.0汽车音频总线解决方案\\product_images\\SHARC音频模块_ADZS-SC589-MINI__adzs-sc589-miniangle-web.gif",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/sharc-audio-module.html"
+    }
+  ],
+  "reference_products": [],
+  "signal_chains": {
+    "module_title": "信号链",
+    "total_count": 5,
+    "active_chain_id": "0686",
+    "chains": [
+      {
+        "list_name": "主机/驾驶舱ECU",
+        "data_target": "ISC-0686",
+        "chain_id": "0686",
+        "is_active": true,
+        "is_more_option": false,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0686.png",
+          "filename": "signal_chain_0686.png",
+          "local_path": "analog_devices_data_final\\A2B_1.0汽车音频总线解决方案\\signal_chains\\signal_chain_0686.png",
+          "chain_id": "0686"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "低音炮/分布式放大器",
+        "data_target": "ISC-0520",
+        "chain_id": "0520",
+        "is_active": false,
+        "is_more_option": false,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0520.png",
+          "filename": "signal_chain_0520.png",
+          "local_path": "analog_devices_data_final\\A2B_1.0汽车音频总线解决方案\\signal_chains\\signal_chain_0520.png",
+          "chain_id": "0520"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "有源噪声控制(ANC)/道路噪声消除(RNC)箱",
+        "data_target": "ISC-0532",
+        "chain_id": "0532",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0532.png",
+          "filename": "signal_chain_0532.png",
+          "local_path": "analog_devices_data_final\\A2B_1.0汽车音频总线解决方案\\signal_chains\\signal_chain_0532.png",
+          "chain_id": "0532"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "高级音频放大器",
+        "data_target": "ISC-0525",
+        "chain_id": "0525",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0525.png",
+          "filename": "signal_chain_0525.png",
+          "local_path": "analog_devices_data_final\\A2B_1.0汽车音频总线解决方案\\signal_chains\\signal_chain_0525.png",
+          "chain_id": "0525"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "远程信息处理紧急呼叫(E-Call)箱",
+        "data_target": "ISC-0519",
+        "chain_id": "0519",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0519.png",
+          "filename": "signal_chain_0519.png",
+          "local_path": "analog_devices_data_final\\A2B_1.0汽车音频总线解决方案\\signal_chains\\signal_chain_0519.png",
+          "chain_id": "0519"
+        },
+        "signal_chain_hotspots": []
+      }
+    ]
+  }
+}

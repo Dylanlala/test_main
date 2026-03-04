@@ -1,0 +1,6 @@
+﻿组件名称,Isolation
+模块名称,Standard Digital Isolators
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,Data Rate (max) (bits),Prop Delay (max) (s),# of Channels,Inputs Side I,Inputs Side 2,Insulation Rating (V rms),CMTI (min) (V/µs),Iout Isolated Supply (max) (A),Vs+ (min) (V),Vs+ (max) (V),Space,产品链接
+ADUM4400,5 kV RMS Quad-Channel Digital Isolators,Production,2174,¥30.21000 (ADUM4400ARIZ-RL),"16-Lead SOIC (Increased Creepage),16-Lead SOIC Wide",90M,32n,4,4,0,5k,25k,,3.135,5.5,No,https://www.analog.com/cn/adum4400
+ADUM4401,5 kV RMS Quad-Channel Digital Isolators,Production,923,¥30.21000 (ADUM4401ARIZ-RL),"16-Lead SOIC (Increased Creepage),16-Lead SOIC Wide",90M,27n,4,3,1,5k,25k,,3.135,5.5,No,https://www.analog.com/cn/adum4401
+ADUM4402,5 kV RMS Quad-Channel Digital Isolators,Production,1771,¥30.21000 (ADUM4402ARIZ-RL),"16-Lead SOIC (Increased Creepage),16-Lead SOIC Wide",90M,27n,4,2,2,5k,25k,,3.135,5.5,No,https://www.analog.com/cn/adum4402

@@ -1,0 +1,361 @@
+{
+  "page_info": {
+    "url": "https://www.analog.com/cn/solutions/industrial-connectivity-technology/rs-485-can-solutions.html",
+    "title": "RS-485接口/RS-232接口/控制器局域网解决方案",
+    "keywords": "rs485, rs232, controller area network, can transceivers, industrial, automation",
+    "description": "ADI拥有丰富多样的RS-485、RS-232和CAN收发器产品系列，可满足多样化的连接需求。",
+    "component_overview": "ADI拥有丰富多样的RS-485、RS-232和CAN收发器产品系列，可满足多样化的连接需求。RS-485支持远距离、抗噪声通信，最多可连接256台设备，是工业应用的理想选择。RS-232适用于更简单的短距离点对点连接。CAN具备与RS-485相近的稳健性，同时增加了消息仲裁功能，可提升可靠性并支持通信层级架构。",
+    "navigation_path": "主页/解决方案概要/工业连接技术/RS-485接口/RS-232接口/控制器局域网解决方案"
+  },
+  "value_and_benefits": {
+    "title": "价值和优势",
+    "contents": "",
+    "characteristics": []
+  },
+  "layout2_modules": [
+    {
+      "module_name": "价值和优势",
+      "description": "",
+      "table": {
+        "headers": [],
+        "rows": []
+      },
+      "images": []
+    }
+  ],
+  "hardware_products": [],
+  "evaluation_products": [
+    {
+      "category": "评估板与套件",
+      "model": "MAX33046ESHLD",
+      "description": "MAX33046E评估套件",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/solutions/default/image_unavailable_01.png?rev=c29f2d04550549ccac047a757d27469f&la=zh&h=370&w=555&hash=57D66E456CDFE7491693A147B78925A4",
+      "image_filename": "MAX33046ESHLD_image_unavailable_01.png",
+      "local_image_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\product_images\\MAX33046ESHLD_image_unavailable_01.png",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/max33046eshld.html"
+    },
+    {
+      "category": "评估板与套件",
+      "model": "MAX33040ESHLD",
+      "description": "MAX33040E评估套件",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/evaluation-board-maxim-images/max33040eshld.png?rev=459863bc29054ee1bf7ab2a6faf9810b&h=100px&w=100px&hash=0113F4A87754EB0D3E2124FAEB26FF07",
+      "image_filename": "max33040eshld.png",
+      "local_image_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\product_images\\max33040eshld.png",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/max33040eshld.html"
+    },
+    {
+      "category": "评估板与套件",
+      "model": "MAX33041ESHLD",
+      "description": "MAX33041E评估套件",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/evaluation-board-maxim-images/max33041eshld.png?rev=d5d5ccd0d4184cfda65c527898aff939&h=100px&w=100px&hash=8BA50D5245D7CCBAAA8078F672F84342",
+      "image_filename": "max33041eshld.png",
+      "local_image_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\product_images\\max33041eshld.png",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/max33041eshld.html"
+    },
+    {
+      "category": "评估板与套件",
+      "model": "DC2063A",
+      "description": "LTC2875演示板 | 4Mbps CAN收发器",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/evaluation-board-images/images/dc2063a-ltc2875-idd-4.gif?rev=b4a86a3778e84d6c8f3885a097b45512&sc_lang=zh&h=100px&w=100px&hash=BDC18FED1304ED1827155D5DF4A955B8",
+      "image_filename": "dc2063a-ltc2875-idd-4.gif",
+      "local_image_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\product_images\\dc2063a-ltc2875-idd-4.gif",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/dc2063a.html"
+    },
+    {
+      "category": "评估板与套件",
+      "model": "MAX22506EEVKIT",
+      "description": "MAX22506E评估套件",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/solutions/default/image_unavailable_01.png?rev=c29f2d04550549ccac047a757d27469f&la=zh&h=370&w=555&hash=57D66E456CDFE7491693A147B78925A4",
+      "image_filename": "MAX22506EEVKIT_image_unavailable_01.png",
+      "local_image_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\product_images\\MAX22506EEVKIT_image_unavailable_01.png",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/max22506eevkit.html"
+    },
+    {
+      "category": "评估板与套件",
+      "model": "EVAL-ADM3065E",
+      "description": "ADM3065E 评估板",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/evaluation-board-images/images/eval-adm3065eebz_eval-adm3065eeb1z.png?rev=de1cf853c88049b3a8dad03f0e3c5e4b&sc_lang=zh&h=100px&w=100px&hash=BDD99C83EA73FD49638680E0D1884693",
+      "image_filename": "eval-adm3065eebz_eval-adm3065eeb1z.png",
+      "local_image_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\product_images\\eval-adm3065eebz_eval-adm3065eeb1z.png",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-adm3065e.html"
+    },
+    {
+      "category": "评估板与套件",
+      "model": "MAX33071ESHLD",
+      "description": "MAX33071E/MAX33070E扩展板评估套件",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/solutions/default/image_unavailable_01.png?rev=c29f2d04550549ccac047a757d27469f&la=zh&h=370&w=555&hash=57D66E456CDFE7491693A147B78925A4",
+      "image_filename": "MAX33071ESHLD_image_unavailable_01.png",
+      "local_image_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\product_images\\MAX33071ESHLD_image_unavailable_01.png",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/max33071eshld.html"
+    },
+    {
+      "category": "评估板与套件",
+      "model": "MAX33076ESHLD",
+      "description": "MAX33076E评估套件",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/evaluation-board-maxim-images/max33076eshld.png?rev=2249ee97d15d461896e6303df3825a38&h=100px&w=100px&hash=0C74C3CFFDB1040F7D13B91177762562",
+      "image_filename": "max33076eshld.png",
+      "local_image_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\product_images\\max33076eshld.png",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/max33076eshld.html"
+    }
+  ],
+  "reference_products": [],
+  "signal_chains": {
+    "module_title": "信号链",
+    "total_count": 18,
+    "active_chain_id": "0516",
+    "chains": [
+      {
+        "list_name": "电机驱动",
+        "data_target": "ISC-0516",
+        "chain_id": "0516",
+        "is_active": true,
+        "is_more_option": false,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0516.png",
+          "filename": "signal_chain_0516.png",
+          "local_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\signal_chains\\signal_chain_0516.png",
+          "chain_id": "0516"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "AMR磁编码器",
+        "data_target": "ISC-0752",
+        "chain_id": "0752",
+        "is_active": false,
+        "is_more_option": false,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0752.png",
+          "filename": "signal_chain_0752.png",
+          "local_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\signal_chains\\signal_chain_0752.png",
+          "chain_id": "0752"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "霍尔磁编码器",
+        "data_target": "ISC-0754",
+        "chain_id": "0754",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0754.png",
+          "filename": "signal_chain_0754.png",
+          "local_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\signal_chains\\signal_chain_0754.png",
+          "chain_id": "0754"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "光学编码器",
+        "data_target": "ISC-0755",
+        "chain_id": "0755",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0755.png",
+          "filename": "signal_chain_0755.png",
+          "local_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\signal_chains\\signal_chain_0755.png",
+          "chain_id": "0755"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "位置编码器",
+        "data_target": "ISC-0507",
+        "chain_id": "0507",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0507.png",
+          "filename": "signal_chain_0507.png",
+          "local_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\signal_chains\\signal_chain_0507.png",
+          "chain_id": "0507"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "UPS",
+        "data_target": "ISC-0411",
+        "chain_id": "0411",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0411.png",
+          "filename": "signal_chain_0411.png",
+          "local_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\signal_chains\\signal_chain_0411.png",
+          "chain_id": "0411"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "超声流量变送器",
+        "data_target": "ISC-0710",
+        "chain_id": "0710",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0710.png",
+          "filename": "signal_chain_0710.png",
+          "local_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\signal_chains\\signal_chain_0710.png",
+          "chain_id": "0710"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "集成AFE的超声流量变送器",
+        "data_target": "ISC-0713",
+        "chain_id": "0713",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0713.png",
+          "filename": "signal_chain_0713.png",
+          "local_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\signal_chains\\signal_chain_0713.png",
+          "chain_id": "0713"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "压力变送器",
+        "data_target": "ISC-0709",
+        "chain_id": "0709",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0709.png",
+          "filename": "signal_chain_0709.png",
+          "local_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\signal_chains\\signal_chain_0709.png",
+          "chain_id": "0709"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "电磁流量变送器",
+        "data_target": "ISC-0708",
+        "chain_id": "0708",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0708.png",
+          "filename": "signal_chain_0708.png",
+          "local_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\signal_chains\\signal_chain_0708.png",
+          "chain_id": "0708"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "集成AFE的电磁流量变送器",
+        "data_target": "ISC-0712",
+        "chain_id": "0712",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0712.png",
+          "filename": "signal_chain_0712.png",
+          "local_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\signal_chains\\signal_chain_0712.png",
+          "chain_id": "0712"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "温度变送器",
+        "data_target": "ISC-0706",
+        "chain_id": "0706",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0706.png",
+          "filename": "signal_chain_0706.png",
+          "local_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\signal_chains\\signal_chain_0706.png",
+          "chain_id": "0706"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "差分压力流量变送器",
+        "data_target": "ISC-0714",
+        "chain_id": "0714",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0714.png",
+          "filename": "signal_chain_0714.png",
+          "local_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\signal_chains\\signal_chain_0714.png",
+          "chain_id": "0714"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "雷达液位变送器",
+        "data_target": "ISC-0478",
+        "chain_id": "0478",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0478.png",
+          "filename": "signal_chain_0478.png",
+          "local_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\signal_chains\\signal_chain_0478.png",
+          "chain_id": "0478"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "温度模拟输入",
+        "data_target": "ISC-0118",
+        "chain_id": "0118",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0118.png",
+          "filename": "signal_chain_0118.png",
+          "local_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\signal_chains\\signal_chain_0118.png",
+          "chain_id": "0118"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "群组隔离模拟输入",
+        "data_target": "ISC-0412",
+        "chain_id": "0412",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0412.png",
+          "filename": "signal_chain_0412.png",
+          "local_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\signal_chains\\signal_chain_0412.png",
+          "chain_id": "0412"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "PLC数字IO模块",
+        "data_target": "ISC-0719",
+        "chain_id": "0719",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0719.png",
+          "filename": "signal_chain_0719.png",
+          "local_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\signal_chains\\signal_chain_0719.png",
+          "chain_id": "0719"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "DCS数字IO模块",
+        "data_target": "ISC-0720",
+        "chain_id": "0720",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0720.png",
+          "filename": "signal_chain_0720.png",
+          "local_path": "analog_devices_data_final\\RS-485接口RS-232接口控制器局域网解决方案\\signal_chains\\signal_chain_0720.png",
+          "chain_id": "0720"
+        },
+        "signal_chain_hotspots": []
+      }
+    ]
+  }
+}

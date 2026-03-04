@@ -1,0 +1,103 @@
+{
+  "devices": [
+    {
+      "name": "Host",
+      "description": "上位机主机，实现测量参数配置、测量指令下发、测量数据的接收、存储与显示。"
+    },
+    {
+      "name": "Data Isolation",
+      "description": "数字信号隔离模块，实现上位机与后端测量系统的数字通信信号电气隔离，抑制共模干扰，提升系统可靠性。"
+    },
+    {
+      "name": "Isolated Power",
+      "description": "隔离供电模块，为后端所有测量控制电路提供与上位机侧电气隔离的供电电源，避免地环路干扰。"
+    },
+    {
+      "name": "Control Logic Micro Processor",
+      "description": "控制逻辑微处理器，负责解析上位机指令、配置DAC参数、采集ADC数据、执行闭环控制逻辑与系统保护逻辑。"
+    },
+    {
+      "name": "VREF",
+      "description": "高精度电压基准源，为系统内所有DAC、ADC器件提供高精度、高稳定性的参考电压，保障输出与测量精度。"
+    },
+    {
+      "name": "SP DAC",
+      "description": "设定值数模转换器，将微处理器输出的数字设定值转换为模拟设定电压，作为输出闭环控制的参考基准。"
+    },
+    {
+      "name": "CMP DAC",
+      "description": "合规阈值数模转换器，将微处理器输出的数字阈值转换为模拟电压，作为输出过压、过流保护的判断阈值。"
+    },
+    {
+      "name": "I-V Clamping and compliance Control",
+      "description": "电流电压钳位与合规控制模块，基于设定值、保护阈值与采样反馈信号实现输出电压/电流的闭环控制与过限保护。"
+    },
+    {
+      "name": "Driver Amp",
+      "description": "输出驱动放大器，对控制信号进行功率放大，为外部被测器件提供足够的驱动能力，输出到HI端口。"
+    },
+    {
+      "name": "AMP (Guard)",
+      "description": "保护端驱动放大器，输出与HI端等电位的驱动信号到Guard端口，抑制线缆漏电流，提升小信号测量精度。"
+    },
+    {
+      "name": "Current sense IN-AMP",
+      "description": "电流检测仪表放大器，差分放大输出电流采样信号，获得高精度的电流检测模拟信号，用于反馈与测量。"
+    },
+    {
+      "name": "Voltage Sense IN-AMP",
+      "description": "电压检测仪表放大器，差分放大HI与LO端的电压采样信号，获得高精度的电压检测模拟信号，用于反馈与测量。"
+    },
+    {
+      "name": "ADC Driver (I ADC)",
+      "description": "电流测量ADC驱动放大器，对电流检测信号进行缓冲与电平适配，满足后续ADC的输入要求。"
+    },
+    {
+      "name": "I ADC",
+      "description": "电流测量模数转换器，将模拟电流检测信号转换为数字量，传输给微处理器进行数据处理。"
+    },
+    {
+      "name": "ADC Driver (V ADC)",
+      "description": "电压测量ADC驱动放大器，对电压检测信号进行缓冲与电平适配，满足后续ADC的输入要求。"
+    },
+    {
+      "name": "V ADC",
+      "description": "电压测量模数转换器，将模拟电压检测信号转换为数字量，传输给微处理器进行数据处理。"
+    },
+    {
+      "name": "HI",
+      "description": "输出正端口，作为源测量的正极输出端口，连接被测器件的正极。"
+    },
+    {
+      "name": "HI SNS",
+      "description": "正端检测端口，用于HI端的开尔文检测，消除线缆压降带来的测量误差。"
+    },
+    {
+      "name": "Guard",
+      "description": "保护输出端口，输出与HI端等电位的保护信号，连接测试线缆屏蔽层，降低漏电流。"
+    },
+    {
+      "name": "Guard SNS",
+      "description": "保护端检测端口，用于Guard端信号的反馈检测，保障Guard电位匹配精度。"
+    },
+    {
+      "name": "LO SNS",
+      "description": "负端检测端口，用于LO端的开尔文检测，消除线缆压降带来的测量误差。"
+    },
+    {
+      "name": "LO",
+      "description": "输出负端口，作为源测量的负极/参考地输出端口，连接被测器件的负极。"
+    }
+  ],
+  "signal_flow": {
+    "main": "输出路径：Host -> Data Isolation -> Control Logic Micro Processor -> SP DAC -> I-V Clamping and compliance Control -> Driver Amp -> HI；电流测量回读路径：HI -> Current sense IN-AMP -> ADC Driver (I ADC) -> I ADC -> Control Logic Micro Processor -> Data Isolation -> Host；电压测量回读路径：HI/LO -> Voltage Sense IN-AMP -> ADC Driver (V ADC) -> V ADC -> Control Logic Micro Processor -> Data Isolation -> Host",
+    "branches": [
+      "电源路径：Isolated Power -> 为Control Logic Micro Processor、VREF、SP DAC、CMP DAC、I-V Clamping and compliance Control、Driver Amp、所有放大器、ADC、DAC模块供电",
+      "保护控制路径：Control Logic Micro Processor -> CMP DAC -> I-V Clamping and compliance Control",
+      "基准路径：VREF -> SP DAC、CMP DAC、I ADC、V ADC",
+      "闭环反馈路径：Current sense IN-AMP、Voltage Sense IN-AMP -> I-V Clamping and compliance Control 反馈输入端",
+      "Guard驱动路径：Driver Amp输出 -> AMP (Guard) -> Guard"
+    ]
+  },
+  "application_scene": "集成式源测量单元(SMU)/参数测量单元(PMU)精密电学测量子系统"
+}

@@ -1,0 +1,5 @@
+﻿模块名称,LNA
+表格名称,Low Noise Amplifier
+Part #,Eval / Ref Circuit,RF Primary Function,Freq Response RF (min) (Hz),Freq Response RF (max) (Hz),Gain (typ) (dB),OP1dB (typ) (dBm),OIP3 (typ) (dBm),NF (typ) (dB),Device Match,Vs (typ) (V),Is (typ) (A),US Price 100 to 499 ($ US),Product Description,Status,Package,Automotive,Reliability Level,Temp Range,产品链接
+ADL5521,Evaluation board,LNA,400M,4G,20.8,21.8,37,0.9,External,5,60m,,,,8 ld LFCSP (3x3mm 1.74x1.45mm EP),,,,http://www.analog.com/zh/adl5521
+ADL5523,Evaluation board,LNA,400M,4G,21.5,21,34,0.8,External,5,60m,,,,8 ld LFCSP (3x3mm 1.74x1.45mm EP),,,,http://www.analog.com/zh/adl5523

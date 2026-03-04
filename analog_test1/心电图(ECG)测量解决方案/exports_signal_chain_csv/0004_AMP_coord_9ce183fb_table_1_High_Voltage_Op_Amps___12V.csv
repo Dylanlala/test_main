@@ -1,0 +1,4 @@
+﻿组件名称,Amp
+模块名称,High Voltage Op Amps >=12V
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,# of Amps,GBP (typ) (Hz),BW -3 dB (typ) (Hz),Slew Rate (typ) (V/µs),Vos (max) (V),VNoise Density (typ) (V/rtHz),Ibias (max) (A),Iq/Amp (typ) (A),Rail to Rail,Vs span (min) (V),Vs span (max) (V),Amp Features,Package Area (mm²),产品链接
+AD8244,"Single-Supply, Low Power, Precision FET Input Quad Buffer",Recommended for New Designs,3353,¥20.09000 (AD8244ARMZ-R7),10-Lead MSOP,4,,3M,800m,350µ,13n,2p,180µ,"In to V-, Output",3,36,,15.965mm² (10-Lead MSOP) (AD8244ARMZ),https://www.analog.com/cn/ad8244

@@ -1,0 +1,71 @@
+{
+  "page_info": {
+    "url": "https://www.analog.com/cn/solutions/aerospace-and-defense/avionics/inflight-entertainment.html",
+    "title": "机上娱乐",
+    "keywords": "机上娱乐、gmsl、个人娱乐设备、交互式座舱、手势感应",
+    "description": "Inflight entertainment solutions provide mix of interactive 4K content to seatback monitors with support for integrated strea",
+    "component_overview": "Inflight entertainment solutions provide a mix of interactive 4K content to seatback monitors with support for integrated streamed content to and from passengers’ personal entertainment devices (PEDs). Analog Devices’ unique gigabit multimedia serial links (GMSL) and A2B® technologies provide robust, flexible, and cost-effective solutions for next-generation audio and video capabilities from cabin to cockpit. Our advanced displays and infrared (IR)-based gesture sensing and camera-based time-of-flight (ToF) solutions bring the interactive cabin to a new level, and our full range of power and power protection solutions enable in-seat charging systems with the highest efficiency and smallest footprint. Our industry-leading power control, management, and protection solutions improve efficiency, safety, and the passenger experience.",
+    "navigation_path": "主页/解决方案概要/航空航天和防务/航空电子产品和解决方案/机上娱乐"
+  },
+  "value_and_benefits": {
+    "title": "Value and Benefits",
+    "contents": "Next-generation Inflight Entertainment/Inflight Connectivity (IFEC) systems need to offer a more immersive experience using high-resolution seat and cabin displays, integration with user devices, and sensors and edge processing with ML/AI/Spoken Language Understanding (SLU) to accommodate user accessibility needs. They may also include links to Wireless Avionics Intra-Communications (WAIC), 5G capabilities, advanced seat control, and gesture recognition using ToF sensors. Across our industry-leading product portfolios, we offer the technologies and solutions that will enable these systems.",
+    "characteristics": [
+      "Offers an immersive in-flight experience",
+      "Accommodates user accessibility needs",
+      "Links to 5G capabilities"
+    ]
+  },
+  "hardware_products": [
+    {
+      "category": "产品特性",
+      "model": "AD2430",
+      "description": "汽车音频总线 (A2B) 收发器",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/ad2430-ad2438-fbl.png?rev=a62d3ca17d894b52bc748acfcd7f4f01&sc_lang=zh&h=100px&w=100px&hash=EC04A23B9E046F8314B3D9125D2FB87C",
+      "image_filename": "ad2430-ad2438-fbl.png",
+      "local_image_path": "analog_devices_data_final\\机上娱乐\\product_images\\ad2430-ad2438-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/ad2430w.html"
+    },
+    {
+      "category": "产品特性",
+      "model": "LT8610",
+      "description": "具 2.5μA 静态电流的 42V、2.5A 同步降压型稳压器",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/typical-application-diagrams/ltc/lt8610-9521.png?rev=7c3752d4b0534710a4352f3d8c035ace&h=100px&w=100px&hash=E8D7AA56EB48642E0F0934C337298B50",
+      "image_filename": "lt8610-9521.png",
+      "local_image_path": "analog_devices_data_final\\机上娱乐\\product_images\\lt8610-9521.png",
+      "product_link": "https://www.analog.com/cn/products/lt8610.html"
+    },
+    {
+      "category": "产品特性",
+      "model": "MAX25405",
+      "description": "带有透镜的汽车级IR手势识别传感器",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/maxim-product/max25405-functional-block-diagram.png?rev=00b6ef17e0f24dd0a16b64a318fea2e0&sc_lang=zh&h=100px&w=100px&hash=F80876EBD891C9E720D2E4B543CD962A",
+      "image_filename": "max25405-functional-block-diagram.png",
+      "local_image_path": "analog_devices_data_final\\机上娱乐\\product_images\\max25405-functional-block-diagram.png",
+      "product_link": "https://www.analog.com/cn/products/max25405.html"
+    }
+  ],
+  "evaluation_products": [],
+  "reference_products": [],
+  "signal_chains": {
+    "module_title": "信号链",
+    "total_count": 1,
+    "active_chain_id": "0756",
+    "chains": [
+      {
+        "list_name": "平视显示器(HUD)",
+        "data_target": "ISC-0756",
+        "chain_id": "0756",
+        "is_active": true,
+        "is_more_option": false,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0756.png",
+          "filename": "signal_chain_0756.png",
+          "local_path": "analog_devices_data_final\\机上娱乐\\signal_chains\\signal_chain_0756.png",
+          "chain_id": "0756"
+        },
+        "signal_chain_hotspots": []
+      }
+    ]
+  }
+}

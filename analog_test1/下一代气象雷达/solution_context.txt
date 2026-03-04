@@ -1,0 +1,184 @@
+# 方案目录: 下一代气象雷达
+路径: C:\Users\Administrator\PycharmProjects\fae_main\fae_main-main\fae_main-main\analog_test1\下一代气象雷达
+
+
+## 1. 目录与文件列表
+complete_data.json
+exports_signal_chain_csv/
+exports_signal_chain_csv\0001_ADC_241f6396_2aa_table_1_High_Speed_ADC____10_MSPS.csv
+exports_signal_chain_csv\0001_ADC_DRIVER_57acd3b2_7b9_table_1_Fully_Differential_Amplifiers.csv
+exports_signal_chain_csv\0001_AMP_5242f4f7_c55_table_1_Gain_Blocks.csv
+exports_signal_chain_csv\0001_AMP_5242f4f7_c55_table_2_Video_Operational_Amplifiers__Op_Amps_.csv
+exports_signal_chain_csv\0001_CLOCK_BUFFER_3f8d2681_772_table_1_Clock_Generation___Distribution.csv
+exports_signal_chain_csv\0001_CLOCK_BUFFER_5b6d9446_b5b_table_1_Clock_Generation___Distribution.csv
+exports_signal_chain_csv\0001_DAC_ba65b1ca_f1f_table_1_Precision_DAC.csv
+exports_signal_chain_csv\0001_DDS_5b9a1263_c64_table_1_Direct_Digital_Synthesis.csv
+exports_signal_chain_csv\0001_LNA_a17f30cd_20b_table_1_Low_Noise_Amplifier.csv
+exports_signal_chain_csv\0001_LOG_AMP_DETECTORS_dcd22c49_14f_table_1_Log_Detectors.csv
+exports_signal_chain_csv\0001_MIXER_4ac474b6_e8e_table_1_Mixers.csv
+exports_signal_chain_csv\0001_MIXER_58a50daa_a64_table_1_Mixers.csv
+exports_signal_chain_csv\0001_MIXER_8987c607_5d6_table_1_Mixers.csv
+exports_signal_chain_csv\0001_MIXER_f947f088_807_table_1_Mixers.csv
+exports_signal_chain_csv\0001_PLL_7a640e85_76c_table_1_Fractional-N_PLL.csv
+exports_signal_chain_csv\0001_REF_CLK_4286b930_901_table_1_Clock_Generation_Devices.csv
+exports_signal_chain_csv\0001_RF_IF_AMP_c00eb80f_6d8_table_1_Gain_Blocks.csv
+exports_signal_chain_csv\0001_RF_IF_AMP_d8fe9bfb_d0c_table_1_Driver_Amplifiers.csv
+exports_signal_chain_csv\0001_RF_IF_AMP_f9afaacc_1f9_table_1_Gain_Blocks.csv
+exports_signal_chain_csv\0001_VIDEO__PROCESSING_14eca9d6_0af_table_1_Master_CAT-5_Cable_Video_Devices.csv
+exports_signal_chain_csv\0001_VIDEO__PROCESSING_14eca9d6_0af_table_2_Video_Encoders.csv
+exports_signal_chain_csv\0001_VIDEO__PROCESSING_14eca9d6_0af_table_3_Standard_DAC.csv
+exports_signal_chain_csv\0001_VIDEO__PROCESSING_14eca9d6_0af_table_4_Master_HDMI.csv
+exports_signal_chain_csv\0001_VIDEO__PROCESSING_14eca9d6_0af_table_5_Video_Encoders.csv
+exports_signal_chain_csv\0001_VIDEO__PROCESSING_14eca9d6_0af_table_6_CAT-5_Video_Drivers.csv
+exports_signal_chain_csv\0001_VIDEO__PROCESSING_14eca9d6_0af_table_7_Operational_Amplifiers__Op_Amps_.csv
+exports_signal_chain_csv\0001_VIDEO__PROCESSING_14eca9d6_0af_table_8_Operational_Amplifiers__Op_Amps_.csv
+exports_signal_chain_csv\0477_ADC_DRIVER_3ff71f0e_a3b_table_1_ADC_Drivers.csv
+exports_signal_chain_csv\0477_ADC_DRIVER_3ff71f0e_a3b_table_2_Rail-to-Rail_Op_Amps.csv
+exports_signal_chain_csv\0477_ADC_DRIVER_4668d90a_148_table_1_ADC_Drivers.csv
+exports_signal_chain_csv\0477_ADC_DRIVER_4668d90a_148_table_2_Rail-to-Rail_Op_Amps.csv
+exports_signal_chain_csv\0477_AMP_17472932_3e4_table_1_Operational_Amplifiers__Op_Amps_.csv
+exports_signal_chain_csv\0477_CMP_DAC_8b0e3b7a_e72_table_1_Precision_D_A_Converters.csv
+exports_signal_chain_csv\0477_CMP_DAC_8b0e3b7a_e72_table_2_High_Speed_D_A_Converters__30MSPS.csv
+exports_signal_chain_csv\0477_CURRENT_SENSE_IN_AMP_5f35a6ad_a9d_table_1_Difference_Amplifiers.csv
+exports_signal_chain_csv\0477_DATA_ISOLATION_ed188a24_522_table_1_Digital_Isolation_Technology.csv
+exports_signal_chain_csv\0477_DRIVERAMP_9e16ac9a_05d_table_1_Difference_Amplifiers.csv
+exports_signal_chain_csv\0477_INTEGRATED_SMU_coord_80d23b7e_table_1_ATE__DPS___PMU.csv
+exports_signal_chain_csv\0477_INTEGRATED_SMU_coord_80d23b7e_table_2_ATE__DPS___PMU.csv
+exports_signal_chain_csv\0477_I_ADC_263d4c08_0e0_table_1_Precision_A_D_Converters.csv
+exports_signal_chain_csv\0477_I_V_CLAMPING_AND_COMPLIANCE_CONTROL_coord_2ac64a26_table_1_Video_Operational_Amplifiers__Op_Amps_.csv
+exports_signal_chain_csv\0477_I_V_CLAMPING_AND_COMPLIANCE_CONTROL_coord_2ac64a26_table_2_Low_Noise_Op_Amps_____10nV_vHz_.csv
+exports_signal_chain_csv\0477_MUX_10435f1b_da3_table_1_Single_Supply_Analog_Switches___Multiplexers.csv
+exports_signal_chain_csv\0477_MUX_2fb66686_048_table_1_Single_Supply_5V_to_44V.csv
+exports_signal_chain_csv\0477_MUX_887c26e7_166_table_1_Single_Supply_Analog_Switches___Multiplexers.csv
+exports_signal_chain_csv\0477_MUX_90359e4d_b1f_table_1_Single_Supply_Analog_Switches___Multiplexers.csv
+exports_signal_chain_csv\0477_POWERBLOCK_c2c30acc_ffa_table_1_isoPower.csv
+exports_signal_chain_csv\0477_POWERBLOCK_c2c30acc_ffa_table_2_Ultralow_Noise_Regulators.csv
+exports_signal_chain_csv\0477_POWERBLOCK_c2c30acc_ffa_table_3_LDO_Plus.csv
+exports_signal_chain_csv\0477_SP_DAC_7c3d1171_0b6_table_1_Precision_D_A_Converters.csv
+product_images/
+product_images\adar1000-fbl.png
+product_images\admv8913-ep-fbd.png
+product_images\adtr1107-fbl.png
+product_images\hmc8415lp6ge-fbl.png
+products_list.csv
+signal_chain_0477_description_to_csv_mapping.md
+signal_chains/
+signal_chains\signal_chain_0001.png
+signal_chains\signal_chain_0461.png
+signal_chains\signal_chain_0477.png
+signal_chains\signal_chain_0484.png
+solution_context.txt
+
+## 2. complete_data.json 摘要
+【页面信息】
+  标题: 下一代气象雷达
+  导航: 主页/解决方案概要/航空航天和防务/航空电子产品和解决方案/下一代气象雷达
+  关键词: 天气雷达、相控阵、x波段、航空电子设备、波束形成器、有源天线解决方案
+  描述: Analog Devices offers full lineup of X-band signal chain componentsfrom the RF front end to integrated data convertersto supp
+  概述: Analog Devices offers a full lineup of X-band signal chain components—from the RF front end to integrated data converters—to support modern phased-array weather radar solutions. We provide access to and expertise in a wide range of process technologies to help you maximize performance and minimize SWaP, including  GaN PAs for power efficiency, X-band digitally tunable filters, and active antenna s
+【hardware_products】共 4 条
+  - ADAR1000: 4 通道 X 频段和 Ku 频段波束形成器，8 GHz 至 16 GHz
+  - HMC8415: 40 W (46 dBm), 9 GHz to 10.5 GHz, GaN Power Amplifier
+  - ADMV8913: X频段、数字可调谐、高通和低通滤波器
+  - ADTR1107: 6 GHz 至 18 GHz 前端 IC
+【信号链】共 4 条
+  - chain_id=0001, list_name=航空航天与防务、雷达, 热点数=27
+      ADC -> High Speed ADC >= 10 MSPS
+      ADC-DRIVER -> Fully Differential Amplifiers
+      AMP -> Gain Blocks
+      AMP -> Video Operational Amplifiers (Op Amps)
+      CLOCK-BUFFER -> Clock Generation & Distribution
+      ... 共 27 个热点
+  - chain_id=0484, list_name=导弹导引头, 热点数=0
+  - chain_id=0461, list_name=消费电子设备, 热点数=0
+  - chain_id=0477, list_name=信号源测量单元：精密V/I源和V/I测量仪器, 热点数=27
+      ADC-DRIVER -> ADC Drivers
+      ADC-DRIVER -> Rail-to-Rail Op Amps
+      ADC-DRIVER -> ADC Drivers
+      ADC-DRIVER -> Rail-to-Rail Op Amps
+      AMP -> Operational Amplifiers (Op Amps)
+      ... 共 27 个热点
+
+## 4. 【exports_signal_chain_csv】共 54 个 CSV
+  chain/前缀 0001: 27 个文件
+    - 0001_ADC_241f6396_2aa_table_1_High_Speed_ADC____10_MSPS.csv
+    - 0001_ADC_DRIVER_57acd3b2_7b9_table_1_Fully_Differential_Amplifiers.csv
+    - 0001_AMP_5242f4f7_c55_table_1_Gain_Blocks.csv
+    - 0001_AMP_5242f4f7_c55_table_2_Video_Operational_Amplifiers__Op_Amps_.csv
+    - 0001_CLOCK_BUFFER_3f8d2681_772_table_1_Clock_Generation___Distribution.csv
+    - 0001_CLOCK_BUFFER_5b6d9446_b5b_table_1_Clock_Generation___Distribution.csv
+    - 0001_DAC_ba65b1ca_f1f_table_1_Precision_DAC.csv
+    - 0001_DDS_5b9a1263_c64_table_1_Direct_Digital_Synthesis.csv
+    - 0001_LNA_a17f30cd_20b_table_1_Low_Noise_Amplifier.csv
+    - 0001_LOG_AMP_DETECTORS_dcd22c49_14f_table_1_Log_Detectors.csv
+    - 0001_MIXER_4ac474b6_e8e_table_1_Mixers.csv
+    - 0001_MIXER_58a50daa_a64_table_1_Mixers.csv
+    ... 其余 15 个
+  chain/前缀 0477: 27 个文件
+    - 0477_ADC_DRIVER_3ff71f0e_a3b_table_1_ADC_Drivers.csv
+    - 0477_ADC_DRIVER_3ff71f0e_a3b_table_2_Rail-to-Rail_Op_Amps.csv
+    - 0477_ADC_DRIVER_4668d90a_148_table_1_ADC_Drivers.csv
+    - 0477_ADC_DRIVER_4668d90a_148_table_2_Rail-to-Rail_Op_Amps.csv
+    - 0477_AMP_17472932_3e4_table_1_Operational_Amplifiers__Op_Amps_.csv
+    - 0477_CMP_DAC_8b0e3b7a_e72_table_1_Precision_D_A_Converters.csv
+    - 0477_CMP_DAC_8b0e3b7a_e72_table_2_High_Speed_D_A_Converters__30MSPS.csv
+    - 0477_CURRENT_SENSE_IN_AMP_5f35a6ad_a9d_table_1_Difference_Amplifiers.csv
+    - 0477_DATA_ISOLATION_ed188a24_522_table_1_Digital_Isolation_Technology.csv
+    - 0477_DRIVERAMP_9e16ac9a_05d_table_1_Difference_Amplifiers.csv
+    - 0477_INTEGRATED_SMU_coord_80d23b7e_table_1_ATE__DPS___PMU.csv
+    - 0477_INTEGRATED_SMU_coord_80d23b7e_table_2_ATE__DPS___PMU.csv
+    ... 其余 15 个
+
+## 5. (本方案暂无 output.txt，图转文描述需另行生成)
+
+## 6. 描述与 CSV 对应关系
+【signal_chain_0477_description_to_csv_mapping.md】
+# 信号链 0477「信号源测量单元：精密V/I源和V/I测量仪器」— 图转文描述与 CSV 对应表
+
+本文档将 **complete_data.json** 中该信号链框图经大模型生成的文字描述（从左到右、从上到下）与 **exports_signal_chain_csv** 中 chain_id=0477 的 CSV 选型表做一一对应，便于 RAG/专家库按「描述段落 → 具体选型表」检索。
+
+---
+
+## 一、描述结构与 CSV 对应总览
+
+| 描述中的模块/区域 | 对应 component_name | 对应 CSV 文件（可多对一或一对多） |
+|------------------|---------------------|-----------------------------------|
+| **1. Host（主机/上位主控）** | — | 无（非 ADI 器件，无选型表） |
+| **2. Isolated Power（隔离电源）** | POWERBLOCK | 见下表「隔离与电源」 |
+| **3. Data Isolation（数据隔离）** | DATA-ISOLATION | 1 个 CSV |
+| **4. Control Logic Micro Processor** | — | 无（MCU 不在本信号链选型表内） |
+| **5. VREF（参考电压源）** | VREF | 1 个 CSV |
+| **6. SP DAC（设定点 DAC）** | SP-DAC | 2 个 CSV |
+| **7. CMP DAC（合规限值 DAC）** | CMP-DAC | 2 个 CSV |
+| **8. I-V Clamping and compliance Control** | I-V-CLAMPING-AND-COMPLIANCE-CONTROL | 2 个 CSV |
+| **9. Driver Amp（驱动放大器）** | DRIVERAMP | 1 个 CSV |
+| **10. HI/LO、HI SNS/LO SNS、Guard** | — | 无（端口/接线，无独立选型表） |
+| **11. Current sense IN-AMP（电流检测仪表放大器）** | CURRENT-SENSE-IN-AMP | 1 个 CSV |
+| **12. I ADC（电流 ADC）** | I-ADC | 1 个 CSV |
+| **13. ADC Driver（I/V 测量路径上的 ADC 驱动）** | ADC-DRIVER | 4 个 CSV |
+| **14. Voltage Sense IN-AMP（电压检测仪表放大器）** | VOLTAGE-SENSE-IN-AMP | 1 个 CSV |
+| **15. V ADC（电压 ADC）** | V-ADC | 1 个 CSV |
+| **16. AMP（Guard 保护放大器）** | AMP | 1 个 CSV |
+| **17. FB 反馈缓冲** | — | 通常归入 I-V 控制或 AMP，无单独 hotspot |
+| **18. Integrated SMU_PMU_Subsystem（整体子系统）** | INTEGRATED-SMU | 2 个 CSV |
+| **19. 多路复用/开关（若图中存在）** | MUX | 4 个 CSV |
+| **20. 隔离侧供电（子系统的 LDO/稳压等）** | POWERBLOCK | 与 Isolated Power 共用 3 个 CSV |
+
+---
+
+## 二、按「描述段落」的细粒度一一对应
+
+### 1. 最左侧：上位与电气隔离区域
+
+| 描述原文 | 对应 CSV |
+|----------|----------|
+| **Isolated Power（隔离电源）** | `0477_POWERBLOCK_c2c30acc_ffa_table_1_isoPower.csv` |
+| | `0477_POWERBLOCK_c2c30acc_ffa_table_2_Ultralow_Noise_Regulators.csv` |
+| | `0477_POWERBLOCK_c2c30acc_ffa_table_3_LDO_Plus.csv` |
+| **Data Isolation（数据隔离）** | `0477_DATA_ISOLATION_ed188a24_522_table_1_Digital_Isolation_Technology.csv` |
+
+### 2. 本地控制层
+
+- **Control Logic Micro Processor**：无
+
+...(已截断)

@@ -1,0 +1,51 @@
+{
+  "devices": [
+    {
+      "name": "Patient Electrode Sensors",
+      "description": "心电电极传感器，采集人体右臂(RA)、左臂(LA)、右腿驱动(RLD)体表心电信号。"
+    },
+    {
+      "name": "Integrated Single-Lead ECG/HRM AFE",
+      "description": "集成单导联心电/心率监测模拟前端，对输入心电模拟信号进行处理，支持驱动导联、导联脱落检测、快速恢复交直流导联检测及关断功能。"
+    },
+    {
+      "name": "Motion",
+      "description": "运动传感器，采集用户运动状态数据，用于心电信号的运动干扰补偿。"
+    },
+    {
+      "name": "User Interface",
+      "description": "用户交互接口，支持用户输入操作指令，反馈设备工作状态信息。"
+    },
+    {
+      "name": "Microcontroller",
+      "description": "微控制器，接收处理模拟前端输出的心电数据、运动传感数据，响应交互指令，控制模拟前端工作，支持蓝牙数据传输。"
+    },
+    {
+      "name": "Bluetooth",
+      "description": "蓝牙通信模块，实现设备与外部终端的无线数据交互。"
+    },
+    {
+      "name": "Battery",
+      "description": "供电电池，为整个设备系统提供电源输入。"
+    },
+    {
+      "name": "Analog Power",
+      "description": "模拟电源单元，将电池输入转换为适配模拟负载的供电输出。"
+    },
+    {
+      "name": "Digital Power",
+      "description": "数字电源单元，将电池输入转换为适配数字负载的供电输出。"
+    }
+  ],
+  "signal_flow": {
+    "main": "采集上传路径：Patient Electrode Sensors -> Integrated Single-Lead ECG/HRM AFE -> Microcontroller -> Bluetooth；控制下发路径：Bluetooth -> Microcontroller -> Integrated Single-Lead ECG/HRM AFE",
+    "branches": [
+      "运动数据输入路径：Motion -> Microcontroller",
+      "用户交互路径：User Interface <-> Microcontroller",
+      "模拟供电路径：Battery -> Analog Power -> Analog Loads",
+      "数字供电路径：Battery -> Digital Power -> Digital Loads",
+      "AFE配置控制路径：Microcontroller -> Integrated Single-Lead ECG/HRM AFE"
+    ]
+  },
+  "application_scene": "可穿戴单导联心电心率监测设备"
+}

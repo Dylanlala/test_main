@@ -1,0 +1,5 @@
+﻿组件名称,CLOCK BUFFER
+模块名称,Clock Generation & Distribution
+Part #,Eval / Ref Circuit,# Outputs,Clock Function,Interface,Output Frequency (min) (Hz),On-Chip VCO or DCO,Output Frequency (max) (Hz),Output Logic,Power (typ) (W),Ref Clock (min) (Hz),Ref Clock (max) (Hz),Clock Features,Vs (typ) (V),Automotive,US Price 1000 to 4999 ($ US),Product Description,Status,Package,Jitter Random RMS (typ) (s p-p),US Price 100 to 499 ($ US),Reliability Level,Temp Range,产品链接
+ADCLK925,"Evaluation board, Reference circuit",2,Distribution,,,No,6G,"ECL, LVPECL, PECL",325m,0M,7.5G,,,,,,,"16 ld LFCSP (3x3mm, 1.5mm exposed pad)",,,,,http://www.analog.com/zh/adclk925
+ADCLK944,Evaluation board,4,Distribution,Serial,,No,7G,LVPECL,525m,0M,7G,,,,,,,"16 ld LFCSP (3x3x.85mm, w/1.5EP)",,,,,http://www.analog.com/zh/adclk944

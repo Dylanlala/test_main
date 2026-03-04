@@ -1,0 +1,4 @@
+﻿组件名称,Drive DAC
+模块名称,Bipolar D/A Converters
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,Channels,Resolution (bits),DAC INL (max) (LSBs),Multiplying BW (typ) (Hz),Settling Time (typ) (s p-p),Data Input Interface,Space,产品链接
+AD766,16-Bit Current-Steering DAC with Voltage Reference,Production,0,$27.21 (AD766JNZ),"16-Lead Side Brazed CerDIP,16-Lead PDIP",1,16,,,1µ,SPI,No,https://www.analog.com/cn/ad766

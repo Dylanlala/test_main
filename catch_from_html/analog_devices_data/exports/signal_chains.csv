@@ -1,0 +1,5 @@
+﻿信号链ID,名称,是否活跃,是否更多选项,图片文件名,热点数量
+0001,航空航天与防务、雷达,True,False,signal_chain_0001.png,21
+0484,导弹导引头,False,False,signal_chain_0484.png,0
+0461,消费电子设备,False,True,signal_chain_0461.png,0
+0477,信号源测量单元：精密V/I源和V/I测量仪器,False,True,signal_chain_0477.png,0

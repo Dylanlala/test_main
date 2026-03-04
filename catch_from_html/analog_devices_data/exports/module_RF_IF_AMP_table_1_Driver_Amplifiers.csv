@@ -1,0 +1,6 @@
+﻿模块名称,RF IF AMP
+表格名称,Driver Amplifiers
+Part #,Eval / Ref Circuit,RF Primary Function,Freq Response RF (min) (Hz),Freq Response RF (max) (Hz),Gain (typ) (dB),OP1dB (typ) (dBm),OIP3 (typ) (dBm),NF (typ) (dB),Device Match,Vs (typ) (V),Is (typ) (A),US Price 100 to 499 ($ US),Package,Product Description,Status,Automotive,Reliability Level,Temp Range,产品链接
+ADL5320,"Evaluation board, Reference circuit",Driver Amp,400M,2.7G,13.2,25.7,42,,External,3.3,47m,,3 ld SOT89,,,,,,http://www.analog.com/zh/adl5320
+ADL5321,Evaluation board,Driver Amp,2.3G,4G,14,25.7,41,,External,3.3,37m,,3 ld SOT89,,,,,,http://www.analog.com/zh/adl5321
+ADL5604,Evaluation board,Driver Amp,700M,2.7G,12.2,29.1,42.2,,External,5,318m,,"16 ld LFCSP (4x4mm, 2.1mm exposed pad)",,,,,,http://www.analog.com/zh/adl5604

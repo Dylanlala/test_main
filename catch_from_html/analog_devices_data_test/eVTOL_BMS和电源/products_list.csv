@@ -1,0 +1,4 @@
+﻿类型,型号,描述,图片文件名,本地图片路径,产品链接
+硬件产品,LTC6813-1,集成菊花链接口的18单元电池监控器,ltc6813-1-acl.png,analog_devices_data_final\eVTOL_BMS和电源\product_images\ltc6813-1-acl.png,https://www.analog.com/cn/products/ltc6813-1.html
+硬件产品,LTC2949,用于高电压电池组的电流、电压和电量监控器,ltc2949-acl.png,analog_devices_data_final\eVTOL_BMS和电源\product_images\ltc2949-acl.png,https://www.analog.com/cn/products/ltc2949.html
+硬件产品,ADBMS6822,单通道/双通道isoSPI收发器,ADBMS6822_adbms6821_6822-fbl.png,analog_devices_data_final\eVTOL_BMS和电源\product_images\ADBMS6822_adbms6821_6822-fbl.png,https://www.analog.com/cn/products/adbms6822.html

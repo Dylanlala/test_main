@@ -1,0 +1,4 @@
+﻿组件名称,VIDEO PROCESSING
+模块名称,CAT-5 Video Drivers
+Part #,Eval / Ref Circuit,# of Channels,BW -3 dB (typ) (Hz),Slew Rate (typ) (V/us),Shut- down,Temp Range,In V- Headroom (typ) (V),In V+ Headroom (typ) (V),Is (typ) (A),Vs span (min) (V),Vs span (max) (V),Out V- Headroom (typ) (V),Out V+ Headroom (typ) (V),Iout (typ) (A),US Price 1000 to 4999 ($ US),Product Description,Status,Package,Automotive,Reliability Level,产品链接
+AD8142,,3,285M,1250,Yes,,0,0.5,47m,0,5,0.18,0.4,,$1.65 (AD8142ACPZ-RL),,,24 ld LFCSP (4x4x0.75mm 2.7mm EP),,,http://www.analog.com/zh/ad8142

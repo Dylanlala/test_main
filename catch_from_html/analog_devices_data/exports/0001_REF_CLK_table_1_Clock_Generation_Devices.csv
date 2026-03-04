@@ -1,0 +1,22 @@
+﻿组件名称,REF CLK
+模块名称,Clock Generation Devices
+Part #,Eval / Ref Circuit,# Outputs,Clock Function,Interface,On-Chip VCO or DCO,Output Frequency (max) (Hz),Output Logic,Power (typ) (W),Ref Clock (max) (Hz),Ref Clock (min) (Hz),Automotive,US Price 1000 to 4999 ($ US),Product Description,Status,Package,Jitter Random RMS (typ) (s p-p),Reliability Level,Temp Range,Comments,Supply Voltage Range,Input Span,Frequency Range,Noise Floor (typ) (dBc/Hz),Number of Outputs,VCO Frequency,Normalized 1/f Phase Noise Floor (typ) (dBc/Hz),Output Divider Range,Reference Frequency Range,产品链接
+AD9510,Evaluation board,8,Generation,"Serial, SPI",No,1.2G,"CMOS, LVDS, LVPECL",550m,250M,0M,,$6.38 (AD9510BCPZ-REEL7),,,"64 ld LFCSP (9x9mm, 4.70mm exposed pad)",,,,,,,,,,,,,,http://www.analog.com/zh/ad9510
+AD9516-0,"Evaluation board, Reference circuit",14,Generation,"Serial, SPI",PLL on Chip; VCO,2.95G,"CMOS, LVDS, LVPECL",1.6,250M,0M,,$7.31 (AD9516-0BCPZ),,,"64 ld LFCSP (9x9mm, 6.20mm exposed pad)",,,,,,,,,,,,,,http://www.analog.com/zh/ad9516-0
+AD9516-1,"Evaluation board, Reference circuit",14,Generation,"Serial, SPI",PLL on Chip; VCO,2.95G,"CMOS, LVDS, LVPECL",1.6,250M,0M,,$7.31 (AD9516-1BCPZ),,,"64 ld LFCSP (9x9mm, 6.20mm exposed pad)",,,,,,,,,,,,,,http://www.analog.com/zh/ad9516-1
+AD9516-2,"Evaluation board, Reference circuit",14,Generation,"Serial, SPI",PLL on Chip; VCO,2.95G,"CMOS, LVDS, LVPECL",1.6,250M,0M,,$7.31 (AD9516-2BCPZ),,,"64 ld LFCSP (9x9mm, 6.20mm exposed pad)",,,,,,,,,,,,,,http://www.analog.com/zh/ad9516-2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,http://www.analog.com/zh/ad9516-3
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,http://www.analog.com/zh/ad9516-4
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,http://www.analog.com/zh/ad9516-5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,http://www.analog.com/zh/ad9520-0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,http://www.analog.com/zh/ad9520-1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,http://www.analog.com/zh/ad9520-2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,http://www.analog.com/zh/ad9520-3
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,http://www.analog.com/zh/ad9520-4
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,http://www.analog.com/zh/ad9520-5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,http://www.analog.com/zh/ad9522-0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,http://www.analog.com/zh/ad9522-1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,http://www.analog.com/zh/ad9522-2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,http://www.analog.com/zh/ad9522-3
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,http://www.analog.com/zh/ad9522-4
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,http://www.analog.com/zh/ad9522-5

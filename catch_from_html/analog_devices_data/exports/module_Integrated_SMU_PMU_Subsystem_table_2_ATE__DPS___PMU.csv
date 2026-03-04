@@ -1,0 +1,4 @@
+﻿模块名称,Integrated SMU_PMU_Subsystem
+表格名称,ATE: DPS & PMU
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,ATE Primary Function,# of Amps,Output Range,Output Range,V/I Clamps,Interface,Programming Logic Level,Power (typ) (W),ATE Features,产品链接
+AD5520,Per-pin Parametric Measurement Unit / Source Measure Unit,Production,31,$23.14 (AD5520JSTZ),64-Lead LQFP (10mm x 10mm),DPS and PMU,1,"4 mA, 4 uA, 40 uA, 400 uA",-11V to 11V,"I, V",Parallel,CMOS,500m,"FET Input, FN (HiZ), FV, Guard Amplifier, MI, mV, PMU Overview, Window Comparator",https://www.analog.com/zh/products/ad5520

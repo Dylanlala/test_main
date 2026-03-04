@@ -1,0 +1,7 @@
+﻿说明项,内容
+表格类型,信号链部件详情（点击热点后由JS动态渲染）
+表格名称来源,scd-partTitle，对应模板中的 {{title}}
+列结构来源,模板中 {{#each columns}}{{external_name}}、{{defaultUOM}}
+行数据来源,模板中 {{#each rows}} 的 displayValue、url
+模板ID,scd-view
+备注,实际数据由 JS 在用户点击图片热点后加载，本 CSV 仅描述表格样式与名称来源，便于查找

@@ -1,0 +1,19 @@
+﻿组件名称,I ADC
+模块名称,Precision A/D Converters
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,Channels,Resolution (bits),Sample Rate (max) (SPS),ADC SNR in dBFS (typ) (dBFS),ADC INL (max) (LSB),Device Architecture,Input Type,Data Output Interface,Power (typ) (W),Space,产品链接
+AD7768-1,"DC to 204 kHz, Dynamic Signal Analysis, Precision 24-Bit ADC with Power Scaling",Recommended for New Designs,1,$7.32 (AD7768-1BCPZ),28-Lead LFCSP (4mm x 5mm x 0.75mm w/ EP),1,24,1.024M,108,,Sigma-Delta,Differential,SPI,26.4m,No,https://www.analog.com/zh/products/ad7768-1
+AD7175-2,"24-Bit, 250 kSPS, Sigma-Delta ADC with 20 µs Settling and True Rail-to-Rail Buffers",Recommended for New Designs,1138,¥120.94000 (AD7175-2BRUZ-RL7),24-Lead TSSOP,4,24,250k,,,Sigma-Delta,"Differential, Pseudo-Differential",SPI,42.5m,No,https://www.analog.com/zh/products/ad7175-2
+AD7175-8,"24-Bit, 8-/16-Channel, 250 kSPS, Sigma-Delta ADC with True Rail-to-Rail Buffers",Recommended for New Designs,1244,$15.07 (AD7175-8BCPZ),40-Lead LFCSP (6mm x 6mm w/ EP),8,24,250k,,,Sigma-Delta,"Differential, Pseudo-Differential",SPI,105m,No,https://www.analog.com/zh/products/ad7175-8
+LTC2387-18,"18-Bit, 15Msps SAR ADC",Production,598,$34.79 (LTC2387CUH-18#PBF),32-Lead QFN (5mm x 5mm x 0.75mm w/ EP),1,18,15M,95.7,,SAR,Differential,Serial LVDS,125m,No,https://www.analog.com/zh/products/ltc2387-18
+,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ad4003
+,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ad7960
+,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ad4020
+,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ltc2378-20
+,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ad7682
+,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ad7689
+,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ad7699
+,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ad7768
+,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ltc2358-18
+,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ad7606
+,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ad4008
+,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ad7988-5

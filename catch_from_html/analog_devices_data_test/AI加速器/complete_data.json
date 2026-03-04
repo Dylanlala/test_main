@@ -1,0 +1,18 @@
+{
+  "page_info": {
+    "url": "https://www.analog.com/cn/solutions/data-center/ai-accelerators.html",
+    "title": "AI加速器",
+    "keywords": "ai加速器、电源管理、加速器解决方案、数据中心解决方案",
+    "description": "AI加速器是一种高性能、具备大规模并行计算能力的深度学习(DL)神经网络计算设备，专用于高效处理人工智能(AI)工作负载，例如机器学习(ML)和DL。这些应用的价值在于能够提供近乎即时的结果，而AI加速器在提供近乎即时的结果方面具有关键作用。随着ML",
+    "component_overview": "AI加速器是一种高性能、具备大规模并行计算能力的深度学习(DL)神经网络计算设备，专用于高效处理人工智能(AI)工作负载，例如机器学习(ML)和DL。这些应用的价值在于能够提供近乎即时的结果，而AI加速器在提供近乎即时的结果方面具有关键作用。随着ML和DL等神经网络活动越来越依赖数据驱动，在标准数据中心服务器上使用AI加速器可以从大型数据集中提取有意义的模式，帮助解决这一挑战。 ADI公司大力投资AI市场，提供适用于48 V和12 V系统的完整解决方案。我们完整的电源产品组合提供端到端电源解决方案，覆盖2 A到2000 A的电流范围。此外，我们的数据中心电源解决方案在行业中以优异的效率和紧凑的体积展现出强大的竞争力，具有出色的性能表现。",
+    "navigation_path": "主页/解决方案概要/数据中心解决方案/AI加速器"
+  },
+  "value_and_benefits": {
+    "title": "",
+    "contents": "",
+    "characteristics": []
+  },
+  "hardware_products": [],
+  "evaluation_products": [],
+  "reference_products": []
+}

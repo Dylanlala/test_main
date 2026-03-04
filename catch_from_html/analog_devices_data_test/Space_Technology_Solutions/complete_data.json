@@ -1,0 +1,245 @@
+{
+  "page_info": {
+    "url": "https://www.analog.com/cn/solutions/aerospace-and-defense/space/space-technology-complete-solution.html",
+    "title": "Space Technology Solutions",
+    "keywords": "",
+    "description": "With more than 50 years of experience in space technology, Analog Devices innovations cover the full trajectory of space miss",
+    "component_overview": "With more than 50 years of experience in space technology, Analog Devices’ innovations cover the full trajectory of space missions. Our broad portfolio, from traditional to commercial space, helps you optimize your mission cost for the desired level of radiation reliability. We offer highly integrated phased-array, software-defined solutions, and low-voltage high-current power management.",
+    "navigation_path": "主页/解决方案概要/航空航天和防务/Space and High Reliability/Space Technology Solutions"
+  },
+  "value_and_benefits": {
+    "title": "Value and Benefits",
+    "contents": "We create solutions that offer innovative possibilities, from greater connectivity to preventing and assessing potential risks. Ubiquitous Connectivity : Intelligently optimized beams will provide global internet access and improved performance across markets and applications ranging from IoT and blockchain to video streaming, remote surgery, and M2M connectivity. This connectivity will grant access to previously unobtainable information and innovation for millions across the globe. Earth Observation : The continuous monitoring and greater resolution provided by advanced radar and imaging technology will drive machine learning to detect severe weather and seismic activity earlier, preventing the tragic loss of life. In addition, monitoring environmental shifts brought on by climate change will help document, predict, and prevent its impact on agriculture, wildlife, weather, and the future of humanity. Situational Awareness : Innovations in radar, inertial sensing, and data conversion will enable real-time satellite monitoring to track vehicles, people, and other assets with accuracy. Informed decisions from this data will help avert potential risk or harm in any event.",
+    "characteristics": [
+      "Creates greater connectivity with improved performance",
+      "Allows earlier detection of weather systems and environmental risks",
+      "Enables real-time, high-accuracy satellite monitoring"
+    ]
+  },
+  "satellite_components": [
+    {
+      "hotspot_id": "1",
+      "components_name": "Electrical Power Systems",
+      "description": "ADI offers robust power management solutions that help translate solar energy to battery storage to Point of Load. Precision voltage references make sure measurement systems stay right on point, and ADI’siCoupler technology offers a superior alternative to optocouplers for isolation application requirements. See Signal Chain:  Electrical Power System",
+      "related_signal_chain": "Electrical Power System",
+      "main_products": [
+        {
+          "model_name": "RH3845MK",
+          "model_url": "https://www.analog.com/cn/RH3845MK"
+        },
+        {
+          "model_name": "RT6804-1",
+          "model_url": "https://www.analog.com/cn/RT6804-1"
+        },
+        {
+          "model_name": "ADuM7442S",
+          "model_url": "https://www.analog.com/cn/adum7442s"
+        },
+        {
+          "model_name": "ADuM141ES",
+          "model_url": "https://www.analog.com/cn/adum141es"
+        },
+        {
+          "model_name": "RH1965",
+          "model_url": "https://www.analog.com/cn//rh1965"
+        },
+        {
+          "model_name": "RH3083",
+          "model_url": "https://www.analog.com/cn/rh3083"
+        }
+      ]
+    },
+    {
+      "hotspot_id": "2",
+      "components_name": "Telemetry: High Speed Data Link",
+      "description": "With the increasing amounts of telemetry data being produced on modern satellites, high speed data links are required to receive this data and to transmit commands to a satellite. ADI’s integrated transceivers and discrete RF components provide all the components required to build a robust and reliable link.",
+      "related_signal_chain": "50 MHz to 6 GHz WB Transceiver-Based Telemetry Link",
+      "main_products": [
+        {
+          "model_name": "AD9361S",
+          "model_url": "https://www.analog.com/cn/ad9361s"
+        },
+        {
+          "model_name": "ADF4108S",
+          "model_url": "https://www.analog.com/cn/adf4108s"
+        },
+        {
+          "model_name": "HMC8413-CSL",
+          "model_url": "https://www.analog.com/cn/hmc8413"
+        },
+        {
+          "model_name": "ADL5501S",
+          "model_url": "https://www.analog.com/cn/adl5501s"
+        },
+        {
+          "model_name": "ADH232S",
+          "model_url": "https://www.analog.com/cn/adh232s"
+        }
+      ]
+    },
+    {
+      "hotspot_id": "3",
+      "components_name": "Telemetry, Tracking, Control, and System Monitoring",
+      "description": "To maintain proper orientation and optimum operation while in orbit, satellites must perform a diverse array of high speed and precision system monitoring both mechanical and environmental. These systems use high speed and precision ADCs and DACs, along with amplifiers, temperature sensors, comparators, shunt current monitors, and isolation barriers.",
+      "related_signal_chain": "Precision and High Speed Signal Conditioning in Satellites",
+      "main_products": [
+        {
+          "model_name": "AD9283S",
+          "model_url": "https://www.analog.com/cn/ad9283s"
+        },
+        {
+          "model_name": "AD8229S",
+          "model_url": "https://www.analog.com/cn/ad8229s"
+        },
+        {
+          "model_name": "RH6105",
+          "model_url": "https://www.analog.com/cn/rh6105"
+        },
+        {
+          "model_name": "RH1959",
+          "model_url": "https://www.analog.com/cn/rh1959"
+        },
+        {
+          "model_name": "AD9731S",
+          "model_url": "https://www.analog.com/cn/ad9731s"
+        },
+        {
+          "model_name": "RH6200M",
+          "model_url": "https://www.analog.com/cn/rh6200m"
+        }
+      ]
+    },
+    {
+      "hotspot_id": "4",
+      "components_name": "Phased Array Antenna",
+      "description": "Fast-moving satellites in low Earth orbit will typically use phased array technology to transmit and receive data from Earth. These signal chains use multichannel beamformer ICs, highly integrated up/downconverters, and multichannel ADCs and DACs. ADI offers reference designs and a large portfolio of space-qualified RF and mixed-signal components that can be used to build phased array systems for frequency bands from S to Ka.",
+      "related_signal_chain": "Satcom Phased Array Reference Design",
+      "main_products": [
+        {
+          "model_name": "ADAR3000S",
+          "model_url": "https://www.analog.com/cn/adar3000s"
+        },
+        {
+          "model_name": "ADAR3001S",
+          "model_url": "https://www.analog.com/cn/adar3001s"
+        },
+        {
+          "model_name": "AD9082-CSL",
+          "model_url": "https://www.analog.com/cn/ad9082"
+        },
+        {
+          "model_name": "ADMFM2000",
+          "model_url": "https://www.analog.com/cn/admfm2000"
+        },
+        {
+          "model_name": "ADMFM2001",
+          "model_url": "https://www.analog.com/cn/admfm2001"
+        }
+      ]
+    },
+    {
+      "hotspot_id": "5",
+      "components_name": "Earth Observation Payload",
+      "description": "Earth observation radar is used for diverse applications that include weather forecasting, topography, and climate monitoring. While L, S, and C band radar systems can now use direct sampling, X-band and higher radar continue to favor the use of up/down frequency converters. With a family of high speed converters that now operate up to 20 GSPS and a deep bench of discrete components that are space-qualified, Analog Devices will provide you with the components you need for the architecture that you choose.",
+      "related_signal_chain": "Earth Observation Radar/Payload",
+      "main_products": [
+        {
+          "model_name": "AD9731S",
+          "model_url": "https://www.analog.com/cn/ad9731s"
+        },
+        {
+          "model_name": "ADF4371",
+          "model_url": "https://www.analog.com/cn/adf4371"
+        },
+        {
+          "model_name": "ADH554S",
+          "model_url": "https://www.analog.com/cn/adh554s"
+        },
+        {
+          "model_name": "ADH519S",
+          "model_url": "https://www.analog.com/cn/adh519s"
+        }
+      ]
+    }
+  ],
+  "hardware_products": [],
+  "evaluation_products": [],
+  "reference_products": [],
+  "signal_chains": {
+    "module_title": "信号链",
+    "total_count": 5,
+    "active_chain_id": "0762",
+    "chains": [
+      {
+        "list_name": "Precision and High-Speed Signal Conditioning In Satellites",
+        "data_target": "ISC-0762",
+        "chain_id": "0762",
+        "is_active": true,
+        "is_more_option": false,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0762.png",
+          "filename": "signal_chain_0762.png",
+          "local_path": "analog_devices_data_final\\Space_Technology_Solutions\\signal_chains\\signal_chain_0762.png",
+          "chain_id": "0762"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "50MHz to 6GHz WB Transceiver Based Telemetry Link",
+        "data_target": "ISC-0765",
+        "chain_id": "0765",
+        "is_active": false,
+        "is_more_option": false,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0765.png",
+          "filename": "signal_chain_0765.png",
+          "local_path": "analog_devices_data_final\\Space_Technology_Solutions\\signal_chains\\signal_chain_0765.png",
+          "chain_id": "0765"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "Satcom Phased Array Reference Design",
+        "data_target": "ISC-0771",
+        "chain_id": "0771",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0771.png",
+          "filename": "signal_chain_0771.png",
+          "local_path": "analog_devices_data_final\\Space_Technology_Solutions\\signal_chains\\signal_chain_0771.png",
+          "chain_id": "0771"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "Electrical Power Systems",
+        "data_target": "ISC-0602",
+        "chain_id": "0602",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0602.png",
+          "filename": "signal_chain_0602.png",
+          "local_path": "analog_devices_data_final\\Space_Technology_Solutions\\signal_chains\\signal_chain_0602.png",
+          "chain_id": "0602"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "Earth Observation Radar/Payload",
+        "data_target": "ISC-0604",
+        "chain_id": "0604",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0604.png",
+          "filename": "signal_chain_0604.png",
+          "local_path": "analog_devices_data_final\\Space_Technology_Solutions\\signal_chains\\signal_chain_0604.png",
+          "chain_id": "0604"
+        },
+        "signal_chain_hotspots": []
+      }
+    ]
+  }
+}

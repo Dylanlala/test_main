@@ -1,0 +1,4 @@
+﻿模块名称,PowerBlock
+表格名称,isoPower
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,# of Channels,Prop Delay (max) (s),Iout Isolated Supply (max) (A),Iso Vout (min) (V),Insulation Rating (V rms),CMTI (min) (V/µs),Interface Protocol,Vs+ (min) (V),Vs+ (max) (V),产品链接
+ADUM3070,Isolated Switch Regulator With Integrated Feedback,Production,1,¥14.33000 (ADUM3070ARQZ-RL7),16-Lead QSOP,0,,400m,3,2.5k,25k,isoPower,3,5.5,https://www.analog.com/zh/products/adum3070

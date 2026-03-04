@@ -1,0 +1,57 @@
+{
+  "devices": [
+    {
+      "name": "Consumer Video Connectivity（Remote Media Port）",
+      "description": "远程媒体端口消费类视频接入模块，适配手机、苹果接口等外接消费电子的音视频输入，完成信号预处理。"
+    },
+    {
+      "name": "Audio CODEC",
+      "description": "音频编解码器，对输入的模拟音频信号完成模数转换、编解码处理，输出数字音频信号。"
+    },
+    {
+      "name": "APIX2（Remote Media Port 发送端1）",
+      "description": "APIX2总线发送模块，将预处理后的音视频信号编码为APIX2格式，传输至车机端。"
+    },
+    {
+      "name": "APIX2（Remote Media Port 发送端2）",
+      "description": "APIX2总线发送模块，接收外接外设输入信号，编码为APIX2格式传输至车机端。"
+    },
+    {
+      "name": "LDI LVDS",
+      "description": "LDI格式LVDS信号源，输出车载显示接口格式的视频信号至APIX2接收模块。"
+    },
+    {
+      "name": "APIX2（Head-Unit 接收端1）",
+      "description": "APIX2总线接收模块，解码远程端口传输的APIX2信号，同时接收LDI LVDS输入，输出至车机处理器。"
+    },
+    {
+      "name": "APIX2（Head-Unit 接收端2）",
+      "description": "APIX2总线接收模块，解码远程端口传输的APIX2信号，输出至车机处理器。"
+    },
+    {
+      "name": "Consumer Video Connectivity（Local Media Port）",
+      "description": "本地媒体端口消费类视频接入模块，适配本地外接消费电子的音视频输入，完成预处理后输出至车机处理器。"
+    },
+    {
+      "name": "Head-Unit Application Processor",
+      "description": "车机主应用处理器，处理所有输入的音视频信号，实现车载信息娱乐系统的各类应用功能。"
+    },
+    {
+      "name": "Power Management",
+      "description": "电源管理模块，为全系统各硬件模块提供稳定电源供给，完成电源分配与管理。"
+    },
+    {
+      "name": "Media Box (DVP) Software",
+      "description": "多媒体盒软件栈，提供硬件驱动、音视频处理、协议适配、应用调度等软件功能支撑。"
+    }
+  ],
+  "signal_flow": {
+    "main": "外接消费电子设备/Apple I/F -> Remote Media Port Consumer Video Connectivity -> APIX2（Remote Media Port 发送端1） -> APIX2（Head-Unit 接收端1） -> Head-Unit Application Processor；外接音频设备 -> Audio CODEC -> APIX2（Remote Media Port 发送端1） -> APIX2（Head-Unit 接收端1） -> Head-Unit Application Processor；外接外设 -> APIX2（Remote Media Port 发送端2） -> APIX2（Head-Unit 接收端2） -> Head-Unit Application Processor；本地外接消费电子设备 -> Local Media Port Consumer Video Connectivity -> Head-Unit Application Processor",
+    "branches": [
+      "LDI LVDS视频输入路径：LDI LVDS -> APIX2（Head-Unit 接收端1） -> Head-Unit Application Processor",
+      "电源供给路径：Power Management -> 全系统各硬件模块",
+      "软件支撑路径：Media Box (DVP) Software -> 全系统软硬件功能实现"
+    ]
+  },
+  "application_scene": "车载信息娱乐系统外接媒体接口信号处理链路"
+}

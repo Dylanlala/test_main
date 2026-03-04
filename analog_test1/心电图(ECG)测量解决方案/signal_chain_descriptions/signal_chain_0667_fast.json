@@ -1,0 +1,128 @@
+{
+  "devices": [
+    {
+      "name": "Solar Cell",
+      "description": "太阳能电池，将环境光能转换为电能，为系统提供能量输入。"
+    },
+    {
+      "name": "Energy Harvesting",
+      "description": "能量收集管理模块，处理太阳能电池输出的能量，实现环境能量的收集与转换管理。"
+    },
+    {
+      "name": "Wireless Charging",
+      "description": "无线充电接收模块，接收外部无线充电能量，为电池充电提供输入。"
+    },
+    {
+      "name": "Battery Charger",
+      "description": "电池充电管理模块，管理无线充电等输入能量，为可充电电池提供安全的充电控制。"
+    },
+    {
+      "name": "Fuel Gauge",
+      "description": "电池电量计，实时监测电池的剩余电量、电压、电流等状态参数。"
+    },
+    {
+      "name": "Rechargeable Cell PMIC",
+      "description": "可充电电池电源管理集成电路，统一管理电池的充放电，为系统各模块提供稳定供电输出。"
+    },
+    {
+      "name": "LDO",
+      "description": "低压差线性稳压器，为低噪声需求的模块提供高稳定度、低纹波的线性稳压输出。"
+    },
+    {
+      "name": "Boost",
+      "description": "升压型DC-DC转换器，将输入电压升压至系统所需的更高工作电压。"
+    },
+    {
+      "name": "Buck",
+      "description": "降压型DC-DC转换器，将输入电压降压至系统所需的更低工作电压。"
+    },
+    {
+      "name": "Ideal Diode",
+      "description": "理想二极管，实现电源路径的单向导通，降低导通损耗，同时具备防反接保护功能。"
+    },
+    {
+      "name": "Push Button Battery Seal",
+      "description": "按键式电池密封模块，提供电池供电的物理开关控制，同时实现电池区域的密封防护。"
+    },
+    {
+      "name": "PA Buck-Boost",
+      "description": "功率放大器升降压转换器，为广域通信射频功率放大器提供可调的稳定供电。"
+    },
+    {
+      "name": "Supervisory",
+      "description": "系统监控模块，实时监测系统供电电压、运行状态，提供故障复位、过压欠压保护功能。"
+    },
+    {
+      "name": "Body Temp",
+      "description": "人体体温信号输入源，为温度传感器提供待采集的人体体温生理信号。"
+    },
+    {
+      "name": "Dry Electrodes ECG Heart Rate Respiration Galvanic Skin Response",
+      "description": "干电极生理信号输入源，提供心电、心率、呼吸、皮肤电反应的待采集生理信号。"
+    },
+    {
+      "name": "Heart Rate SpO2 Respiration",
+      "description": "光学生理信号输入源，提供心率、血氧饱和度、呼吸的待采集光学生理信号。"
+    },
+    {
+      "name": "Motion Artifacts",
+      "description": "运动伪影信号输入源，为惯性传感器提供待采集的运动状态与运动干扰信号。"
+    },
+    {
+      "name": "Clinical Grade Temp Sensor",
+      "description": "临床级温度传感器，高精度采集人体体温信号，输出符合临床精度要求的温度数据。"
+    },
+    {
+      "name": "Bioimpedance AFE",
+      "description": "生物阻抗模拟前端，负责生物阻抗信号的采集、放大、滤波与模数转换，为后端提供调理后的生物阻抗数据。"
+    },
+    {
+      "name": "Biopotential AFE",
+      "description": "生物电位模拟前端，负责心电、肌电等生物电位信号的采集、放大、滤波与模数转换，适配微伏级生物电位输入。"
+    },
+    {
+      "name": "Combo AFE",
+      "description": "组合式模拟前端，整合多类型生理信号采集调理功能，可同时适配多种生理传感器输入。"
+    },
+    {
+      "name": "LED Buck-Boost",
+      "description": "LED驱动升降压转换器，为光学生理检测的发光二极管提供可调的恒流恒压驱动。"
+    },
+    {
+      "name": "Optical AFE",
+      "description": "光学模拟前端，采集、放大、调理光电容积描记信号，实现心率、血氧等光学生理信号的模数转换。"
+    },
+    {
+      "name": "Inertial Sensor",
+      "description": "惯性测量传感器，采集人体运动的加速度、角速度参数，用于运动状态监测与运动伪影补偿。"
+    },
+    {
+      "name": "Sensor Hub",
+      "description": "传感器集线器，汇总并预处理各类传感器输出的数据，降低主控制器的运算负载。"
+    },
+    {
+      "name": "Apps Microcontroller",
+      "description": "应用微控制器，运行健康监测相关应用算法，处理各类生理传感器数据，实现业务逻辑控制。"
+    },
+    {
+      "name": "BLE Microcontroller",
+      "description": "蓝牙低功耗微控制器，集成蓝牙低功耗通信功能，实现短距离无线数据传输与外设控制。"
+    },
+    {
+      "name": "WAN Radio CAT-M1NB-IOT",
+      "description": "广域物联网无线通信模块，支持CAT-M1/NB-IOT通信制式，实现监测数据的广域无线传输。"
+    }
+  ],
+  "signal_flow": {
+    "main": "Body Temp -> Clinical Grade Temp Sensor -> Apps Microcontroller / BLE Microcontroller; Dry Electrodes ECG Heart Rate Respiration Galvanic Skin Response -> Bioimpedance AFE / Biopotential AFE / Combo AFE -> Apps Microcontroller / BLE Microcontroller; Heart Rate SpO2 Respiration -> Optical AFE -> Sensor Hub -> Apps Microcontroller; Motion Artifacts -> Inertial Sensor -> Sensor Hub -> Apps Microcontroller; Apps Microcontroller / BLE Microcontroller -> WAN Radio CAT-M1NB-IOT -> 对外数据传输",
+    "branches": [
+      "电源路径1：Solar Cell -> Energy Harvesting -> Rechargeable Cell PMIC -> 各功能模块供电",
+      "电源路径2：Wireless Charging -> Battery Charger -> 可充电电池 -> Rechargeable Cell PMIC -> Fuel Gauge",
+      "分立电源路径：Rechargeable Cell PMIC -> LDO / Boost / Buck / Ideal Diode / Push Button Battery Seal -> 对应负载供电",
+      "射频供电路径：PA Buck-Boost -> WAN Radio CAT-M1NB-IOT",
+      "系统监控路径：Supervisory -> BLE Microcontroller / Apps Microcontroller / WAN Radio CAT-M1NB-IOT",
+      "光学驱动路径：Sensor Hub / Apps Microcontroller -> LED Buck-Boost -> 光学检测LED -> Optical AFE"
+    ]
+  },
+  "application_scene": "可穿戴多生理参数健康监测物联网设备"
+}

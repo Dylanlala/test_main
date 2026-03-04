@@ -1,0 +1,18 @@
+﻿模块名称,Data Isolation
+表格名称,Digital Isolation Technology
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,# of Channels,Device Primary Function,Interface Protocol,Data Rate (max) (bps),Insulation Rating (V rms),CMTI (min) (V/us),Vs+ (min) (V),Vs+ (max) (V),产品链接
+ADUM140D,"Robust, Quad Channel Isolator W/ Input Disable & 0 Reverse Channels",Recommended for New Designs,871,¥13.01000 (ADUM140D0BRQZ-RL7),"16-Lead SOIC,16-Lead QSOP,16-Lead SOIC Wide",4,Digital Isolator,Standard Digital Isolator,150M,3.75k,75k,1.7,5.5,https://www.analog.com/zh/products/adum140d
+ADUM141D,"Robust, Quad Channel Isolator W/ Input Disable & 1 Reverse Channel",Recommended for New Designs,2942,¥13.01000 (ADUM141D0BRQZ-RL7),"16-Lead SOIC,16-Lead QSOP,16-Lead SOIC Wide",4,Digital Isolator,Standard Digital Isolator,150M,3.75k,75k,1.7,5.5,https://www.analog.com/zh/products/adum141d
+ADUM142D,"Robust, Quad Channel Isolator W/ Input Disable & 2 Reverse Channels",Recommended for New Designs,1445,¥13.01000 (ADUM142D0BRQZ-RL7),"16-Lead SOIC,16-Lead QSOP,16-Lead SOIC Wide",4,Digital Isolator,Standard Digital Isolator,150M,3.75k,75k,1.7,5.5,https://www.analog.com/zh/products/adum142d
+ADN4650,"5 kV rms, 600 Mbps Dual Tx or Rx Channel LVDS Isolator",Production,937,$5.83 (ADN4650BRSZ),"20-Lead SSOP,20-Lead SOIC (Wide)",2,Digital Isolator,Isolated LVDS,600M,5k,25k,2.375,3.6,https://www.analog.com/zh/products/adn4650
+,,,,,,,,,,,,,,https://www.analog.com/zh/products/adn4651
+,,,,,,,,,,,,,,https://www.analog.com/zh/products/adn4652
+,,,,,,,,,,,,,,https://www.analog.com/zh/products/adum240d
+,,,,,,,,,,,,,,https://www.analog.com/zh/products/adum241d
+,,,,,,,,,,,,,,https://www.analog.com/zh/products/adum242d
+,,,,,,,,,,,,,,https://www.analog.com/zh/products/adum6420a
+,,,,,,,,,,,,,,https://www.analog.com/zh/products/adum6421a
+,,,,,,,,,,,,,,https://www.analog.com/zh/products/adum6422a
+,,,,,,,,,,,,,,https://www.analog.com/zh/products/adum5400
+,,,,,,,,,,,,,,https://www.analog.com/zh/products/ltm2810
+,,,,,,,,,,,,,,https://www.analog.com/zh/products/adum3190

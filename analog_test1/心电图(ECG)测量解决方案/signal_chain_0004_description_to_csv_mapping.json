@@ -1,0 +1,126 @@
+{
+  "mapping": [
+    {
+      "device": "Input Mux",
+      "csv_files": [
+        "0004_INPUT_MUX_coord_1da44d30_table_1_Single_Supply_5V_to_44V.csv"
+      ],
+      "comment": "单电源多路选择器选型表"
+    },
+    {
+      "device": "G-1",
+      "csv_files": [
+        "0004_AMP_coord_9242343c_table_1_High_Voltage_Op_Amps___12V.csv",
+        "0004_AMP_coord_9ce009ee_table_1_High_Voltage_Op_Amps___12V.csv",
+        "0004_AMP_coord_9ce183fb_table_1_High_Voltage_Op_Amps___12V.csv"
+      ],
+      "comment": "高压运放选型表（缓冲器适用）"
+    },
+    {
+      "device": "RLD",
+      "csv_files": [
+        "0004_AMP_coord_aa3d8ed8_table_2_Rail-to-Rail_Op_Amps.csv",
+        "0004_AMP_coord_df837366_table_2_Rail-to-Rail_Op_Amps.csv"
+      ],
+      "comment": "轨到轨运放选型表（驱动适用）"
+    },
+    {
+      "device": "IA（ECG通道）",
+      "csv_files": [
+        "0004_AMP_coord_5e1e0d8d_table_1_Instrumentation_Amplifiers.csv",
+        "0004_AMP_coord_8c34b5c4_table_1_Instrumentation_Amplifiers.csv",
+        "0004_AMP_coord_aef9b424_table_1_Instrumentation_Amplifiers.csv",
+        "0004_AMP_coord_b31b939f_table_1_Instrumentation_Amplifiers.csv",
+        "0004_AMP_coord_dd3e0201_table_1_Instrumentation_Amplifiers.csv",
+        "0004_AMP_coord_f602cbf2_table_1_Instrumentation_Amplifiers.csv"
+      ],
+      "comment": "仪表放大器选型表（多文件覆盖）"
+    },
+    {
+      "device": "ECG Mux",
+      "csv_files": [
+        "0004_ECG__MUX_coord_b1197367_table_1_Single_Supply_5V_to_44V.csv"
+      ],
+      "comment": "ECG多路选择器选型表"
+    },
+    {
+      "device": "ADC Driver（ECG路径）",
+      "csv_files": [
+        "0004_AMP_coord_aa3d8ed8_table_1_Fully_Differential_Amplifiers.csv",
+        "0004_AMP_coord_df837366_table_1_Fully_Differential_Amplifiers.csv"
+      ],
+      "comment": "全差分放大器选型表（ADC驱动适用）"
+    },
+    {
+      "device": "ECG ADC",
+      "csv_files": [
+        "0004_ECG_ADC_coord_77c8aeca_table_1_Single_Channel_A_D_Converters.csv"
+      ],
+      "comment": "单通道ADC选型表"
+    },
+    {
+      "device": "Drive DAC",
+      "csv_files": [
+        "0004_DRIVE_DAC_coord_711ef7b4_table_1_Bipolar_D_A_Converters.csv"
+      ],
+      "comment": "双极性DAC选型表"
+    },
+    {
+      "device": "IA（呼吸通道）",
+      "csv_files": [],
+      "comment": "复用仪表放大器选型表"
+    },
+    {
+      "device": "IA（血压通道）",
+      "csv_files": [],
+      "comment": "复用仪表放大器选型表"
+    },
+    {
+      "device": "IA（温度通道）",
+      "csv_files": [],
+      "comment": "复用仪表放大器选型表"
+    },
+    {
+      "device": "AUX Mux",
+      "csv_files": [
+        "0004_AUX_MUX_coord_5e52b70a_table_1_Single_Supply_5V_to_44V.csv"
+      ],
+      "comment": "辅助多路选择器选型表"
+    },
+    {
+      "device": "ADC Driver（AUX路径）",
+      "csv_files": [],
+      "comment": "复用全差分放大器选型表"
+    },
+    {
+      "device": "Aux ADC",
+      "csv_files": [
+        "0004_AUX_ADC_coord_9fd17fa9_table_1_Single_Channel_A_D_Converters.csv"
+      ],
+      "comment": "辅助通道ADC选型表"
+    },
+    {
+      "device": "Isolation",
+      "csv_files": [
+        "0004_ISOLATION_coord_53fae092_table_1_Standard_Digital_Isolators.csv"
+      ],
+      "comment": "数字隔离器选型表"
+    },
+    {
+      "device": "DC to DC",
+      "csv_files": [
+        "0004_DC_TO_DC_coord_a4fbf5dc_table_1_Switching_Regulators.csv"
+      ],
+      "comment": "开关稳压器选型表"
+    },
+    {
+      "device": "LO IQ LDO",
+      "csv_files": [
+        "0004_LO_IQ_LDO_coord_ca47df49_table_1_LDO_Linear_Regulators.csv"
+      ],
+      "comment": "LDO线性稳压器选型表"
+    }
+  ],
+  "summary": "根据信号链描述和提供的CSV文件列表，映射关系如下：",
+  "note": ""
+}

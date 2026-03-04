@@ -1,0 +1,4 @@
+﻿模块名称,VIDEO PROCESSING
+表格名称,Video Encoders
+Part #,Eval / Ref Circuit,Video Primary Function,Input Type,# of Video Inputs,Output Type,# of Video Outputs,DAC Resolution (bits),Output Frequency (max) (Hz),Macrovision,Scaler,Automotive,Temp Range,NDA Required,US Price 1000 to 4999 ($ US),Package,Product Description,Status,Reliability Level,产品链接
+ADV7393,"Evaluation board, Reference circuit",Video Encoder,Pixel Bus,16-bit Pixel Bus,"Analog HD, Analog SD",3 Analog,10,74.24M,No,No,No,-40 to 105°C,No,$4.53 (ADV7393BCPZ-REEL),40 ld LFCSP (6x6mm w/4.1mm pad),,,,http://www.analog.com/zh/adv7393

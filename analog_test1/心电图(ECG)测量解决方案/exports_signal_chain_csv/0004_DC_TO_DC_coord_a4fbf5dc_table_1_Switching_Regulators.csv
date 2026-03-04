@@ -1,0 +1,6 @@
+﻿组件名称,DC to DC
+模块名称,Switching Regulators
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,Number of Outputs,Vin (min) (V),Vin (max) (V),Output Current (typ) (A),Switch Current (typ) (A),Monolithic,Isupply (typ) (A),Topology,Integrated Inductor,Output Adjust Method,Space,产品链接
+ADP5040,Micro PMU with 1.2 A Buck Regulator and Two 300 mA LDOs,Recommended for New Designs,552,$1.79 (ADP5040ACPZ-1-R7),20-Lead LFCSP (4mm x 4mm w/ EP),3,2.3,5.5,1.2,1.95,Yes,35µ,Buck,No,Resistor,No,https://www.analog.com/cn/adp5040
+ADP5043,"Micro PMU with 800 mA Buck, 300 mA LDO, Supervisory, Watchdog, and Manual Reset",Recommended for New Designs,0,$1.92 (ADP5043ACPZ-1-R7),20-Lead LFCSP (4mm x 4mm w/ EP),2,2.3,5.5,800m,1.36,Yes,21µ,"Buck, LDO",No,Resistor,No,https://www.analog.com/cn/adp5043
+ADP5134,"Dual 3 MHz, 1200 mA Buck Regulators and Two 300 mA LDO Regulators With Precision Enable and Power-Good Output",Recommended for New Designs,1,$2.24 (ADP5134ACPZ-R7),24-Lead LFCSP (4mm x 4mm w/ EP),4,2.5,5.5,1.2,1.95,Yes,182µ,Buck,No,Resistor,No,https://www.analog.com/cn/adp5134

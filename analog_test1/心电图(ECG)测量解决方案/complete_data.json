@@ -1,0 +1,240 @@
+{
+  "page_info": {
+    "url": "https://www.analog.com/cn/solutions/healthcare/vital-signs-measurements/electrocardiogram-ecg-measurement.html",
+    "title": "心电图(ECG)测量解决方案",
+    "keywords": "心电图, ecg 测量, ecg, ecg 测量设备, eeg 信号链元件",
+    "description": "ADI公司的心电图(ECG)测量应用解决方案包括各种分立和集成信号链产品，具有低功耗、低噪声和多通道功能等特性。",
+    "component_overview": "ADI公司的心电图(ECG)测量应用解决方案包括各种分立和集成信号链产品，具有低功耗、低噪声和多通道功能等特性。",
+    "navigation_path": "主页/解决方案概要/医疗健康解决方案/生命体征监测解决方案/心电图(ECG)测量解决方案"
+  },
+  "value_and_benefits": {
+    "title": "价值和优势",
+    "contents": "我们为健身和可穿戴应用提供高度集成的低功耗解决方案，内置紧凑型模拟前端，可满足多种电池供电用例的需求。 我们针对临床应用提供多导联模拟前端，具备诊断级性能，可提供出色的信号处理能力。ECG测量不仅需要高精度信号处理，还需要能适应各种电极设计。凭借深厚的系统知识，我们能够确保在不同的应用用例下实现出色的ECG测量。",
+    "characteristics": [
+      "适应电池供电的应用",
+      "具备出色的信号处理能力",
+      "在各种用例下提供出色的ECG测量"
+    ]
+  },
+  "hardware_products": [],
+  "evaluation_products": [],
+  "reference_products": [],
+  "signal_chains": {
+    "module_title": "信号链",
+    "total_count": 4,
+    "active_chain_id": "0667",
+    "chains": [
+      {
+        "list_name": "远程患者监护(RPM)",
+        "data_target": "ISC-0667",
+        "chain_id": "0667",
+        "is_active": true,
+        "is_more_option": false,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0667.png",
+          "filename": "signal_chain_0667.png",
+          "local_path": "analog_devices_data_final\\心电图(ECG)测量解决方案\\signal_chains\\signal_chain_0667.png",
+          "chain_id": "0667"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "临床ECG支持起搏检测和呼吸测量",
+        "data_target": "ISC-0085",
+        "chain_id": "0085",
+        "is_active": false,
+        "is_more_option": false,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0085.png",
+          "filename": "signal_chain_0085.png",
+          "local_path": "analog_devices_data_final\\心电图(ECG)测量解决方案\\signal_chains\\signal_chain_0085.png",
+          "chain_id": "0085"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "病人监护系统、直流耦合ECG",
+        "data_target": "ISC-0004",
+        "chain_id": "0004",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0004.png",
+          "filename": "signal_chain_0004.png",
+          "local_path": "analog_devices_data_final\\心电图(ECG)测量解决方案\\signal_chains\\signal_chain_0004.png",
+          "chain_id": "0004"
+        },
+        "signal_chain_hotspots": [
+          {
+            "chain_id": "0004",
+            "component_name": "AMP",
+            "module_name": "High Voltage Op Amps >=12V",
+            "table_name": "0004_AMP_coord_9242343c_table_1_High_Voltage_Op_Amps___12V.csv",
+            "table_path": "exports_signal_chain_csv\\0004_AMP_coord_9242343c_table_1_High_Voltage_Op_Amps___12V.csv"
+          },
+          {
+            "chain_id": "0004",
+            "component_name": "AMP",
+            "module_name": "Fully Differential Amplifiers",
+            "table_name": "0004_AMP_coord_aa3d8ed8_table_1_Fully_Differential_Amplifiers.csv",
+            "table_path": "exports_signal_chain_csv\\0004_AMP_coord_aa3d8ed8_table_1_Fully_Differential_Amplifiers.csv"
+          },
+          {
+            "chain_id": "0004",
+            "component_name": "AMP",
+            "module_name": "Rail-to-Rail Op Amps",
+            "table_name": "0004_AMP_coord_aa3d8ed8_table_2_Rail-to-Rail_Op_Amps.csv",
+            "table_path": "exports_signal_chain_csv\\0004_AMP_coord_aa3d8ed8_table_2_Rail-to-Rail_Op_Amps.csv"
+          },
+          {
+            "chain_id": "0004",
+            "component_name": "AMP",
+            "module_name": "Fully Differential Amplifiers",
+            "table_name": "0004_AMP_coord_df837366_table_1_Fully_Differential_Amplifiers.csv",
+            "table_path": "exports_signal_chain_csv\\0004_AMP_coord_df837366_table_1_Fully_Differential_Amplifiers.csv"
+          },
+          {
+            "chain_id": "0004",
+            "component_name": "AMP",
+            "module_name": "Rail-to-Rail Op Amps",
+            "table_name": "0004_AMP_coord_df837366_table_2_Rail-to-Rail_Op_Amps.csv",
+            "table_path": "exports_signal_chain_csv\\0004_AMP_coord_df837366_table_2_Rail-to-Rail_Op_Amps.csv"
+          },
+          {
+            "chain_id": "0004",
+            "component_name": "AMP",
+            "module_name": "High Voltage Op Amps >=12V",
+            "table_name": "0004_AMP_coord_9ce009ee_table_1_High_Voltage_Op_Amps___12V.csv",
+            "table_path": "exports_signal_chain_csv\\0004_AMP_coord_9ce009ee_table_1_High_Voltage_Op_Amps___12V.csv"
+          },
+          {
+            "chain_id": "0004",
+            "component_name": "AMP",
+            "module_name": "High Voltage Op Amps >=12V",
+            "table_name": "0004_AMP_coord_9ce183fb_table_1_High_Voltage_Op_Amps___12V.csv",
+            "table_path": "exports_signal_chain_csv\\0004_AMP_coord_9ce183fb_table_1_High_Voltage_Op_Amps___12V.csv"
+          },
+          {
+            "chain_id": "0004",
+            "component_name": "AMP",
+            "module_name": "Instrumentation Amplifiers",
+            "table_name": "0004_AMP_coord_aef9b424_table_1_Instrumentation_Amplifiers.csv",
+            "table_path": "exports_signal_chain_csv\\0004_AMP_coord_aef9b424_table_1_Instrumentation_Amplifiers.csv"
+          },
+          {
+            "chain_id": "0004",
+            "component_name": "AMP",
+            "module_name": "Instrumentation Amplifiers",
+            "table_name": "0004_AMP_coord_8c34b5c4_table_1_Instrumentation_Amplifiers.csv",
+            "table_path": "exports_signal_chain_csv\\0004_AMP_coord_8c34b5c4_table_1_Instrumentation_Amplifiers.csv"
+          },
+          {
+            "chain_id": "0004",
+            "component_name": "AMP",
+            "module_name": "Instrumentation Amplifiers",
+            "table_name": "0004_AMP_coord_f602cbf2_table_1_Instrumentation_Amplifiers.csv",
+            "table_path": "exports_signal_chain_csv\\0004_AMP_coord_f602cbf2_table_1_Instrumentation_Amplifiers.csv"
+          },
+          {
+            "chain_id": "0004",
+            "component_name": "AMP",
+            "module_name": "Instrumentation Amplifiers",
+            "table_name": "0004_AMP_coord_dd3e0201_table_1_Instrumentation_Amplifiers.csv",
+            "table_path": "exports_signal_chain_csv\\0004_AMP_coord_dd3e0201_table_1_Instrumentation_Amplifiers.csv"
+          },
+          {
+            "chain_id": "0004",
+            "component_name": "AMP",
+            "module_name": "Instrumentation Amplifiers",
+            "table_name": "0004_AMP_coord_5e1e0d8d_table_1_Instrumentation_Amplifiers.csv",
+            "table_path": "exports_signal_chain_csv\\0004_AMP_coord_5e1e0d8d_table_1_Instrumentation_Amplifiers.csv"
+          },
+          {
+            "chain_id": "0004",
+            "component_name": "AMP",
+            "module_name": "Instrumentation Amplifiers",
+            "table_name": "0004_AMP_coord_b31b939f_table_1_Instrumentation_Amplifiers.csv",
+            "table_path": "exports_signal_chain_csv\\0004_AMP_coord_b31b939f_table_1_Instrumentation_Amplifiers.csv"
+          },
+          {
+            "chain_id": "0004",
+            "component_name": "AUX ADC",
+            "module_name": "Single Channel A/D Converters",
+            "table_name": "0004_AUX_ADC_coord_9fd17fa9_table_1_Single_Channel_A_D_Converters.csv",
+            "table_path": "exports_signal_chain_csv\\0004_AUX_ADC_coord_9fd17fa9_table_1_Single_Channel_A_D_Converters.csv"
+          },
+          {
+            "chain_id": "0004",
+            "component_name": "AUX MUX",
+            "module_name": "Single Supply 5V to 44V",
+            "table_name": "0004_AUX_MUX_coord_5e52b70a_table_1_Single_Supply_5V_to_44V.csv",
+            "table_path": "exports_signal_chain_csv\\0004_AUX_MUX_coord_5e52b70a_table_1_Single_Supply_5V_to_44V.csv"
+          },
+          {
+            "chain_id": "0004",
+            "component_name": "DC TO DC",
+            "module_name": "Switching Regulators",
+            "table_name": "0004_DC_TO_DC_coord_a4fbf5dc_table_1_Switching_Regulators.csv",
+            "table_path": "exports_signal_chain_csv\\0004_DC_TO_DC_coord_a4fbf5dc_table_1_Switching_Regulators.csv"
+          },
+          {
+            "chain_id": "0004",
+            "component_name": "DRIVE DAC",
+            "module_name": "Bipolar D/A Converters",
+            "table_name": "0004_DRIVE_DAC_coord_711ef7b4_table_1_Bipolar_D_A_Converters.csv",
+            "table_path": "exports_signal_chain_csv\\0004_DRIVE_DAC_coord_711ef7b4_table_1_Bipolar_D_A_Converters.csv"
+          },
+          {
+            "chain_id": "0004",
+            "component_name": "ECG  MUX",
+            "module_name": "Single Supply 5V to 44V",
+            "table_name": "0004_ECG__MUX_coord_b1197367_table_1_Single_Supply_5V_to_44V.csv",
+            "table_path": "exports_signal_chain_csv\\0004_ECG__MUX_coord_b1197367_table_1_Single_Supply_5V_to_44V.csv"
+          },
+          {
+            "chain_id": "0004",
+            "component_name": "ECG ADC",
+            "module_name": "Single Channel A/D Converters",
+            "table_name": "0004_ECG_ADC_coord_77c8aeca_table_1_Single_Channel_A_D_Converters.csv",
+            "table_path": "exports_signal_chain_csv\\0004_ECG_ADC_coord_77c8aeca_table_1_Single_Channel_A_D_Converters.csv"
+          },
+          {
+            "chain_id": "0004",
+            "component_name": "INPUT MUX",
+            "module_name": "Single Supply 5V to 44V",
+            "table_name": "0004_INPUT_MUX_coord_1da44d30_table_1_Single_Supply_5V_to_44V.csv",
+            "table_path": "exports_signal_chain_csv\\0004_INPUT_MUX_coord_1da44d30_table_1_Single_Supply_5V_to_44V.csv"
+          },
+          {
+            "chain_id": "0004",
+            "component_name": "ISOLATION",
+            "module_name": "Standard Digital Isolators",
+            "table_name": "0004_ISOLATION_coord_53fae092_table_1_Standard_Digital_Isolators.csv",
+            "table_path": "exports_signal_chain_csv\\0004_ISOLATION_coord_53fae092_table_1_Standard_Digital_Isolators.csv"
+          },
+          {
+            "chain_id": "0004",
+            "component_name": "LO IQ LDO",
+            "module_name": "LDO Linear Regulators",
+            "table_name": "0004_LO_IQ_LDO_coord_ca47df49_table_1_LDO_Linear_Regulators.csv",
+            "table_path": "exports_signal_chain_csv\\0004_LO_IQ_LDO_coord_ca47df49_table_1_LDO_Linear_Regulators.csv"
+          }
+        ]
+      },
+      {
+        "list_name": "单导联ECG或HRM",
+        "data_target": "ISC-0098",
+        "chain_id": "0098",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0098.png",
+          "filename": "signal_chain_0098.png",
+          "local_path": "analog_devices_data_final\\心电图(ECG)测量解决方案\\signal_chains\\signal_chain_0098.png",
+          "chain_id": "0098"
+        },
+        "signal_chain_hotspots": []
+      }
+    ]
+  }
+}

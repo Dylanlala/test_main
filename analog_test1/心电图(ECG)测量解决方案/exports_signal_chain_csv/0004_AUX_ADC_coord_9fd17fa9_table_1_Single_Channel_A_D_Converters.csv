@@ -1,0 +1,13 @@
+﻿组件名称,Aux ADC
+模块名称,Single Channel A/D Converters
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,Channels,Resolution (bits),Sample Rate (max) (SPS),ADC SNR in dBFS (typ) (dBFS),ADC INL (max) (LSB),Device Architecture,Input Type,Data Output Interface,Power (typ) (W),Space,产品链接
+AD7651,16-Bit 100 kSPS PulSAR® Unipolar ADC with Reference,Production,41,$12.29 (AD7651ASTZ),48-Lead LQFP (7mm x 7mm),1,16,100k,86,6,SAR,Pseudo-Differential,"Parallel, SPI",38m,No,https://www.analog.com/cn/ad7651
+AD7660,16-Bit 100 kSPS CMOS Successive Approximation PulSAR® ADC with No Missing Codes,Production,104,$10.90 (AD7660ASTZ),48-Lead LQFP (7mm x 7mm),1,16,100k,90,3,SAR,Differential,"Parallel, SPI",21m,No,https://www.analog.com/cn/ad7660
+AD7661,"16-Bit, 100 kSPS PulSAR® Unipolar ADC with Ref",Production,8,$10.63 (AD7661ACPZ),"48-Lead LFCSP (7mm x 7mm w/ EP),48-Lead LQFP (7mm x 7mm)",1,16,100k,89.3,2.5,SAR,Pseudo-Differential,"Parallel, SPI",40m,No,https://www.analog.com/cn/ad7661
+AD7675,"16-Bit, 100 kSPS Differential PulSAR® A/D Converter",Production,10,$20.35 (AD7675ASTZ),48-Lead LQFP (7mm x 7mm),1,16,100k,94,1.5,SAR,Differential,"Parallel, SPI",17m,No,https://www.analog.com/cn/ad7675
+,,,,,,,,,,,,,,,,https://www.analog.com/cn/ad7680
+,,,,,,,,,,,,,,,,https://www.analog.com/cn/ad7685
+,,,,,,,,,,,,,,,,https://www.analog.com/cn/ad7687
+,,,,,,,,,,,,,,,,https://www.analog.com/cn/ad7694
+,,,,,,,,,,,,,,,,https://www.analog.com/cn/ad7715
+,,,,,,,,,,,,,,,,https://www.analog.com/cn/ad7722

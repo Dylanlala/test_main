@@ -1,0 +1,6 @@
+﻿模块名称,PowerBlock
+表格名称,Ultralow Noise Regulators
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,Number of Outputs,Vin (min) (V),Vin (max) (V),Topology,Output Current (typ) (A),Monolithic,EMI Features,Comments,产品链接
+LTM8074,"40VIN, 1.2A Silent Switcher µModule Regulator",Recommended for New Designs,1602,$4.50 (LTM8074EY#PBF),25-Lead BGA (4mm x 4mm x 1.82mm),1,3.2,40,Buck,1.2,Yes,"CISPR22 Class B, Silent Switcher uModule Regulator, Spread Spectrum","40VIN, 1.2A Silent Switcher µModule Regulator",https://www.analog.com/zh/products/ltm8074
+LT8609S,"42V, 2A/3A Peak Synchronous Step-Down Regulator with 2.5μA Quiescent Current",Recommended for New Designs,3609,$3.24 (LT8609SEV#PBF),16-Lead LQFN (3mm x 3mm x 0.94mm w/ EP),1,3,42,Buck,2,Yes,"Silent Switcher 2, Spread Spectrum","42V, 2A/3A Peak Synchronous Step-Down Regulator with 2.5µA Quiescent Current",https://www.analog.com/zh/products/lt8609s
+LT1683,Slew Rate Controlled Ultralow Noise Push-Pull DC/DC Controller,Production,302,$5.71 (LT1683EG#PBF),20-Lead SSOP,1,4,20,"Boost, Flyback, Inverting, Push-Pull",,No,Adjustable Slew Rate,Slew Rate Controlled Ultralow Noise Push-Pull DC/DC Controller,https://www.analog.com/zh/products/lt1683

@@ -1,0 +1,96 @@
+{
+  "devices": [
+    {
+      "name": "Pressure Temperature Sensors",
+      "description": "集成压力、温度传感单元，采集人体血压、体温生理参数并转换为对应模拟电信号输出。"
+    },
+    {
+      "name": "External Protection/ESD/RFI",
+      "description": "为前端人体输入的ECG信号、传感器输入信号提供静电放电防护、射频干扰抑制，保护后端电路免受损坏及干扰。"
+    },
+    {
+      "name": "Input Mux",
+      "description": "输入多路选择器，实现多路生理输入信号的通道切换与选通，适配不同信号的采集时序需求。"
+    },
+    {
+      "name": "G-1",
+      "description": "单位增益电极缓冲器，为ECG输入信号提供高输入阻抗缓冲隔离，提升信号带载能力。"
+    },
+    {
+      "name": "RLD",
+      "description": "右腿驱动缓冲器，输出共模反馈驱动信号至人体，大幅提升ECG信号的共模抑制比，抑制工频等共模干扰。"
+    },
+    {
+      "name": "IA（ECG通道）",
+      "description": "ECG通道仪表放大器，对输入的微弱ECG模拟信号进行高共模抑制比、高增益的放大处理。"
+    },
+    {
+      "name": "ECG Mux",
+      "description": "ECG信号多路选择器，实现多通道ECG放大信号的分时选通，适配后端ADC的采集需求。"
+    },
+    {
+      "name": "ADC Driver（ECG路径）",
+      "description": "ECG通道模数转换器驱动电路，对ECG模拟信号进行缓冲驱动，匹配ADC输入阻抗与电平要求。"
+    },
+    {
+      "name": "ECG ADC",
+      "description": "ECG专用模数转换器，将模拟ECG信号转换为高精度数字信号输出。"
+    },
+    {
+      "name": "Drive DAC",
+      "description": "呼吸检测驱动数模转换器，输出高频激励信号通过电极加载至人体，用于呼吸阻抗检测。"
+    },
+    {
+      "name": "IA（呼吸通道）",
+      "description": "呼吸通道仪表放大器，对人体反馈的呼吸阻抗检测信号进行放大处理。"
+    },
+    {
+      "name": "I and Q Active Filtering",
+      "description": "正交有源滤波单元，对呼吸检测信号进行IQ解调与滤波处理，提取呼吸频率、幅度等特征信号。"
+    },
+    {
+      "name": "IA（血压通道）",
+      "description": "血压通道仪表放大器，对压力传感器输出的微弱血压模拟信号进行高增益放大处理。"
+    },
+    {
+      "name": "IA（温度通道）",
+      "description": "温度通道仪表放大器，对温度传感器输出的温度模拟信号进行放大与电平转换处理。"
+    },
+    {
+      "name": "AUX Mux",
+      "description": "辅助信号多路选择器，实现呼吸、血压、温度等辅助生理信号的分时选通。"
+    },
+    {
+      "name": "ADC Driver（AUX路径）",
+      "description": "辅助通道模数转换器驱动电路，对辅助生理模拟信号进行缓冲驱动，匹配后端ADC输入要求。"
+    },
+    {
+      "name": "Aux ADC",
+      "description": "辅助通道模数转换器，将呼吸、血压、温度等模拟生理信号转换为数字信号输出。"
+    },
+    {
+      "name": "Isolation",
+      "description": "电气隔离模块，实现前端生理采集电路与后端处理器的电气隔离，满足医疗安规要求，避免人体触电风险。"
+    },
+    {
+      "name": "Processor",
+      "description": "主处理器单元，对采集的ECG、呼吸、血压、体温等数字生理信号进行处理、分析、存储与交互传输。"
+    },
+    {
+      "name": "DC to DC",
+      "description": "直流-直流转换单元，将输入电源转换为链路所需的不同电压等级，为各模块供电。"
+    },
+    {
+      "name": "LO IQ LDO",
+      "description": "低差压线性稳压器，为本振、IQ链路以及其他模拟电路提供低噪声、高稳定度的供电输出。"
+    }
+  ],
+  "signal_flow": {
+    "main": "人体ECG电极 -> External Protection/ESD/RFI -> Input Mux -> G-1 -> ECG通道IA -> ECG Mux -> ECG路径ADC Driver -> ECG ADC -> Isolation -> Processor; 呼吸检测路径：Input Mux -> Drive DAC -> 人体 -> 呼吸通道IA -> I and Q Active Filtering -> AUX Mux -> AUX路径ADC Driver -> Aux ADC -> Isolation -> Processor; 血压检测路径：Pressure Temperature Sensors -> 血压通道IA -> AUX Mux -> AUX路径ADC Driver -> Aux ADC -> Isolation -> Processor; 体温检测路径：Pressure Temperature Sensors -> 温度通道IA -> AUX Mux -> AUX路径ADC Driver -> Aux ADC -> Isolation -> Processor",
+    "branches": [
+      "右腿驱动路径：Input Mux -> RLD -> 人体",
+      "电源路径：电源输入 -> DC to DC -> LO IQ LDO -> 全链路各模拟、数字功能模块供电"
+    ]
+  },
+  "application_scene": "多参数医疗生理体征监护设备信号链"
+}

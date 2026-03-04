@@ -1,0 +1,97 @@
+{
+  "mapping": [
+    {
+      "device": "REF CLK",
+      "csv_files": [
+        "0001_REF_CLK_4286b930_901_table_1_Clock_Generation_Devices.csv"
+      ],
+      "comment": "参考时钟源"
+    },
+    {
+      "device": "DAC",
+      "csv_files": [
+        "0001_DAC_ba65b1ca_f1f_table_1_Precision_DAC.csv"
+      ],
+      "comment": "数模转换器"
+    },
+    {
+      "device": "AMP",
+      "csv_files": [
+        "0001_AMP_5242f4f7_c55_table_1_Gain_Blocks.csv",
+        "0001_AMP_5242f4f7_c55_table_2_Video_Operational_Amplifiers__Op_Amps_.csv"
+      ],
+      "comment": "基带放大器"
+    },
+    {
+      "device": "MIXER",
+      "csv_files": [
+        "0001_MIXER_4ac474b6_e8e_table_1_Mixers.csv",
+        "0001_MIXER_58a50daa_a64_table_1_Mixers.csv",
+        "0001_MIXER_8987c607_5d6_table_1_Mixers.csv",
+        "0001_MIXER_f947f088_807_table_1_Mixers.csv"
+      ],
+      "comment": "混频器"
+    },
+    {
+      "device": "RF/IF AMP",
+      "csv_files": [
+        "0001_RF_IF_AMP_c00eb80f_6d8_table_1_Gain_Blocks.csv",
+        "0001_RF_IF_AMP_d8fe9bfb_d0c_table_1_Driver_Amplifiers.csv",
+        "0001_RF_IF_AMP_f9afaacc_1f9_table_1_Gain_Blocks.csv"
+      ],
+      "comment": "中频/射频放大器"
+    },
+    {
+      "device": "LOG AMP DETECTORS",
+      "csv_files": [
+        "0001_LOG_AMP_DETECTORS_dcd22c49_14f_table_1_Log_Detectors.csv"
+      ],
+      "comment": "对数检波放大器"
+    },
+    {
+      "device": "LNA",
+      "csv_files": [
+        "0001_LNA_a17f30cd_20b_table_1_Low_Noise_Amplifier.csv"
+      ],
+      "comment": "低噪声放大器"
+    },
+    {
+      "device": "ADC DRIVER",
+      "csv_files": [
+        "0001_ADC_DRIVER_57acd3b2_7b9_table_1_Fully_Differential_Amplifiers.csv"
+      ],
+      "comment": "模数转换器驱动放大器"
+    },
+    {
+      "device": "ADC",
+      "csv_files": [
+        "0001_ADC_241f6396_2aa_table_1_High_Speed_ADC____10_MSPS.csv"
+      ],
+      "comment": "模数转换器"
+    },
+    {
+      "device": "CLOCK BUFFER",
+      "csv_files": [
+        "0001_CLOCK_BUFFER_3f8d2681_772_table_1_Clock_Generation___Distribution.csv",
+        "0001_CLOCK_BUFFER_5b6d9446_b5b_table_1_Clock_Generation___Distribution.csv"
+      ],
+      "comment": "时钟缓冲器"
+    },
+    {
+      "device": "PLL",
+      "csv_files": [
+        "0001_PLL_7a640e85_76c_table_1_Fractional-N_PLL.csv"
+      ],
+      "comment": "锁相环"
+    },
+    {
+      "device": "DDS",
+      "csv_files": [
+        "0001_DDS_5b9a1263_c64_table_1_Direct_Digital_Synthesis.csv"
+      ],
+      "comment": "直接数字频率合成器"
+    }
+  ],
+  "summary": "根据提供的信号链描述和CSV文件列表，以下是器件/模块与CSV文件的映射关系：",
+  "note": ""
+}

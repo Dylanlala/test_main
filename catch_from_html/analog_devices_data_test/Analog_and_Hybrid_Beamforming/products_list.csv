@@ -1,0 +1,7 @@
+﻿类型,型号,描述,图片文件名,本地图片路径,产品链接
+硬件产品,ADAR1000,4 通道 X 频段和 Ku 频段波束形成器，8 GHz 至 16 GHz,adar1000-fbl.png,analog_devices_data_final\Analog_and_Hybrid_Beamforming\product_images\adar1000-fbl.png,https://www.analog.com/cn/products/adar1000.html
+硬件产品,ADAR4000,2 GHz 至 18 GHz、单波束、4 元件波束形成器,adar4000-fbl.png,analog_devices_data_final\Analog_and_Hybrid_Beamforming\product_images\adar4000-fbl.png,https://www.analog.com/cn/products/adar4000.html
+硬件产品,ADAR4001,"2 GHz to 18 GHz, Single Beam, 4-Element Beamformer",adar4001.png,analog_devices_data_final\Analog_and_Hybrid_Beamforming\product_images\adar4001.png,https://www.analog.com/cn/products/adar4001.html
+硬件产品,ADAR3006,ADAR3006 10.7 GHz to 12.75 GHz 4-beam/4-element Ku band beamformer,adar3006.png,analog_devices_data_final\Analog_and_Hybrid_Beamforming\product_images\adar3006.png,https://www.analog.com/cn/products/adar3006.html
+评估板,X波段相控阵平台,可扩展32元件混合波束成形相控阵雷达开发平台,X波段相控阵平台_x-band-diagram.png,analog_devices_data_final\Analog_and_Hybrid_Beamforming\product_images\X波段相控阵平台_x-band-diagram.png,https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/x-band-development-platform.html
+参考设计,CN0566,相控阵（相位器）开发平台,cn0566_01.gif,analog_devices_data_final\Analog_and_Hybrid_Beamforming\product_images\cn0566_01.gif,https://www.analog.com/cn/resources/reference-designs/circuits-from-the-lab/cn0566.html

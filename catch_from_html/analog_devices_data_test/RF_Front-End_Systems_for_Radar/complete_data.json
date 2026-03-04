@@ -1,0 +1,107 @@
+{
+  "page_info": {
+    "url": "https://www.analog.com/cn/solutions/aerospace-and-defense/phased-array/rf-front-ends.html",
+    "title": "RF Front-End Systems for Radar",
+    "keywords": "rf front end, radar, radio frequency, phased array antenna, integrated front ends, adef",
+    "description": "Learn more about Analog Devices’ portfolio of complete RF front-end solutions and integrated front ends for radar application",
+    "component_overview": "Analog Devices supplies complete RF front-end solutions for radar applications and phased array antenna. Our large portfolio of power amplifiers in GaN and GaAs technology, low noise amplifiers (mainly in GaAs technology), and switch technology in GaAs, silicon SOI, and GaN technology form Tx/Rx functionality in radar applications. Also available are integrated front ends where all of this functionality resides in one package.",
+    "navigation_path": "主页/解决方案概要/航空航天和防务/相控阵/RF Front-End Systems for Radar"
+  },
+  "value_and_benefits": {
+    "title": "The Value of RF Front-End Systems for Radar",
+    "contents": "ADI offers complete analog beamforming with mating T/R front-end modules for a complete and integrated solution to significantly simply the customer experience.",
+    "characteristics": ["Simplified design","Simplified controls of the T/R module","Reduced customer workload"]
+  },
+  "hardware_products": [
+    {
+      "category": "Featured Products",
+      "model": "ADTR1107",
+      "description": "6 GHz 至 18 GHz 前端 IC",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/adtr1107-fbl.png?rev=bd51e2ff72b14f6eb11c29bf00fb014a&sc_lang=zh&h=100px&w=100px&hash=64484663039BBA8A95040C394F3176C3",
+      "image_filename": "adtr1107-fbl.png",
+      "local_image_path": "analog_devices_data_final\\RF_Front-End_Systems_for_Radar\\product_images\\adtr1107-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/adtr1107.html"
+    },
+    {
+      "category": "Featured Products",
+      "model": "ADPA1122",
+      "description": "43dBm、20W、GaN 功率放大器，8.2GHz 至 11.8GHz",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/adpa1122-fbl.png?rev=2c14489e5616455f95c78d932c9cb3d7&sc_lang=zh&h=100px&w=100px&hash=9CF3A8A33304C3A1C0C231A15C4C50F7",
+      "image_filename": "adpa1122-fbl.png",
+      "local_image_path": "analog_devices_data_final\\RF_Front-End_Systems_for_Radar\\product_images\\adpa1122-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/adpa1122.html"
+    },
+    {
+      "category": "Featured Products",
+      "model": "ADPA1106",
+      "description": "46 dBm (40 W)、2.7 GHz至3.5 GHz GaN功率放大器",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/adpa1106-fbl.png?rev=6514ea558301435f90604483bb136a1a&sc_lang=zh&h=100px&w=100px&hash=B74429CB14E2C2DE4478F41E2204F829",
+      "image_filename": "adpa1106-fbl.png",
+      "local_image_path": "analog_devices_data_final\\RF_Front-End_Systems_for_Radar\\product_images\\adpa1106-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/adpa1106.html"
+    },
+    {
+      "category": "Featured Products",
+      "model": "ADPA1107",
+      "description": "45.0 dBm (35 W)、4.8 GHz to 6.0 GHz、GaN 功率放大器",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/adpa1107-fbl.png?rev=d08f3ce6dbff4e2b8a3c9d849bc6edba&sc_lang=zh&h=100px&w=100px&hash=D5C8987EA852D2496A5320600A46707B",
+      "image_filename": "adpa1107-fbl.png",
+      "local_image_path": "analog_devices_data_final\\RF_Front-End_Systems_for_Radar\\product_images\\adpa1107-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/adpa1107.html"
+    },
+    {
+      "category": "Featured Products",
+      "model": "ADPA1105",
+      "description": "46 dBm (40 W)、0.9 GHz至1.6 GHz GaN功率放大器",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/adpa1105-fbl.png?rev=25f1a91e9eea40e3856ffcfc7314e183&h=100px&w=100px&hash=CFF8A8BE9B1C52E88DFDA2B9B7EE5E42",
+      "image_filename": "adpa1105-fbl.png",
+      "local_image_path": "",
+      "product_link": "https://www.analog.com/cn/products/adpa1105.html"
+    }
+  ],
+  "evaluation_products": [
+    {
+      "category": "Evaluation Boards",
+      "model": "EVAL-ADTR1107",
+      "description": "使用 6 GHz 至 18 GHz 前端 IC 评估 ADTR1107",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/evaluation-board-images/images/adtr1107-evalzangle-web.gif?rev=92d8431a41354fc98c5afbfeda4276e7&sc_lang=zh&h=100px&w=100px&hash=CB559EFF23FAC9A07AA68799733641A9",
+      "image_filename": "EVAL-ADTR1107_adtr1107-evalzangle-web.gif",
+      "local_image_path": "analog_devices_data_final\\RF_Front-End_Systems_for_Radar\\product_images\\EVAL-ADTR1107_adtr1107-evalzangle-web.gif",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-adtr1107.html"
+    },
+    {
+      "category": "Evaluation Boards",
+      "model": "EVAL-ADPA1106",
+      "description": "评估 ADPA1106 46 dBm (40 W)、2.7 GHz 至 3.5 GHz、GaN 功率放大器",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/evaluation-board-images/images/eval-adpa1106_evalz_angle-web.gif?rev=dee74d080f6b40118281d64e6949e855&sc_lang=zh&h=100px&w=100px&hash=5DE872E6F0E83160D29E67870FC6FBD0",
+      "image_filename": "eval-adpa1106_evalz_angle-web.gif",
+      "local_image_path": "",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-adpa1106.html"
+    },
+    {
+      "category": "Evaluation Boards",
+      "model": "EVAL-AD9081",
+      "description": "AD9081 评估板",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/evaluation-board-images/images/eval-ad9082_ad9081.png?rev=faf131cba6a740e0b8f2325cea02cde9&sc_lang=zh&h=100px&w=100px&hash=F7C3FB4F9B7EB2365D3369590E06850B",
+      "image_filename": "EVAL-AD9081_eval-ad9082_ad9081.png",
+      "local_image_path": "analog_devices_data_final\\RF_Front-End_Systems_for_Radar\\product_images\\EVAL-AD9081_eval-ad9082_ad9081.png",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-ad9081.html"
+    },
+    {
+      "category": "Evaluation Boards",
+      "model": "X波段相控阵平台",
+      "description": "可扩展32元件混合波束成形相控阵雷达开发平台",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/evaluation-board-images/images/x-band-diagram.png?rev=44c907c71c9448348afe3735c2347031&sc_lang=zh&h=100px&w=100px&hash=5EF4F928FC955151AD70CF3ACDFDBEFF",
+      "image_filename": "X波段相控阵平台_x-band-diagram.png",
+      "local_image_path": "analog_devices_data_final\\RF_Front-End_Systems_for_Radar\\product_images\\X波段相控阵平台_x-band-diagram.png",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/x-band-development-platform.html"
+    }
+  ],
+  "reference_products": [],
+  "signal_chains": {
+    "module_title": "信号链",
+    "total_count": 0,
+    "active_chain_id": null,
+    "chains": []
+  }
+}

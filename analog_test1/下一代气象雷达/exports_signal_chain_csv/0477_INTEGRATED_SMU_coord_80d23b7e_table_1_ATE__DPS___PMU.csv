@@ -1,0 +1,5 @@
+﻿组件名称,Integrated SMU_PMU_Subsystem
+模块名称,ATE: DPS & PMU
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,ATE Primary Function,# of Amps,Output Range,Output Range,V/I Clamps,Interface,Programming Logic Level,Power (typ) (W),ATE Features,产品链接
+AD5560,1.2A Programmable Device Power Supply with Integrated 16-bit Level Setting DACs,Production,311,$21.94 (AD5560JSVUZ),"72-Ball CSPBGA (8mm x 8mm x 1.4mm),64-Lead TQFP (10mm x 10mm w/ EP)",DPS and PMU,1,"1.2 A, 2.5 mA, 2.5 uA, 25 mA, 25 uA, 250 uA, 5 uA, 500 mA",25V (Scalable),I,Serial,CMOS,800m,"16 Bit DAC levels w/ Offset and Gain Correction, FN (HiZ), FV, Guard Amplifier, MI, mV, TFT-LCD Power Controller, Window Comparator",https://www.analog.com/zh/products/ad5560
+AD5522,Quad Parametric Measurement Unit With Integrated 16-Bit Level Setting DACs,Production,19,¥400.37000 (AD5522JSVUZ-RL),80-Lead TQFP (12mm x 12mm w/ EP),DPS and PMU,4,"2 mA, 20 uA, 200 uA, 5 uA, 80 mA",22.5V,"I, V",Serial,LVDS,800m,"16 Bit DAC levels w/ Offset and Gain Correction, FET Input, FN (HiZ), FV, Guard Amplifier, MI, mV, Window Comparator",https://www.analog.com/zh/products/ad5522

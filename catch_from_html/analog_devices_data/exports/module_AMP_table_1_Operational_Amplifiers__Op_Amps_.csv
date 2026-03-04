@@ -1,0 +1,22 @@
+﻿模块名称,AMP
+表格名称,Operational Amplifiers (Op Amps)
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,# of Amps,GBP (typ) (Hz),BW -3 dB (typ) (Hz),Slew Rate (typ) (V/µs),Vos (max) (V),VNoise Density (typ) (V/rtHz),Ibias (max) (A),Rail to Rail,Iq/Amp (typ) (A),Vs span (min) (V),Vs span (max) (V),Amp Features,Package Area (mm²),产品链接
+AD549,Ultralow Input-Bias Current Operational Amplifier,Production,0,$34.24 (AD549JHZ),"CHIPS OR DIE,8-Pin TO-99",1,1M,1M,3,500µ,35n,60f,,700µ,10,36,,88.36mm² (8-Pin TO-99) (AD549JHZ),https://www.analog.com/zh/products/ad549
+ADA4530-1,Femtoampere Input Bias Current Electrometer Amplifier,Recommended for New Designs,373,¥133.21000 (ADA4530-1ARZ-R7),8-Lead SOIC,1,2M,6M,1.4,40µ,14n,20f,Output,900µ,4.5,16,Integrated Guard Buffer,31mm² (8-Lead SOIC) (ADA4530-1ARZ),https://www.analog.com/zh/products/ada4530-1
+LTC6268,500MHz Ultra-Low Bias Current FET Input Op Amp,Recommended for New Designs,4511,$4.02 (LTC6268IS8#PBF),"8-Lead SOIC (Narrow 0.15 Inch),6-Lead TSOT-23,CHIPS OR DIE",1,500M,350M,400,700µ,4.3n,20f,"In to V-, Output",16.5m,3.1,5.25,Shutdown,8.12mm² (6-Lead TSOT-23) (LTC6268HS6#TRMPBF),https://www.analog.com/zh/products/ltc6268
+LTC6269,Dual 500MHz Ultra-Low Bias Current FET Input Op Amp,Recommended for New Designs,746,$5.83 (LTC6269IDD#PBF),"8-Lead MSOP w/ EP,10-Lead DFN (3mm x 3mm w/ EP),CHIPS OR DIE",2,500M,350M,400,700µ,4.3n,20f,"In to V-, Output",16.5m,3.1,5.25,Shutdown,9mm² (10-Lead DFN (3mm x 3mm w/ EP)) (LTC6269HDD#PBF),https://www.analog.com/zh/products/ltc6269
+,,,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ltc6240
+,,,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/lt1970
+,,,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ada4870
+,,,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/lt1210
+,,,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/adhv4702-1
+,,,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ltc6091
+,,,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ada4625-1
+,,,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ada4625-2
+,,,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ada4817-1
+,,,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ada4817-2
+,,,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ada4627-1
+,,,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ada4610-2
+,,,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ada4610-4
+,,,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ada4610-1
+,,,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ada4700-1

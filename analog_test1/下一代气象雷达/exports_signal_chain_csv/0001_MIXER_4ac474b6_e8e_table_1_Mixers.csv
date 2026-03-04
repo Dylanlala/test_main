@@ -1,0 +1,6 @@
+﻿组件名称,MIXER
+模块名称,Mixers
+Part #,Eval / Ref Circuit,RF Primary Function,Freq Response RF (min) (Hz),Freq Response RF (max) (Hz),Freq Response LO (min) (Hz),Freq Response LO (max) (Hz),Freq Response IF (min) (Hz),Freq Response IF (max) (Hz),Conversion Gain (dB),IIP3 (typ) (dBm),US Price 100 to 499 ($ US),Package,Mixer Special Features,NF (typ) (dB),IP1dB (typ) (dBm),LO Drive Nominal (dBm),Image Rejection (typ) (dBc),LO/RF Isolation (typ) (dB),LO/IF Isolation (typ) (dB),Specified at Freq (Hz),Vs (typ) (V),Vs+ (min) (V),Vs+ (max) (V),Is (typ) (A),Automotive,OP1dB (typ) (dBm),RF Module,OIP3 (typ) (dBm),Sideband Suppression (typ) (dBc),Vs (typ),Is - mA (typ),Product Description,Status,Export Classification,Reliability Level,Temp Range,产品链接
+ADL5801,"Evaluation board, Reference circuit","Single, Double & Triple Balanced Mixers",10M,6G,10M,6G,1M,600M,1.8,29,,24 ld LFCSP (4x4mm 2.5mm PAD),,,,,,,,,,,,,,,,,,,,,,,,,http://www.analog.com/zh/adl5801
+ADL5802,Evaluation board,"Single, Double & Triple Balanced Mixers",100M,6G,100M,6G,0,3G,1.5,28,,24 ld LFCSP 4x4mm (2.5EP),,,,,,,,,,,,,,,,,,,,,,,,,http://www.analog.com/zh/adl5802
+ADRF6655,Evaluation board,Mixers with Integrated LO,100M,2.5G,1.05G,2.3G,10M,2.2G,0,29,,40 ld LFCSP (6x6mm w/4.1mm pad),,,,,,,,,,,,,,,,,,,,,,,,,http://www.analog.com/zh/adrf6655

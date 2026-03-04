@@ -1,0 +1,4 @@
+﻿模块名称,SP DAC
+表格名称,High Speed D/A Converters ≥30MSPS
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,Device Primary Function,# of Channels,Resolution (bit),Update Rate (SPS),Noise Spectral Density (typ) (dBm/Hz),SFDR (typ) (dB),Data Input Interface,Power (typ) (W),Space,产品链接
+AD9747,Dual 16-Bit 250 MSPS Digital-to-Analog Converters,Production,167,$21.27 (AD9747BCPZ),72-Lead LFCSP (10mm x 10mm w/ EP),High Speed DAC,2,16,250M,162,80,SPI,310m,No,https://www.analog.com/zh/products/ad9747

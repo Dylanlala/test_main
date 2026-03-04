@@ -1,0 +1,6 @@
+﻿组件名称,AMP
+模块名称,Gain Blocks
+Part #,Eval / Ref Circuit,RF Primary Function,Freq Response RF (min) (Hz),Freq Response RF (max) (Hz),Gain (typ) (dB),OP1dB (typ) (dBm),OIP3 (typ) (dBm),NF (typ) (dB),Device Match,Vs (typ) (V),Is (typ) (A),US Price 100 to 499 ($ US),Package,Product Description,Status,Automotive,Reliability Level,Temp Range,US Price 1000 to 4999 ($ US),Comments,Over-the-Top,-1dB BW (Hz),Rin/Rout (Ohms),70dBc IM3 BW (typ) (Hz),80dBc IM3 BW (typ) (Hz),90dBc IM3 BW (typ) (Hz),产品链接
+ADL5531,,Gain Block,20M,500M,20.9,20.4,41,2.5,Internal,5,100m,,8 ld LFCSP (3x3mm 1.74x1.45mm EP),,,,,,,,,,,,,,http://www.analog.com/zh/adl5531
+ADL5534,,Gain Block,20M,500M,21,20.4,40,2.5,Internal,5,98m,,"16 ld LFCSP (5x5mm, 3.1mm exposed pad)",,,,,,,,,,,,,,http://www.analog.com/zh/adl5534
+ADL5535,,Gain Block,20M,1G,16,18.9,45.5,3.2,Internal,5,97m,,3 ld SOT89,,,,,,¥22.75000 (ADL5535ARKZ-R7),,,,,,,,http://www.analog.com/zh/adl5535

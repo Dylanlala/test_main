@@ -1,0 +1,9 @@
+﻿组件名称,ECG ADC
+模块名称,Single Channel A/D Converters
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,Channels,Resolution (bits),Sample Rate (max) (SPS),ADC SNR in dBFS (typ) (dBFS),ADC INL (max) (LSB),Device Architecture,Input Type,Data Output Interface,Power (typ) (W),Space,产品链接
+AD7643,"18-Bit, 1.25 MSPS PulSAR® A/D Converter",Production,0,$25.80 (AD7643BCPZ),"48-Lead LFCSP (7mm x 7mm x 0.85mm w/ EP),48-Lead LQFP (7mm x 7mm)",1,18,1.25M,93.5,3,SAR,Differential,"Parallel, SPI",65m,No,https://www.analog.com/cn/ad7643
+AD7690,"18-Bit, 1.5 LSB INL, 400 kSPS PulSAR® Differential ADC in MSOP/QFN",Production,515,¥207.31000 (AD7690BRMZ-RL7),"10-Lead LFCSP (3mm x 3mm),10-Lead MSOP",1,18,400k,101.5,1.5,SAR,Differential,SPI,17m,No,https://www.analog.com/cn/ad7690
+AD7960,"18-Bit, 5 MSPS PULSAR® Differential ADC",Production,373,$34.34 (AD7960BCPZ),32-Lead LFCSP (5mm x 5mm w/ EP),1,18,5M,99,2,SAR,Differential,Serial LVDS,39m,No,https://www.analog.com/cn/ad7960
+AD7982,"18-Bit, 1 MSPS PulSAR ADC in MSOP/LFCSP",Production,465,¥178.50000 (AD7982BRMZRL7),"10-Lead LFCSP (3mm x 3mm),10-Lead MSOP",1,18,1M,98,1,SAR,Differential,SPI,7m,No,https://www.analog.com/cn/ad7982
+,,,,,,,,,,,,,,,,https://www.analog.com/cn/ad7984
+,,,,,,,,,,,,,,,,https://www.analog.com/cn/ad7986

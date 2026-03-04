@@ -1,0 +1,502 @@
+{
+  "page_info": {
+    "url": "https://www.analog.com/cn/solutions/aerospace-and-defense/avionics/next-gen-weather-radar.html",
+    "title": "下一代气象雷达",
+    "keywords": "天气雷达、相控阵、x波段、航空电子设备、波束形成器、有源天线解决方案",
+    "description": "Analog Devices offers full lineup of X-band signal chain componentsfrom the RF front end to integrated data convertersto supp",
+    "component_overview": "Analog Devices offers a full lineup of X-band signal chain components—from the RF front end to integrated data converters—to support modern phased-array weather radar solutions. We provide access to and expertise in a wide range of process technologies to help you maximize performance and minimize SWaP, including  GaN PAs for power efficiency, X-band digitally tunable filters, and active antenna solutions using beamformers, phase shifters, and DSP-enabled digitizers.",
+    "navigation_path": "主页/解决方案概要/航空航天和防务/航空电子产品和解决方案/下一代气象雷达"
+  },
+  "value_and_benefits": {
+    "title": "Value and Benefits",
+    "contents": "Prevent the loss of life and property withadvanced phased-array radarwhich will allow for real-time monitoring and earlier detection of severe weather.",
+    "characteristics": [
+      "Prevents loss of life",
+      "Monitors weather in real-time",
+      "Enables early detection of severe weather"
+    ]
+  },
+  "hardware_products": [
+    {
+      "category": "产品特性",
+      "model": "ADAR1000",
+      "description": "4 通道 X 频段和 Ku 频段波束形成器，8 GHz 至 16 GHz",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/adar1000-fbl.png?rev=473df42c3b274b06ae1af91b135caf8a&sc_lang=zh&h=100px&w=100px&hash=ACADC5809B0F450A7787764213F426E1",
+      "image_filename": "adar1000-fbl.png",
+      "local_image_path": "analog_devices_data_final\\下一代气象雷达\\product_images\\adar1000-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/adar1000.html"
+    },
+    {
+      "category": "产品特性",
+      "model": "HMC8415",
+      "description": "40 W (46 dBm), 9 GHz to 10.5 GHz, GaN Power Amplifier",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/hmc8415lp6ge-fbl.png?rev=34e3e5fc85124f398b3c00d808be1333&sc_lang=zh&h=100px&w=100px&hash=CA04511BDF242E9B5470443954655392",
+      "image_filename": "hmc8415lp6ge-fbl.png",
+      "local_image_path": "analog_devices_data_final\\下一代气象雷达\\product_images\\hmc8415lp6ge-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/hmc8415.html"
+    },
+    {
+      "category": "产品特性",
+      "model": "ADMV8913",
+      "description": "X频段、数字可调谐、高通和低通滤波器",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/admv8913-ep-fbd.png?rev=b9967b9271f0462583d1d62aea70e17a&sc_lang=zh&h=100px&w=100px&hash=B2C28EBEF4D9F792F13D7741A9B5729D",
+      "image_filename": "admv8913-ep-fbd.png",
+      "local_image_path": "analog_devices_data_final\\下一代气象雷达\\product_images\\admv8913-ep-fbd.png",
+      "product_link": "https://www.analog.com/cn/products/admv8913.html"
+    },
+    {
+      "category": "产品特性",
+      "model": "ADTR1107",
+      "description": "6 GHz 至 18 GHz 前端 IC",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/adtr1107-fbl.png?rev=bd51e2ff72b14f6eb11c29bf00fb014a&sc_lang=zh&h=100px&w=100px&hash=64484663039BBA8A95040C394F3176C3",
+      "image_filename": "adtr1107-fbl.png",
+      "local_image_path": "analog_devices_data_final\\下一代气象雷达\\product_images\\adtr1107-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/adtr1107.html"
+    }
+  ],
+  "evaluation_products": [],
+  "reference_products": [],
+  "signal_chains": {
+    "module_title": "信号链",
+    "total_count": 4,
+    "active_chain_id": "0001",
+    "chains": [
+      {
+        "list_name": "航空航天与防务、雷达",
+        "data_target": "ISC-0001",
+        "chain_id": "0001",
+        "is_active": true,
+        "is_more_option": false,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0001.png",
+          "filename": "signal_chain_0001.png",
+          "local_path": "analog_devices_data_final\\下一代气象雷达\\signal_chains\\signal_chain_0001.png",
+          "chain_id": "0001"
+        },
+        "signal_chain_hotspots": [
+          {
+            "chain_id": "0001",
+            "component_name": "ADC",
+            "module_name": "High Speed ADC >= 10 MSPS",
+            "table_name": "0001_ADC_241f6396_2aa_table_1_High_Speed_ADC____10_MSPS.csv",
+            "table_path": "exports_signal_chain_csv\\0001_ADC_241f6396_2aa_table_1_High_Speed_ADC____10_MSPS.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "ADC-DRIVER",
+            "module_name": "Fully Differential Amplifiers",
+            "table_name": "0001_ADC_DRIVER_57acd3b2_7b9_table_1_Fully_Differential_Amplifiers.csv",
+            "table_path": "exports_signal_chain_csv\\0001_ADC_DRIVER_57acd3b2_7b9_table_1_Fully_Differential_Amplifiers.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "AMP",
+            "module_name": "Gain Blocks",
+            "table_name": "0001_AMP_5242f4f7_c55_table_1_Gain_Blocks.csv",
+            "table_path": "exports_signal_chain_csv\\0001_AMP_5242f4f7_c55_table_1_Gain_Blocks.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "AMP",
+            "module_name": "Video Operational Amplifiers (Op Amps)",
+            "table_name": "0001_AMP_5242f4f7_c55_table_2_Video_Operational_Amplifiers__Op_Amps_.csv",
+            "table_path": "exports_signal_chain_csv\\0001_AMP_5242f4f7_c55_table_2_Video_Operational_Amplifiers__Op_Amps_.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "CLOCK-BUFFER",
+            "module_name": "Clock Generation & Distribution",
+            "table_name": "0001_CLOCK_BUFFER_3f8d2681_772_table_1_Clock_Generation___Distribution.csv",
+            "table_path": "exports_signal_chain_csv\\0001_CLOCK_BUFFER_3f8d2681_772_table_1_Clock_Generation___Distribution.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "CLOCK-BUFFER",
+            "module_name": "Clock Generation & Distribution",
+            "table_name": "0001_CLOCK_BUFFER_5b6d9446_b5b_table_1_Clock_Generation___Distribution.csv",
+            "table_path": "exports_signal_chain_csv\\0001_CLOCK_BUFFER_5b6d9446_b5b_table_1_Clock_Generation___Distribution.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "DAC",
+            "module_name": "Precision DAC",
+            "table_name": "0001_DAC_ba65b1ca_f1f_table_1_Precision_DAC.csv",
+            "table_path": "exports_signal_chain_csv\\0001_DAC_ba65b1ca_f1f_table_1_Precision_DAC.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "DDS",
+            "module_name": "Direct Digital Synthesis",
+            "table_name": "0001_DDS_5b9a1263_c64_table_1_Direct_Digital_Synthesis.csv",
+            "table_path": "exports_signal_chain_csv\\0001_DDS_5b9a1263_c64_table_1_Direct_Digital_Synthesis.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "LNA",
+            "module_name": "Low Noise Amplifier",
+            "table_name": "0001_LNA_a17f30cd_20b_table_1_Low_Noise_Amplifier.csv",
+            "table_path": "exports_signal_chain_csv\\0001_LNA_a17f30cd_20b_table_1_Low_Noise_Amplifier.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "LOG-AMP-DETECTORS",
+            "module_name": "Log Detectors",
+            "table_name": "0001_LOG_AMP_DETECTORS_dcd22c49_14f_table_1_Log_Detectors.csv",
+            "table_path": "exports_signal_chain_csv\\0001_LOG_AMP_DETECTORS_dcd22c49_14f_table_1_Log_Detectors.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "MIXER",
+            "module_name": "Mixers",
+            "table_name": "0001_MIXER_4ac474b6_e8e_table_1_Mixers.csv",
+            "table_path": "exports_signal_chain_csv\\0001_MIXER_4ac474b6_e8e_table_1_Mixers.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "MIXER",
+            "module_name": "Mixers",
+            "table_name": "0001_MIXER_58a50daa_a64_table_1_Mixers.csv",
+            "table_path": "exports_signal_chain_csv\\0001_MIXER_58a50daa_a64_table_1_Mixers.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "MIXER",
+            "module_name": "Mixers",
+            "table_name": "0001_MIXER_8987c607_5d6_table_1_Mixers.csv",
+            "table_path": "exports_signal_chain_csv\\0001_MIXER_8987c607_5d6_table_1_Mixers.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "MIXER",
+            "module_name": "Mixers",
+            "table_name": "0001_MIXER_f947f088_807_table_1_Mixers.csv",
+            "table_path": "exports_signal_chain_csv\\0001_MIXER_f947f088_807_table_1_Mixers.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "PLL",
+            "module_name": "Fractional-N PLL",
+            "table_name": "0001_PLL_7a640e85_76c_table_1_Fractional-N_PLL.csv",
+            "table_path": "exports_signal_chain_csv\\0001_PLL_7a640e85_76c_table_1_Fractional-N_PLL.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "REF-CLK",
+            "module_name": "Clock Generation Devices",
+            "table_name": "0001_REF_CLK_4286b930_901_table_1_Clock_Generation_Devices.csv",
+            "table_path": "exports_signal_chain_csv\\0001_REF_CLK_4286b930_901_table_1_Clock_Generation_Devices.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "RF-IF-AMP",
+            "module_name": "Gain Blocks",
+            "table_name": "0001_RF_IF_AMP_c00eb80f_6d8_table_1_Gain_Blocks.csv",
+            "table_path": "exports_signal_chain_csv\\0001_RF_IF_AMP_c00eb80f_6d8_table_1_Gain_Blocks.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "RF-IF-AMP",
+            "module_name": "Driver Amplifiers",
+            "table_name": "0001_RF_IF_AMP_d8fe9bfb_d0c_table_1_Driver_Amplifiers.csv",
+            "table_path": "exports_signal_chain_csv\\0001_RF_IF_AMP_d8fe9bfb_d0c_table_1_Driver_Amplifiers.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "RF-IF-AMP",
+            "module_name": "Gain Blocks",
+            "table_name": "0001_RF_IF_AMP_f9afaacc_1f9_table_1_Gain_Blocks.csv",
+            "table_path": "exports_signal_chain_csv\\0001_RF_IF_AMP_f9afaacc_1f9_table_1_Gain_Blocks.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "VIDEO--PROCESSING",
+            "module_name": "Master CAT-5 Cable Video Devices",
+            "table_name": "0001_VIDEO__PROCESSING_14eca9d6_0af_table_1_Master_CAT-5_Cable_Video_Devices.csv",
+            "table_path": "exports_signal_chain_csv\\0001_VIDEO__PROCESSING_14eca9d6_0af_table_1_Master_CAT-5_Cable_Video_Devices.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "VIDEO--PROCESSING",
+            "module_name": "Video Encoders",
+            "table_name": "0001_VIDEO__PROCESSING_14eca9d6_0af_table_2_Video_Encoders.csv",
+            "table_path": "exports_signal_chain_csv\\0001_VIDEO__PROCESSING_14eca9d6_0af_table_2_Video_Encoders.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "VIDEO--PROCESSING",
+            "module_name": "Standard DAC",
+            "table_name": "0001_VIDEO__PROCESSING_14eca9d6_0af_table_3_Standard_DAC.csv",
+            "table_path": "exports_signal_chain_csv\\0001_VIDEO__PROCESSING_14eca9d6_0af_table_3_Standard_DAC.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "VIDEO--PROCESSING",
+            "module_name": "Master HDMI",
+            "table_name": "0001_VIDEO__PROCESSING_14eca9d6_0af_table_4_Master_HDMI.csv",
+            "table_path": "exports_signal_chain_csv\\0001_VIDEO__PROCESSING_14eca9d6_0af_table_4_Master_HDMI.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "VIDEO--PROCESSING",
+            "module_name": "Video Encoders",
+            "table_name": "0001_VIDEO__PROCESSING_14eca9d6_0af_table_5_Video_Encoders.csv",
+            "table_path": "exports_signal_chain_csv\\0001_VIDEO__PROCESSING_14eca9d6_0af_table_5_Video_Encoders.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "VIDEO--PROCESSING",
+            "module_name": "CAT-5 Video Drivers",
+            "table_name": "0001_VIDEO__PROCESSING_14eca9d6_0af_table_6_CAT-5_Video_Drivers.csv",
+            "table_path": "exports_signal_chain_csv\\0001_VIDEO__PROCESSING_14eca9d6_0af_table_6_CAT-5_Video_Drivers.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "VIDEO--PROCESSING",
+            "module_name": "Operational Amplifiers (Op Amps)",
+            "table_name": "0001_VIDEO__PROCESSING_14eca9d6_0af_table_7_Operational_Amplifiers__Op_Amps_.csv",
+            "table_path": "exports_signal_chain_csv\\0001_VIDEO__PROCESSING_14eca9d6_0af_table_7_Operational_Amplifiers__Op_Amps_.csv"
+          },
+          {
+            "chain_id": "0001",
+            "component_name": "VIDEO--PROCESSING",
+            "module_name": "Operational Amplifiers (Op Amps)",
+            "table_name": "0001_VIDEO__PROCESSING_14eca9d6_0af_table_8_Operational_Amplifiers__Op_Amps_.csv",
+            "table_path": "exports_signal_chain_csv\\0001_VIDEO__PROCESSING_14eca9d6_0af_table_8_Operational_Amplifiers__Op_Amps_.csv"
+          }
+        ]
+      },
+      {
+        "list_name": "导弹导引头",
+        "data_target": "ISC-0484",
+        "chain_id": "0484",
+        "is_active": false,
+        "is_more_option": false,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0484.png",
+          "filename": "signal_chain_0484.png",
+          "local_path": "analog_devices_data_final\\下一代气象雷达\\signal_chains\\signal_chain_0484.png",
+          "chain_id": "0484"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "消费电子设备",
+        "data_target": "ISC-0461",
+        "chain_id": "0461",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0461.png",
+          "filename": "signal_chain_0461.png",
+          "local_path": "analog_devices_data_final\\下一代气象雷达\\signal_chains\\signal_chain_0461.png",
+          "chain_id": "0461"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "信号源测量单元：精密V/I源和V/I测量仪器",
+        "data_target": "ISC-0477",
+        "chain_id": "0477",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0477.png",
+          "filename": "signal_chain_0477.png",
+          "local_path": "analog_devices_data_final\\下一代气象雷达\\signal_chains\\signal_chain_0477.png",
+          "chain_id": "0477"
+        },
+        "signal_chain_hotspots": [
+          {
+            "chain_id": "0477",
+            "component_name": "ADC-DRIVER",
+            "module_name": "ADC Drivers",
+            "table_name": "0477_ADC_DRIVER_3ff71f0e_a3b_table_1_ADC_Drivers.csv",
+            "table_path": "exports_signal_chain_csv\\0477_ADC_DRIVER_3ff71f0e_a3b_table_1_ADC_Drivers.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "ADC-DRIVER",
+            "module_name": "Rail-to-Rail Op Amps",
+            "table_name": "0477_ADC_DRIVER_3ff71f0e_a3b_table_2_Rail-to-Rail_Op_Amps.csv",
+            "table_path": "exports_signal_chain_csv\\0477_ADC_DRIVER_3ff71f0e_a3b_table_2_Rail-to-Rail_Op_Amps.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "ADC-DRIVER",
+            "module_name": "ADC Drivers",
+            "table_name": "0477_ADC_DRIVER_4668d90a_148_table_1_ADC_Drivers.csv",
+            "table_path": "exports_signal_chain_csv\\0477_ADC_DRIVER_4668d90a_148_table_1_ADC_Drivers.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "ADC-DRIVER",
+            "module_name": "Rail-to-Rail Op Amps",
+            "table_name": "0477_ADC_DRIVER_4668d90a_148_table_2_Rail-to-Rail_Op_Amps.csv",
+            "table_path": "exports_signal_chain_csv\\0477_ADC_DRIVER_4668d90a_148_table_2_Rail-to-Rail_Op_Amps.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "AMP",
+            "module_name": "Operational Amplifiers (Op Amps)",
+            "table_name": "0477_AMP_17472932_3e4_table_1_Operational_Amplifiers__Op_Amps_.csv",
+            "table_path": "exports_signal_chain_csv\\0477_AMP_17472932_3e4_table_1_Operational_Amplifiers__Op_Amps_.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "CMP-DAC",
+            "module_name": "Precision D/A Converters",
+            "table_name": "0477_CMP_DAC_8b0e3b7a_e72_table_1_Precision_D_A_Converters.csv",
+            "table_path": "exports_signal_chain_csv\\0477_CMP_DAC_8b0e3b7a_e72_table_1_Precision_D_A_Converters.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "CMP-DAC",
+            "module_name": "High Speed D/A Converters ≥30MSPS",
+            "table_name": "0477_CMP_DAC_8b0e3b7a_e72_table_2_High_Speed_D_A_Converters__30MSPS.csv",
+            "table_path": "exports_signal_chain_csv\\0477_CMP_DAC_8b0e3b7a_e72_table_2_High_Speed_D_A_Converters__30MSPS.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "CURRENT-SENSE-IN-AMP",
+            "module_name": "Difference Amplifiers",
+            "table_name": "0477_CURRENT_SENSE_IN_AMP_5f35a6ad_a9d_table_1_Difference_Amplifiers.csv",
+            "table_path": "exports_signal_chain_csv\\0477_CURRENT_SENSE_IN_AMP_5f35a6ad_a9d_table_1_Difference_Amplifiers.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "DATA-ISOLATION",
+            "module_name": "Digital Isolation Technology",
+            "table_name": "0477_DATA_ISOLATION_ed188a24_522_table_1_Digital_Isolation_Technology.csv",
+            "table_path": "exports_signal_chain_csv\\0477_DATA_ISOLATION_ed188a24_522_table_1_Digital_Isolation_Technology.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "DRIVERAMP",
+            "module_name": "Difference Amplifiers",
+            "table_name": "0477_DRIVERAMP_9e16ac9a_05d_table_1_Difference_Amplifiers.csv",
+            "table_path": "exports_signal_chain_csv\\0477_DRIVERAMP_9e16ac9a_05d_table_1_Difference_Amplifiers.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "I-ADC",
+            "module_name": "Precision A/D Converters",
+            "table_name": "0477_I_ADC_263d4c08_0e0_table_1_Precision_A_D_Converters.csv",
+            "table_path": "exports_signal_chain_csv\\0477_I_ADC_263d4c08_0e0_table_1_Precision_A_D_Converters.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "INTEGRATED-SMU",
+            "module_name": "ATE: DPS & PMU",
+            "table_name": "0477_INTEGRATED_SMU_coord_80d23b7e_table_1_ATE__DPS___PMU.csv",
+            "table_path": "exports_signal_chain_csv\\0477_INTEGRATED_SMU_coord_80d23b7e_table_1_ATE__DPS___PMU.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "INTEGRATED-SMU",
+            "module_name": "ATE: DPS & PMU",
+            "table_name": "0477_INTEGRATED_SMU_coord_80d23b7e_table_2_ATE__DPS___PMU.csv",
+            "table_path": "exports_signal_chain_csv\\0477_INTEGRATED_SMU_coord_80d23b7e_table_2_ATE__DPS___PMU.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "I-V-CLAMPING-AND-COMPLIANCE-CONTROL",
+            "module_name": "Video Operational Amplifiers (Op Amps)",
+            "table_name": "0477_I_V_CLAMPING_AND_COMPLIANCE_CONTROL_coord_2ac64a26_table_1_Video_Operational_Amplifiers__Op_Amps_.csv",
+            "table_path": "exports_signal_chain_csv\\0477_I_V_CLAMPING_AND_COMPLIANCE_CONTROL_coord_2ac64a26_table_1_Video_Operational_Amplifiers__Op_Amps_.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "I-V-CLAMPING-AND-COMPLIANCE-CONTROL",
+            "module_name": "Low Noise Op Amps (<= 10nV/vHz)",
+            "table_name": "0477_I_V_CLAMPING_AND_COMPLIANCE_CONTROL_coord_2ac64a26_table_2_Low_Noise_Op_Amps_____10nV_vHz_.csv",
+            "table_path": "exports_signal_chain_csv\\0477_I_V_CLAMPING_AND_COMPLIANCE_CONTROL_coord_2ac64a26_table_2_Low_Noise_Op_Amps_____10nV_vHz_.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "MUX",
+            "module_name": "Single Supply Analog Switches & Multiplexers",
+            "table_name": "0477_MUX_10435f1b_da3_table_1_Single_Supply_Analog_Switches___Multiplexers.csv",
+            "table_path": "exports_signal_chain_csv\\0477_MUX_10435f1b_da3_table_1_Single_Supply_Analog_Switches___Multiplexers.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "MUX",
+            "module_name": "Single Supply 5V to 44V",
+            "table_name": "0477_MUX_2fb66686_048_table_1_Single_Supply_5V_to_44V.csv",
+            "table_path": "exports_signal_chain_csv\\0477_MUX_2fb66686_048_table_1_Single_Supply_5V_to_44V.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "MUX",
+            "module_name": "Single Supply Analog Switches & Multiplexers",
+            "table_name": "0477_MUX_887c26e7_166_table_1_Single_Supply_Analog_Switches___Multiplexers.csv",
+            "table_path": "exports_signal_chain_csv\\0477_MUX_887c26e7_166_table_1_Single_Supply_Analog_Switches___Multiplexers.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "MUX",
+            "module_name": "Single Supply Analog Switches & Multiplexers",
+            "table_name": "0477_MUX_90359e4d_b1f_table_1_Single_Supply_Analog_Switches___Multiplexers.csv",
+            "table_path": "exports_signal_chain_csv\\0477_MUX_90359e4d_b1f_table_1_Single_Supply_Analog_Switches___Multiplexers.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "POWERBLOCK",
+            "module_name": "isoPower",
+            "table_name": "0477_POWERBLOCK_c2c30acc_ffa_table_1_isoPower.csv",
+            "table_path": "exports_signal_chain_csv\\0477_POWERBLOCK_c2c30acc_ffa_table_1_isoPower.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "POWERBLOCK",
+            "module_name": "Ultralow Noise Regulators",
+            "table_name": "0477_POWERBLOCK_c2c30acc_ffa_table_2_Ultralow_Noise_Regulators.csv",
+            "table_path": "exports_signal_chain_csv\\0477_POWERBLOCK_c2c30acc_ffa_table_2_Ultralow_Noise_Regulators.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "POWERBLOCK",
+            "module_name": "LDO Plus",
+            "table_name": "0477_POWERBLOCK_c2c30acc_ffa_table_3_LDO_Plus.csv",
+            "table_path": "exports_signal_chain_csv\\0477_POWERBLOCK_c2c30acc_ffa_table_3_LDO_Plus.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "SP-DAC",
+            "module_name": "Precision D/A Converters",
+            "table_name": "0477_SP_DAC_7c3d1171_0b6_table_1_Precision_D_A_Converters.csv",
+            "table_path": "exports_signal_chain_csv\\0477_SP_DAC_7c3d1171_0b6_table_1_Precision_D_A_Converters.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "SP-DAC",
+            "module_name": "High Speed D/A Converters ≥30MSPS",
+            "table_name": "0477_SP_DAC_7c3d1171_0b6_table_2_High_Speed_D_A_Converters__30MSPS.csv",
+            "table_path": "exports_signal_chain_csv\\0477_SP_DAC_7c3d1171_0b6_table_2_High_Speed_D_A_Converters__30MSPS.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "V-ADC",
+            "module_name": "Precision A/D Converters",
+            "table_name": "0477_V_ADC_025d82ed_503_table_1_Precision_A_D_Converters.csv",
+            "table_path": "exports_signal_chain_csv\\0477_V_ADC_025d82ed_503_table_1_Precision_A_D_Converters.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "VOLTAGE-SENSE-IN-AMP",
+            "module_name": "Instrumentation Amplifiers",
+            "table_name": "0477_VOLTAGE_SENSE_IN_AMP_c04808d5_b3c_table_1_Instrumentation_Amplifiers.csv",
+            "table_path": "exports_signal_chain_csv\\0477_VOLTAGE_SENSE_IN_AMP_c04808d5_b3c_table_1_Instrumentation_Amplifiers.csv"
+          },
+          {
+            "chain_id": "0477",
+            "component_name": "VREF",
+            "module_name": "Voltage References",
+            "table_name": "0477_VREF_cc444175_b43_table_1_Voltage_References.csv",
+            "table_path": "exports_signal_chain_csv\\0477_VREF_cc444175_b43_table_1_Voltage_References.csv"
+          }
+        ]
+      }
+    ]
+  }
+}

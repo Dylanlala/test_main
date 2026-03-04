@@ -1,0 +1,6 @@
+﻿组件名称,ADC Driver
+模块名称,ADC Drivers
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,# of Channels,BW -3 dB (typ) (Hz),Slew Rate (typ) (V/us),Vos (max) (V),Ibias (max) (A),Gain Set,Gain dB (min) (dB),Gain dB (max) (dB),Iq/Amp (typ) (A),Vs span (min) (V),Vs span (max) (V),产品链接
+ADA4940-1,"Ultralow Power, Low Distortion ADC Driver",Production,6071,¥17.05000 (ADA4940-1ACPZ-RL),"16-Lead LFCSP (3mm x 3mm w/ EP),8-Lead SOIC",1,260M,95,350µ,1.6µ,Resistor,,,1.25m,3,7,https://www.analog.com/zh/products/ada4940-1
+LTC6362,"Precision, Low Power Rail-to-Rail Input/Output Differential Op Amp/SAR ADC Driver",Last Time Buy,0,¥15.40000 (LTC6362CMS8#PBF),"8-Lead MSOP,8-Lead DFN (3mm x 3mm x 0.75mm w/ EP)",1,34M,45,250µ,350n,Resistor,0,0,900µ,2.8,5.25,https://www.analog.com/zh/products/ltc6362
+LTC6363,"Precision, Low Power Differential Amplifier/ADC Driver Family",Last Time Buy,0,¥28.25000 (LTC6363IRD#PBF),"16-Lead LFCSP (3mm x 3mm),8-Lead MSOP,8-Lead DFN (2mm x 3mm w/ EP)",1,35M,75,100µ,,Resistor,-20,,1.7m,2.8,11,https://www.analog.com/zh/products/ltc6363

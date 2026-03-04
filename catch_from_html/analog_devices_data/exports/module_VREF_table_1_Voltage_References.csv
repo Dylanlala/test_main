@@ -1,0 +1,41 @@
+﻿模块名称,VREF
+表格名称,Voltage References
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,Vout (typ) (V),Initial Accuracy % (max) (%),Vout Tempco (max) (ppm/C),Vref Type,Vnoise (typ) (V p-p),Temp Range,产品链接
+ADR4550D,"Ultra-Low-Noise, High-Accuracy 5.0V Voltage Reference",Production,2633,¥25.03000 (ADR4550ARZ-R7),"LCC:CER LEADLESS CHIP CARR,8-Lead SOIC",5,0.02,0.8,Series (Low Dropout),2.8µ,0 to 70°C,https://www.analog.com/zh/products/adr4550
+ADR4550C,"Ultra-Low-Noise, High-Accuracy 5.0V Voltage Reference",Production,2633,¥25.03000 (ADR4550ARZ-R7),"LCC:CER LEADLESS CHIP CARR,8-Lead SOIC",5,0.02,1,Series (Low Dropout),2.8µ,0 to 70°C,https://www.analog.com/zh/products/adr4550
+ADR4550B,"Ultra-Low-Noise, High-Accuracy 5.0V Voltage Reference",Production,2633,¥25.03000 (ADR4550ARZ-R7),"LCC:CER LEADLESS CHIP CARR,8-Lead SOIC",5,0.02,2,Series (Low Dropout),2.8µ,-40 to 125°C,https://www.analog.com/zh/products/adr4550
+ADR4550A,"Ultra-Low-Noise, High-Accuracy 5.0V Voltage Reference",Production,2633,¥25.03000 (ADR4550ARZ-R7),"LCC:CER LEADLESS CHIP CARR,8-Lead SOIC",5,0.04,4,Series (Low Dropout),2.8µ,-40 to 125°C,https://www.analog.com/zh/products/adr4550
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6657
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6657
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6657
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6657
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6657
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6657
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6657
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6657
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6657
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6657
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658
+,,,,,,,,,,,,https://www.analog.com/zh/products/lt6658

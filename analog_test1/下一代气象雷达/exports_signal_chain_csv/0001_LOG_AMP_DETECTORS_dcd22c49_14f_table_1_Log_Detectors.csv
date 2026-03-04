@@ -1,0 +1,6 @@
+﻿组件名称,LOG AMP DETECTORS
+模块名称,Log Detectors
+Part #,Eval / Ref Circuit,Product Description,Freq Response RF (min) (Hz),Freq Response RF (max) (Hz),Input Dynamic Range (typ) (dB),Vs+ (min) (V),Is (typ) (A),Vs+ (max) (V),Status,Vintage,US Price 100 to 499 ($ US),US Price 1000 to 4999 ($ US),Export Classification,Package Code,Package,Package Area (mm²),Package Height (mm),Response Time (typ) (s p-p),RF Threshold (typ) (dBm),Temp Drift (typ) (dB),Specified at Freq (Hz),Pin Test Level (dBm),Comments,Supply Voltage Range,Min Detect (typ) (dBm),Max Detect (typ) (dBm),Accuracy (dB),Demod Bandwidth (typ) (Hz),产品链接
+AD8317,Evaluation board,"1 MHz TO 10 GHz, 50 dB Log Detector / Controller",1M,10G,55,3,22m,5.5,,,,¥52.00000 (AD8317ACPZ-R7),,,"CHIPS OR DIE,LFCSP:LEADFRM CHIP SCALE",,,,,,,,,,,,,,http://www.analog.com/zh/ad8317
+AD8319,Evaluation board,"1 MHz TO 10 GHz, 40 dB Log Detector / Controller",1M,10G,45,3,22m,5.5,,,,¥23.99000 (AD8319ACPZ-R7),,,LFCSP:LEADFRM CHIP SCALE,,,,,,,,,,,,,,http://www.analog.com/zh/ad8319
+ADL5519,Evaluation board,"1 MHz TO 10 GHz, 62 dB Dual Log Detector / Controller",1M,10G,62,3.3,60m,5.5,,,,$5.04 (ADL5519ACPZ-R7),,,32 ld LFCSP (5x5x.75 w/3.6mm EP),,,,,,,,,,,,,,http://www.analog.com/zh/adl5519

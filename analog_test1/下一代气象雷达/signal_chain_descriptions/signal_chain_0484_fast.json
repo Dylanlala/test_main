@@ -1,0 +1,75 @@
+{
+  "devices": [
+    {
+      "name": "接收天线",
+      "description": "接收Ka频段空间入射的射频电磁波信号，转换为电信号输入接收链路。"
+    },
+    {
+      "name": "LNA",
+      "description": "低噪声放大器，对接收的Ka频段射频信号进行低噪声放大，提升接收信噪比与灵敏度。"
+    },
+    {
+      "name": "RF Mixer",
+      "description": "Ka频段下变频混频器，将输入的Ka频段射频信号与本振信号混频，输出C频段中频信号。"
+    },
+    {
+      "name": "Gain Block",
+      "description": "中频增益放大模块，对C频段中频信号进行功率放大，补偿链路插入损耗。"
+    },
+    {
+      "name": "RF Mixer",
+      "description": "C频段下变频混频器，将输入的C频段中频信号与本振信号混频，输出低于500MHz的低中频模拟信号。"
+    },
+    {
+      "name": "DSA",
+      "description": "数字步进衰减器，实现信号功率的数字可控调节，适配后级ADC的输入动态范围。"
+    },
+    {
+      "name": "ADC Driver",
+      "description": "模数转换器驱动放大器，对低中频模拟信号进行电平匹配与驱动，满足ADC输入阻抗与电平要求。"
+    },
+    {
+      "name": "ADC",
+      "description": "模数转换器，对输入的模拟低中频信号进行采样量化，转换为数字信号输出至后端处理单元。"
+    },
+    {
+      "name": "DSP",
+      "description": "数字信号处理器，对ADC输出的数字回波信号以及IMU测量数据进行运算处理，完成目标检测、成像等功能。"
+    },
+    {
+      "name": "IMU",
+      "description": "惯性测量单元，测量载体的姿态、角速度与加速度参数，为DSP提供运动补偿所需的运动数据。"
+    },
+    {
+      "name": "Clock Generator",
+      "description": "高精度时钟发生器，为ADC提供稳定的采样时钟信号，保证采样精度与信噪比。"
+    },
+    {
+      "name": "PLL With VCO",
+      "description": "集成压控振荡器的锁相环，产生稳定的C频段本振信号，为第二级下变频混频器提供本振输入。"
+    },
+    {
+      "name": "VCO",
+      "description": "压控振荡器，产生Ka频段高频本振信号，为第一级下变频混频器提供本振输入。"
+    },
+    {
+      "name": "Frequency Divider",
+      "description": "频率分频器，对VCO输出的Ka频段信号进行分频，输出参考信号至PLL用于锁相。"
+    },
+    {
+      "name": "PLL",
+      "description": "锁相环，对VCO的输出频率进行相位与频率锁定，保证Ka频段本振信号的频率稳定度与相位噪声性能。"
+    }
+  ],
+  "signal_flow": {
+    "main": "接收天线 -> LNA -> RF Mixer -> Gain Block -> RF Mixer -> DSA -> ADC Driver -> ADC -> DSP",
+    "branches": [
+      "时钟路径：Clock Generator -> ADC",
+      "第一级本振路径：PLL -> VCO -> 第一级RF Mixer本振输入端",
+      "第二级本振路径：PLL With VCO -> 第二级RF Mixer本振输入端",
+      "本振锁相反馈路径：VCO -> Frequency Divider -> PLL",
+      "IMU数据路径：IMU -> DSP"
+    ]
+  },
+  "application_scene": "Ka频段毫米波雷达接收信号链"
+}

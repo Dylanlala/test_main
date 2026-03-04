@@ -1,0 +1,5 @@
+﻿组件名称,LO IQ LDO
+模块名称,LDO Linear Regulators
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,Number of Outputs,Vin (min) (V),Vin (max) (V),Output Current (typ) (A),Output Current 2 (typ) (A),Output Voltage,Isupply (typ) (A),RMS Noise (typ) (V),Dropout Voltage (typ) (V),产品链接
+ADP150,"Ultralow Noise, 150 mA CMOS Linear Regulator",Production,30403,¥3.95000 (ADP150ACBZ-1.8-R7),"4-Ball WLCSP (0.8mm x 0.8mm),5-Lead TSOT",1,2.2,5.5,150m,,"1.8, 2.5, 2.6, 2.75, 2.8, 2.85, 3, 3.3",10µ,9µ,105m,https://www.analog.com/cn/adp150
+ADP151,"Ultralow Noise, 200 mA, CMOS Linear Regulator",Production,73732,¥3.87000 (ADP151AUJZ-1.5-R7),"4-Ball WLCSP (0.8mm x 0.8mm),6-Lead LFCSP (2mm x 2mm w/ EP),5-Lead TSOT",1,2.2,5.5,200m,,"1.1, 1.2, 1.5, 1.8, 2.1, 2.5, 2.6, 2.75, 2.8, 2.85, 3, 3.3",10µ,9µ,140m,https://www.analog.com/cn/adp151

@@ -1,0 +1,198 @@
+{
+  "0004": {
+    "chain_id": "0004",
+    "image_basename": "signal_chain_0004.png",
+    "description_file": "signal_chain_0004_fast.json",
+    "description_preview": "### 1. 器件与模块列表\n- **Pressure Temperature Sensors**：集成压力、温度传感单元，采集人体血压、体温生理参数并转换为对应模拟电信号输出。\n- **External Protection/ESD/RFI**：为前端人体输入的ECG信号、传感器输入信号提供静电放电防护、射频干扰抑制，保护后端电路免受损坏及干扰。\n- **Input Mux**：输入多路选择器，实现多路生理输入信号的通道切换与选通，适配不同信号的采集时序需求。\n- **G-1**：单位增益电极缓冲器，为ECG输入信号提供高输入阻抗缓冲隔离，提升信号带载能力。\n- **RLD**：右腿驱动缓冲器，输出共模反馈驱动信号至人体，大幅提升ECG信号的共模抑制比，抑制工频等共模干扰。\n- **IA（ECG通道）**：ECG通道仪表放大器，对输入的微弱ECG模拟信号进行高共模抑制比、高增益的放大处理。\n- **ECG Mux**：ECG信号多路选择器，实现多通道ECG放大信号的分时选通，适配后端ADC的采集需求。\n- **ADC Driver（ECG路径）**：ECG通道模数转换器驱动电路，对E...",
+    "mapping_json_file": "signal_chain_0004_description_to_csv_mapping.json",
+    "csv_files_for_chain": [
+      "0004_AMP_coord_5e1e0d8d_table_1_Instrumentation_Amplifiers.csv",
+      "0004_AMP_coord_8c34b5c4_table_1_Instrumentation_Amplifiers.csv",
+      "0004_AMP_coord_9242343c_table_1_High_Voltage_Op_Amps___12V.csv",
+      "0004_AMP_coord_9ce009ee_table_1_High_Voltage_Op_Amps___12V.csv",
+      "0004_AMP_coord_9ce183fb_table_1_High_Voltage_Op_Amps___12V.csv",
+      "0004_AMP_coord_aa3d8ed8_table_1_Fully_Differential_Amplifiers.csv",
+      "0004_AMP_coord_aa3d8ed8_table_2_Rail-to-Rail_Op_Amps.csv",
+      "0004_AMP_coord_aef9b424_table_1_Instrumentation_Amplifiers.csv",
+      "0004_AMP_coord_b31b939f_table_1_Instrumentation_Amplifiers.csv",
+      "0004_AMP_coord_dd3e0201_table_1_Instrumentation_Amplifiers.csv",
+      "0004_AMP_coord_df837366_table_1_Fully_Differential_Amplifiers.csv",
+      "0004_AMP_coord_df837366_table_2_Rail-to-Rail_Op_Amps.csv",
+      "0004_AMP_coord_f602cbf2_table_1_Instrumentation_Amplifiers.csv",
+      "0004_AUX_ADC_coord_9fd17fa9_table_1_Single_Channel_A_D_Converters.csv",
+      "0004_AUX_MUX_coord_5e52b70a_table_1_Single_Supply_5V_to_44V.csv",
+      "0004_DC_TO_DC_coord_a4fbf5dc_table_1_Switching_Regulators.csv",
+      "0004_DRIVE_DAC_coord_711ef7b4_table_1_Bipolar_D_A_Converters.csv",
+      "0004_ECG_ADC_coord_77c8aeca_table_1_Single_Channel_A_D_Converters.csv",
+      "0004_ECG__MUX_coord_b1197367_table_1_Single_Supply_5V_to_44V.csv",
+      "0004_INPUT_MUX_coord_1da44d30_table_1_Single_Supply_5V_to_44V.csv",
+      "0004_ISOLATION_coord_53fae092_table_1_Standard_Digital_Isolators.csv",
+      "0004_LO_IQ_LDO_coord_ca47df49_table_1_LDO_Linear_Regulators.csv"
+    ],
+    "mapping_data": {
+      "mapping": [
+        {
+          "device": "Input Mux",
+          "csv_files": [
+            "0004_INPUT_MUX_coord_1da44d30_table_1_Single_Supply_5V_to_44V.csv"
+          ],
+          "comment": "单电源多路选择器选型表"
+        },
+        {
+          "device": "G-1",
+          "csv_files": [
+            "0004_AMP_coord_9242343c_table_1_High_Voltage_Op_Amps___12V.csv",
+            "0004_AMP_coord_9ce009ee_table_1_High_Voltage_Op_Amps___12V.csv",
+            "0004_AMP_coord_9ce183fb_table_1_High_Voltage_Op_Amps___12V.csv"
+          ],
+          "comment": "高压运放选型表（缓冲器适用）"
+        },
+        {
+          "device": "RLD",
+          "csv_files": [
+            "0004_AMP_coord_aa3d8ed8_table_2_Rail-to-Rail_Op_Amps.csv",
+            "0004_AMP_coord_df837366_table_2_Rail-to-Rail_Op_Amps.csv"
+          ],
+          "comment": "轨到轨运放选型表（驱动适用）"
+        },
+        {
+          "device": "IA（ECG通道）",
+          "csv_files": [
+            "0004_AMP_coord_5e1e0d8d_table_1_Instrumentation_Amplifiers.csv",
+            "0004_AMP_coord_8c34b5c4_table_1_Instrumentation_Amplifiers.csv",
+            "0004_AMP_coord_aef9b424_table_1_Instrumentation_Amplifiers.csv",
+            "0004_AMP_coord_b31b939f_table_1_Instrumentation_Amplifiers.csv",
+            "0004_AMP_coord_dd3e0201_table_1_Instrumentation_Amplifiers.csv",
+            "0004_AMP_coord_f602cbf2_table_1_Instrumentation_Amplifiers.csv"
+          ],
+          "comment": "仪表放大器选型表（多文件覆盖）"
+        },
+        {
+          "device": "ECG Mux",
+          "csv_files": [
+            "0004_ECG__MUX_coord_b1197367_table_1_Single_Supply_5V_to_44V.csv"
+          ],
+          "comment": "ECG多路选择器选型表"
+        },
+        {
+          "device": "ADC Driver（ECG路径）",
+          "csv_files": [
+            "0004_AMP_coord_aa3d8ed8_table_1_Fully_Differential_Amplifiers.csv",
+            "0004_AMP_coord_df837366_table_1_Fully_Differential_Amplifiers.csv"
+          ],
+          "comment": "全差分放大器选型表（ADC驱动适用）"
+        },
+        {
+          "device": "ECG ADC",
+          "csv_files": [
+            "0004_ECG_ADC_coord_77c8aeca_table_1_Single_Channel_A_D_Converters.csv"
+          ],
+          "comment": "单通道ADC选型表"
+        },
+        {
+          "device": "Drive DAC",
+          "csv_files": [
+            "0004_DRIVE_DAC_coord_711ef7b4_table_1_Bipolar_D_A_Converters.csv"
+          ],
+          "comment": "双极性DAC选型表"
+        },
+        {
+          "device": "IA（呼吸通道）",
+          "csv_files": [],
+          "comment": "复用仪表放大器选型表"
+        },
+        {
+          "device": "IA（血压通道）",
+          "csv_files": [],
+          "comment": "复用仪表放大器选型表"
+        },
+        {
+          "device": "IA（温度通道）",
+          "csv_files": [],
+          "comment": "复用仪表放大器选型表"
+        },
+        {
+          "device": "AUX Mux",
+          "csv_files": [
+            "0004_AUX_MUX_coord_5e52b70a_table_1_Single_Supply_5V_to_44V.csv"
+          ],
+          "comment": "辅助多路选择器选型表"
+        },
+        {
+          "device": "ADC Driver（AUX路径）",
+          "csv_files": [],
+          "comment": "复用全差分放大器选型表"
+        },
+        {
+          "device": "Aux ADC",
+          "csv_files": [
+            "0004_AUX_ADC_coord_9fd17fa9_table_1_Single_Channel_A_D_Converters.csv"
+          ],
+          "comment": "辅助通道ADC选型表"
+        },
+        {
+          "device": "Isolation",
+          "csv_files": [
+            "0004_ISOLATION_coord_53fae092_table_1_Standard_Digital_Isolators.csv"
+          ],
+          "comment": "数字隔离器选型表"
+        },
+        {
+          "device": "DC to DC",
+          "csv_files": [
+            "0004_DC_TO_DC_coord_a4fbf5dc_table_1_Switching_Regulators.csv"
+          ],
+          "comment": "开关稳压器选型表"
+        },
+        {
+          "device": "LO IQ LDO",
+          "csv_files": [
+            "0004_LO_IQ_LDO_coord_ca47df49_table_1_LDO_Linear_Regulators.csv"
+          ],
+          "comment": "LDO线性稳压器选型表"
+        }
+      ],
+      "summary": "根据信号链描述和提供的CSV文件列表，映射关系如下：",
+      "note": ""
+    }
+  },
+  "0085": {
+    "chain_id": "0085",
+    "image_basename": "signal_chain_0085.png",
+    "description_file": "signal_chain_0085_fast.json",
+    "description_preview": "### 1. 器件与模块列表\n- **ECG导联电极(RA/LA/RL/LL/V1-V6)**：贴附于人体体表，采集原始心电、呼吸生理信号。\n- **Defibrillation Protection**：除颤防护电路，阻隔除颤高压脉冲，避免后级采集电路受高压损坏。\n- **Clinical ECG Integrated AFE**：临床心电集成模拟前端，完成心电、呼吸信号的模拟调理、模数转换，同时支持电压基准、导联脱落检测、起搏信号检测功能。\n- **Power for ADAS100x**：ADAS100x系列心电模拟前端的专用供电模块，为AFE提供稳定工作电源。\n- **Processor**：主处理器，对采集的生理信号进行分析处理，同时管控存储、显示、无线通信等外围模块。\n- **Motion Detection**：运动检测模块，采集人体运动状态数据，用于校正心电信号的运动伪差。\n- **Flash**：闪存单元，用于存储设备固件、配置参数以及采集的生理数据。\n- **External Memory**：外部扩展存储单元，提供大容量数据存储空间与运行缓存。\n- **Proce...",
+    "mapping_json_file": "signal_chain_0085_description_to_csv_mapping.json",
+    "csv_files_for_chain": [],
+    "mapping_data": {
+      "mapping": [],
+      "summary": "本信号链（chain_id=0085）在 exports_signal_chain_csv 中无对应选型表（即不存在以 `0085_` 开头的 CSV 文件）。",
+      "note": "图中器件与选型表无映射关系。"
+    }
+  },
+  "0098": {
+    "chain_id": "0098",
+    "image_basename": "signal_chain_0098.png",
+    "description_file": "signal_chain_0098_fast.json",
+    "description_preview": "### 1. 器件与模块列表\n- **Patient Electrode Sensors**：心电电极传感器，采集人体右臂(RA)、左臂(LA)、右腿驱动(RLD)体表心电信号。\n- **Integrated Single-Lead ECG/HRM AFE**：集成单导联心电/心率监测模拟前端，对输入心电模拟信号进行处理，支持驱动导联、导联脱落检测、快速恢复交直流导联检测及关断功能。\n- **Motion**：运动传感器，采集用户运动状态数据，用于心电信号的运动干扰补偿。\n- **User Interface**：用户交互接口，支持用户输入操作指令，反馈设备工作状态信息。\n- **Microcontroller**：微控制器，接收处理模拟前端输出的心电数据、运动传感数据，响应交互指令，控制模拟前端工作，支持蓝牙数据传输。\n- **Bluetooth**：蓝牙通信模块，实现设备与外部终端的无线数据交互。\n- **Battery**：供电电池，为整个设备系统提供电源输入。\n- **Analog Power**：模拟电源单元，将电池输入转换为适配模拟负载的供电输出。\n- **Digital ...",
+    "mapping_json_file": "signal_chain_0098_description_to_csv_mapping.json",
+    "csv_files_for_chain": [],
+    "mapping_data": {
+      "mapping": [],
+      "summary": "本信号链（chain_id=0098）在 exports_signal_chain_csv 中无对应选型表（即不存在以 `0098_` 开头的 CSV 文件）。",
+      "note": "图中器件与选型表无映射关系。"
+    }
+  },
+  "0667": {
+    "chain_id": "0667",
+    "image_basename": "signal_chain_0667.png",
+    "description_file": "signal_chain_0667_fast.json",
+    "description_preview": "### 1. 器件与模块列表\n- **Solar Cell**：太阳能电池，将环境光能转换为电能，为系统提供能量输入。\n- **Energy Harvesting**：能量收集管理模块，处理太阳能电池输出的能量，实现环境能量的收集与转换管理。\n- **Wireless Charging**：无线充电接收模块，接收外部无线充电能量，为电池充电提供输入。\n- **Battery Charger**：电池充电管理模块，管理无线充电等输入能量，为可充电电池提供安全的充电控制。\n- **Fuel Gauge**：电池电量计，实时监测电池的剩余电量、电压、电流等状态参数。\n- **Rechargeable Cell PMIC**：可充电电池电源管理集成电路，统一管理电池的充放电，为系统各模块提供稳定供电输出。\n- **LDO**：低压差线性稳压器，为低噪声需求的模块提供高稳定度、低纹波的线性稳压输出。\n- **Boost**：升压型DC-DC转换器，将输入电压升压至系统所需的更高工作电压。\n- **Buck**：降压型DC-DC转换器，将输入电压降压至系统所需的更低工作电压。\n- **Ideal ...",
+    "mapping_json_file": "signal_chain_0667_description_to_csv_mapping.json",
+    "csv_files_for_chain": [],
+    "mapping_data": {
+      "mapping": [],
+      "summary": "本信号链（chain_id=0667）在 exports_signal_chain_csv 中无对应选型表（即不存在以 `0667_` 开头的 CSV 文件）。",
+      "note": "图中器件与选型表无映射关系。"
+    }
+  }
+}

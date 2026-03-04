@@ -1,0 +1,7 @@
+﻿组件名称,VIDEO PROCESSING
+模块名称,Master HDMI
+Part #,Video Primary Function,Video Resolutions,HDMI/DVI Inputs,HDMI/DVI Outputs,Temp Range,Data Rate (max) (bps),Input Equalization (dB),Output Pre-Emphasis (dB),Video-Display Features,Automotive,US Price 1000 to 4999 ($ US),Reliability Level,产品链接
+ADV7610,HDMI/DVI Rx,,1,,-40 to 85°C,,,,,,,,http://www.analog.com/zh/adv7610
+ADV7513,HDMI/DVI Tx,,,,-25 to 85°C,,,,,,,,http://www.analog.com/zh/adv7513
+ADV3002,HDMI/DVI Switches,1080p/UXGA,4,1,0 to 85°C,2.25G,18,,,,¥31.70000 (ADV3002BSTZ-RL),,http://www.analog.com/zh/adv3002
+ADV7623,"HDMI/DVI Rx, HDMI/DVI Tx, HDMI/DVI TxRx",,4,1,0 to 70°C,,,,,,,,http://www.analog.com/zh/adv7623

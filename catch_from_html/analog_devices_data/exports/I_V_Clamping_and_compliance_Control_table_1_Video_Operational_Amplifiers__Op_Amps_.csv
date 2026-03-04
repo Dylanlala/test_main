@@ -1,0 +1,4 @@
+﻿组件名称,I V Clamping and compliance Control
+模块名称,Video Operational Amplifiers (Op Amps)
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,# of Amps,BW -3 dB (typ) (Hz),Slew Rate (typ) (V/µs),Iq/Amp (typ) (A),Vs span (min) (V),Vs span (max) (V),Rail to Rail,VNoise Density (typ) (V/rtHz),产品链接
+ADA4807-2,"3.1 nV/√Hz, 1 mA, 180 MHz, Rail-to-Rail Input/Output Amplifier",Recommended for New Designs,2518,¥18.20000 (ADA4807-2ARMZ-R7),"10-Lead LFCSP (3mm x 3mm),8-Lead MSOP",2,180M,225,1m,2.7,11,Both,3.3n,https://www.analog.com/zh/products/ada4807-2

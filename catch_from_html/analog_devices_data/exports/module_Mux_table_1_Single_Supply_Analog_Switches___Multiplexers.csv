@@ -1,0 +1,13 @@
+﻿模块名称,Mux
+表格名称,Single Supply Analog Switches & Multiplexers
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,# of Channels,Device Primary Function,Device Config,Switch Ron (typ) (Ohms),Charge Injection (C),Leakage Switch ON (typ) (A),BW -3 dB (typ) (Hz),Interface,Vs Span Single (min) (V),Vs Span Single (max) (V),Comments,产品链接
+ADG1236,"Low Capacitance, Low Charge Injection, ±15 V/12 V iCMOS, Dual SPDT Switch",Production,1857,¥21.57000 (ADG1236YRUZ-REEL7),"12-Lead LFCSP (3mm x 3mm x 0.75mm),16-Lead TSSOP",2,Switch,2:1 SPDT,120,-1p,20p,1G,Parallel,10.8,13.2,"Low Capacitance, Low Charge Injection, ±15 V/12 V iCMOS, Dual SPDT Switch",https://www.analog.com/zh/products/adg1236
+ADG5236,"High Voltage Latch-Up Proof, Dual SPDT Switches",Recommended for New Designs,103,¥24.45000 (ADG5236BRUZ-RL7),"16-Lead LFCSP (4mm x 4mm),16-Lead TSSOP",2,Switch,2:1 SPDT,160,-600f,20p,266M,Parallel,9,40,"High Voltage Latch-Up Proof, Dual SPDT Switches",https://www.analog.com/zh/products/adg5236
+ADG1208,"Low Capacitance, 8-Channel, ±15 V/+12 V iCMOS® Multiplexer",Production,3349,¥26.51000 (ADG1208YRZ-REEL7),"16-Lead LFCSP (4mm x 4mm w/ EP),16-Lead SOIC,16-Lead TSSOP",1,Mux,8:1,120,400f,20p,550M,Parallel,5,16.5,"Low Capacitance, 8-Channel, ±15 V/+12 V iCMOS® Multiplexer",https://www.analog.com/zh/products/adg1208
+ADG1209,"Low Capacitance, 4-Channel, ±15 V/+12 V iCMOS™ Multiplexer",Production,1625,¥26.51000 (ADG1209YRZ-REEL7),"16-Lead LFCSP (4mm x 4mm w/ EP),16-Lead SOIC,16-Lead TSSOP",2,Mux,4:1,120,400f,20p,550M,Parallel,5,16.5,"Low Capacitance, 4-Channel, ±15 V/+12 V iCMOS™ Multiplexer",https://www.analog.com/zh/products/adg1209
+,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/adg5208
+,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/adg5209
+,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/adg5408
+,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/adg5409
+,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/adg1608
+,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/adg1609

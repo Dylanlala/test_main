@@ -1,0 +1,9 @@
+﻿模块名称,SP DAC
+表格名称,Precision D/A Converters
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,Channels,Resolution (bit),DAC Type,DAC INL (max) (LSB),DAC DNL (max) (LSB),Output Range,Settling Time (typ) (s),Data Input Interface,Space,产品链接
+AD5791,"1 ppm, 20-Bit, ±1 LSB INL, Voltage Output DAC",Production,4,$44.57 (AD5791ARUZ),20-Lead TSSOP,1,20,Voltage Out,1,1,±10V,1µ,SPI,No,https://www.analog.com/zh/products/ad5791
+AD5781,"True 18-Bit, Voltage Output DAC ±0.5 LSB INL, ±0.5 LSB DNL",Production,9,¥177.75000 (AD5781ARUZ-REEL7),20-Lead TSSOP,1,18,Voltage Out,0.5,0.5,±10V,1µ,SPI,No,https://www.analog.com/zh/products/ad5781
+LTC2756,Serial 18-Bit SoftSpan IOUT DAC,Production,89,$19.40 (LTC2756BCG#PBF),28-Lead SSOP,1,18,Multiplying Current Out,2,1,"±10V, ±2.5V, ±5V, 0V to 10V, 0V to 5V, -2.5V to 7.5V",2.1µ,SPI,No,https://www.analog.com/zh/products/ltc2756
+AD5761,"Multiple Range, 16-Bit, Bipolar, Voltage Output DACs",Production,2038,¥28.57000 (AD5761ARUZ-RL7),"16-Lead LFCSP (3mm x 3mm w/ EP),16-Lead TSSOP",1,16,Voltage Out,2,1,"±10V, ±3V, ±5V, 0V to 10V, 0V to 16V, 0V to 20V, 0V to 5V, -2.5V to 7.5V",9µ,SPI,No,https://www.analog.com/zh/products/ad5761
+,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ad5547
+,,,,,,,,,,,,,,,https://www.analog.com/zh/products/ad5453

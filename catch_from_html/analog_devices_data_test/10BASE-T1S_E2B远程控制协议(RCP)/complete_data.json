@@ -1,0 +1,61 @@
+{
+  "page_info": {
+    "url": "https://www.analog.com/cn/solutions/automotive/automotive-ethernet-connectivity/10base-t1s-ethernet-edge-bus.html",
+    "title": "10BASE-T1S E2B™远程控制协议(RCP)",
+    "keywords": "以太网到边缘总线，e2b, 10base-t1s, ieee，低复杂度以太网，软件集中化，汽车",
+    "description": "ADI公司的10BASE-T1S以太网到边缘总线（E2B）解决方案为汽车应用提供了低复杂性、高灵活性的边缘节点实现。",
+    "component_overview": "ADI公司开发的10BASE-T1S边缘以太网总线(E2B)远程控制协议产品，可为汽车应用提供复杂性低、灵活性高的边缘节点实现方案。我们的10BASE-T1S E2B RCP解决方案消除了边缘节点对微控制器的需求，将所有软件集中管理，有助于实现下一代区域架构和软件定义汽车。该系列解决方案符合IEEE 802.3™-2022标准并支持PLCA。",
+    "navigation_path": "主页/解决方案概要/汽车解决方案/汽车以太网连接技术/10BASE-T1S E2B™远程控制协议(RCP)"
+  },
+  "value_and_benefits": {
+    "title": "价值和优势",
+    "contents": "",
+    "characteristics": ["软件集中管理： 简化部署，降低系统复杂度和成本。优化连接： 为汽车系统实现灵活、基于硬件的以太网边缘节点集成。无缝互操作：与任何符合10BASE-T1S标准的设备共享总线，提供统一架构。低延迟表现：确保传感器/执行器接口的数据路径具有确定性。"]
+  },
+  "hardware_products": [
+    {
+      "category": "产品特性",
+      "model": "AD3300",
+      "description": "10BASE-T1S Dual Mode Transceiver Ethernet to the Edge Bus (E2B) RCP Transceiver and OPEN Alliance 10BASE-T1x MAC-PHY Serial Interface",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/ad3300-fbl.png?rev=4881879b9dcb4abca8cd23160a499005&sc_lang=zh&h=100px&w=100px&hash=3529DD8576990056159DCD8CA9CEB999",
+      "image_filename": "ad3300-fbl.png",
+      "local_image_path": "analog_devices_data_final\\10BASE-T1S_E2B远程控制协议(RCP)\\product_images\\ad3300-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/ad3300.html"
+    },
+    {
+      "category": "产品特性",
+      "model": "AD3301",
+      "description": "10BASE-T1S Ethernet to the Edge Bus (E2B) RCP Transceiver",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/ad3301-fbl.png?rev=fb0e29642439473995e92bf3586428bd&sc_lang=zh&h=100px&w=100px&hash=26A70CE818062415CDC2674A14C63CAA",
+      "image_filename": "ad3301-fbl.png",
+      "local_image_path": "analog_devices_data_final\\10BASE-T1S_E2B远程控制协议(RCP)\\product_images\\ad3301-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/ad3301.html"
+    },
+    {
+      "category": "产品特性",
+      "model": "AD3304",
+      "description": "10BASE-T1S Ethernet to the Edge Bus (E2B) RCP Transceiver with 2 channel ILaS/ISELED",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/ad3304_5-fbl.png?rev=4a671326a5c44b4eb6d42e0faf36956b&sc_lang=zh&h=100px&w=100px&hash=BA648E6D78C9C2268EFE2239C998B9DC",
+      "image_filename": "ad3304_5-fbl.png",
+      "local_image_path": "analog_devices_data_final\\10BASE-T1S_E2B远程控制协议(RCP)\\product_images\\ad3304_5-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/ad3304.html"
+    },
+    {
+      "category": "产品特性",
+      "model": "AD3305",
+      "description": "10BASE-T1S Ethernet to the Edge Bus (E2B) RCP Transceiver with 4 channel ILaS/ISELED",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/ad3304_5-fbl.png?rev=4a671326a5c44b4eb6d42e0faf36956b&sc_lang=zh&h=100px&w=100px&hash=BA648E6D78C9C2268EFE2239C998B9DC",
+      "image_filename": "ad3304_5-fbl.png",
+      "local_image_path": "analog_devices_data_final\\10BASE-T1S_E2B远程控制协议(RCP)\\product_images\\ad3304_5-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/ad3305.html"
+    }
+  ],
+  "evaluation_products": [],
+  "reference_products": [],
+  "signal_chains": {
+    "module_title": "信号链",
+    "total_count": 0,
+    "active_chain_id": null,
+    "chains": []
+  }
+}

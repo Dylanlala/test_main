@@ -1,0 +1,11 @@
+﻿组件名称,Amp
+模块名称,Fully Differential Amplifiers
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,# of Channels,BW -3 dB (typ) (Hz),Slew Rate (typ) (V/us),Vos (max) (V),Ibias (max) (A),Gain Set,Gain dB (min) (dB),Gain dB (max) (dB),Iq/Amp (typ) (A),Vs span (min) (V),Vs span (max) (V),产品链接
+ADA4930-1,Ultralow Noise Drivers for Low Voltage ADCs,Recommended for New Designs,6038,$4.46 (ADA4930-1YCPZ-R7),16-Lead LFCSP (3mm x 3mm w/ EP),1,1.4G,2.8k,,34µ,Resistor,,,35m,3.3,5,https://www.analog.com/cn/ada4930-1
+ADA4930-2,Ultralow Noise Drivers for Low Voltage ADCs,Recommended for New Designs,373,$7.40 (ADA4930-2YCPZ-R7),24-Lead LFCSP (4mm x 5mm w/ EP),2,1.4G,2.8k,,34µ,Resistor,,,70m,3.3,5,https://www.analog.com/cn/ada4930-2
+ADA4940-1,"Ultralow Power, Low Distortion ADC Driver",Production,6071,¥17.05000 (ADA4940-1ACPZ-RL),"16-Lead LFCSP (3mm x 3mm w/ EP),8-Lead SOIC",1,260M,95,350µ,1.6µ,Resistor,,,1.25m,3,7,https://www.analog.com/cn/ada4940-1
+ADA4940-2,"Ultralow Power, Low Distortion ADC Driver",Production,1788,$3.05 (ADA4940-2ACPZ-R7),24-Lead LFCSP (4mm x 4mm w/ EP),2,260M,95,350µ,1.6µ,Resistor,,,1.25m,3,7,https://www.analog.com/cn/ada4940-2
+,,,,,,,,,,,,,,,,,https://www.analog.com/cn/ada4950-1
+,,,,,,,,,,,,,,,,,https://www.analog.com/cn/ada4950-2
+,,,,,,,,,,,,,,,,,https://www.analog.com/cn/ad8475
+,,,,,,,,,,,,,,,,,https://www.analog.com/cn/ad8476

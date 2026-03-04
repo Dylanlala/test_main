@@ -1,0 +1,7 @@
+﻿组件名称,Voltage Sense IN AMP
+模块名称,Instrumentation Amplifiers
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,# of Amps,Vos (max) (V),Vos TC (max) (V/°C),Gain Set,Gain (min) (V/V),Gain (max) (V/V),BW - low gain (typ) (Hz),Ibias (max) (A),Input Voltage Noise (typ) (V/rtHz),Iq/Amp (max) (A),Vs span (min) (V),Vs span (max) (V),Space,产品链接
+AD8251,"10 MHz, G = 1, 2, 4, 8 iCMOS® Programmable Gain Instrumentation Amplifier",Production,1954,¥52.94000 (AD8251ARMZ-R7),10-Lead MSOP,1,200µ,6.2µ,Digital,1,8,10M,30n,18n,4.5m,10,34,No,https://www.analog.com/zh/products/ad8251
+AD8220,JFET Input Instrumentation Amplifier with Rail-to-Rail Output in MSOP Package,Production,7729,¥27.59000 (AD8220ARMZ-R7),8-Lead MSOP,1,125µ,5µ,Resistor,1,1000,1.5M,10p,14n,750µ,4.5,36,No,https://www.analog.com/zh/products/ad8220
+AD8422,"High Performance, Low Power, Rail-to-Rail Precision Instrumentation Amplifier",Recommended for New Designs,6995,¥22.31000 (AD8422ARMZ-R7),"8-Lead LFCSP (3mm x 3mm w/ EP),8-Lead SOIC,8-Lead MSOP",1,25µ,,Resistor,1,1000,2.2M,500p,8n,368µ,4.6,36,No,https://www.analog.com/zh/products/ad8422
+AD8421,"3 nV /√Hz, Low Power Instrumentation Amplifier",Recommended for New Designs,7142,¥24.87000 (AD8421ARMZ-R7),"8-Lead LFCSP (3mm x 3mm w/ EP),CHIPS OR DIE,8-Lead SOIC,8-Lead MSOP",1,25µ,200n,Resistor,1,10000,10M,500p,3n,2.3m,5,36,No,https://www.analog.com/zh/products/ad8421

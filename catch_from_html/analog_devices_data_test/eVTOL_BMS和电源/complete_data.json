@@ -1,0 +1,71 @@
+{
+  "page_info": {
+    "url": "https://www.analog.com/cn/solutions/aerospace-and-defense/avionics/evtol-bms-and-power.html",
+    "title": "eVTOL BMS和电源",
+    "keywords": "evtol、电池管理解决方案、航空电子设备、电子飞行系统、辅助电源装置、充电状态",
+    "description": "Storage batteries are now an important part of commercial avionics, whether they are used as backup for electronic flight sys",
+    "component_overview": "Storage batteries are now an important part of commercial avionics, whether they are used as a backup for electronic flight systems, as starting auxiliary power units, or in new eVTOL applications.",
+    "navigation_path": "主页/解决方案概要/航空航天和防务/航空电子产品和解决方案/eVTOL BMS和电源"
+  },
+  "value_and_benefits": {
+    "title": "Value and Benefits",
+    "contents": "Analog Devices’ industry-leading battery management solutions closely monitor and manage the state of charge and state of health of a multicell battery string, maximizing usable capacity, system safety, and lifetime.",
+    "characteristics": [
+      "Maximizes usable capacity",
+      "Enables system safety",
+      "Extends battery lifetime"
+    ]
+  },
+  "hardware_products": [
+    {
+      "category": "产品特性",
+      "model": "LTC6813-1",
+      "description": "集成菊花链接口的18单元电池监控器",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/ltc/ltc6813-1-acl.png?rev=be233f1dd5bc44b0b3c9f03d48c58229&sc_lang=zh&h=100px&w=100px&hash=9E58F3C65CFF9755A537BA632AF58C21",
+      "image_filename": "ltc6813-1-acl.png",
+      "local_image_path": "analog_devices_data_final\\eVTOL_BMS和电源\\product_images\\ltc6813-1-acl.png",
+      "product_link": "https://www.analog.com/cn/products/ltc6813-1.html"
+    },
+    {
+      "category": "产品特性",
+      "model": "LTC2949",
+      "description": "用于高电压电池组的电流、电压和电量监控器",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/ltc/ltc2949-acl.png?rev=9232635fe2264e41a555be83990e9235&sc_lang=zh&h=100px&w=100px&hash=D2A087DD3EC395C779B0CFA1D5B3FB23",
+      "image_filename": "ltc2949-acl.png",
+      "local_image_path": "analog_devices_data_final\\eVTOL_BMS和电源\\product_images\\ltc2949-acl.png",
+      "product_link": "https://www.analog.com/cn/products/ltc2949.html"
+    },
+    {
+      "category": "产品特性",
+      "model": "ADBMS6822",
+      "description": "单通道/双通道isoSPI收发器",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/adbms6821_6822-fbl.png?rev=10f5b896c7374e7aaf785101c8b161d3&sc_lang=zh&h=100px&w=100px&hash=A0AE2E041D1349E6D43B8B5CFC8D9CAC",
+      "image_filename": "ADBMS6822_adbms6821_6822-fbl.png",
+      "local_image_path": "analog_devices_data_final\\eVTOL_BMS和电源\\product_images\\ADBMS6822_adbms6821_6822-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/adbms6822.html"
+    }
+  ],
+  "evaluation_products": [],
+  "reference_products": [],
+  "signal_chains": {
+    "module_title": "信号链",
+    "total_count": 1,
+    "active_chain_id": "0660",
+    "chains": [
+      {
+        "list_name": "有线电池管理系统BMS",
+        "data_target": "ISC-0660",
+        "chain_id": "0660",
+        "is_active": true,
+        "is_more_option": false,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0660.png",
+          "filename": "signal_chain_0660.png",
+          "local_path": "analog_devices_data_final\\eVTOL_BMS和电源\\signal_chains\\signal_chain_0660.png",
+          "chain_id": "0660"
+        },
+        "signal_chain_hotspots": []
+      }
+    ]
+  }
+}

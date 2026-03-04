@@ -1,0 +1,4 @@
+﻿模块名称,VIDEO PROCESSING
+表格名称,Video Encoders
+Part #,Eval / Ref Circuit,Video Primary Function,Input Type,# of Video Inputs,Output Type,# of Video Outputs,DAC Resolution (bits),Output Frequency (max) (Hz),Macrovision,Scaler,Automotive,Temp Range,NDA Required,US Price 1000 to 4999 ($ US),Package,Product Description,Status,Reliability Level,产品链接
+AD723,Evaluation board,"Video DAC, Video Encoder",Analog RGB,,"Composite, S-Video",,,,,,No,-40 to 85°C,,¥41.66000 (AD723ARUZ-REEL7),28 ld TSSOP (4.4mm),,,,http://www.analog.com/zh/ad723

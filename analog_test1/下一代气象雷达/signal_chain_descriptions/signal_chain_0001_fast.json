@@ -1,0 +1,115 @@
+{
+  "devices": [
+    {
+      "name": "FPGA",
+      "description": "现场可编程门阵列，实现数字发射基带信号生成、接收信号数字处理、系统时序控制与外设驱动控制功能。"
+    },
+    {
+      "name": "REF CLK",
+      "description": "参考时钟源，为全系统提供高稳定度、低相位噪声的基准时钟信号。"
+    },
+    {
+      "name": "DAC",
+      "description": "数模转换器，将FPGA输出的数字发射基带信号转换为模拟基带信号。"
+    },
+    {
+      "name": "AMP",
+      "description": "基带放大器，对DAC输出的模拟基带信号进行幅度放大，适配后级混频器输入电平要求。"
+    },
+    {
+      "name": "MIXER",
+      "description": "发射第一级上变频混频器，将基带信号与第一本振信号混频得到第一中频信号。"
+    },
+    {
+      "name": "RF/IF AMP",
+      "description": "第一中频放大器，对第一级上变频输出的中频信号进行功率放大。"
+    },
+    {
+      "name": "MIXER",
+      "description": "发射第二级上变频混频器，将第一中频信号与第二本振信号混频得到发射射频信号。"
+    },
+    {
+      "name": "RF/IF AMP",
+      "description": "射频驱动放大器，对第二级上变频输出的射频信号进行功率放大，驱动后级功率放大器。"
+    },
+    {
+      "name": "PA",
+      "description": "功率放大器，将发射射频信号放大到额定功率，满足天线发射功率要求。"
+    },
+    {
+      "name": "LOG AMP DETECTORS",
+      "description": "对数检波放大器，实时检测发射链路功率电平，为功率闭环控制提供监测数据。"
+    },
+    {
+      "name": "MOTOR CONTROL",
+      "description": "电机控制模块，接收FPGA的指向控制指令，驱动伺服电机调整天线指向。"
+    },
+    {
+      "name": "LNA",
+      "description": "低噪声放大器，对接收的目标回波射频信号进行低噪声放大，提升接收链路信噪比。"
+    },
+    {
+      "name": "MIXER",
+      "description": "接收第一级下变频混频器，将接收射频信号与第一本振信号混频得到第一中频信号。"
+    },
+    {
+      "name": "RF/IF AMP",
+      "description": "接收第一中频放大器，对下变频得到的第一中频信号进行幅度放大。"
+    },
+    {
+      "name": "MIXER",
+      "description": "接收第二级下变频混频器，将第一中频信号与第二本振信号混频得到低中频模拟信号。"
+    },
+    {
+      "name": "ADC DRIVER",
+      "description": "模数转换器驱动放大器，对接收下变频输出的模拟信号进行电平调整，适配ADC输入量程要求。"
+    },
+    {
+      "name": "ADC",
+      "description": "模数转换器，将模拟接收信号转换为数字信号，输入FPGA进行后续数字信号处理。"
+    },
+    {
+      "name": "VIDEO PROCESSING",
+      "description": "视频处理模块，对FPGA输出的雷达探测数据进行可视化处理，生成显示视频信号。"
+    },
+    {
+      "name": "DISPLAY",
+      "description": "显示终端，可视化展示雷达探测到的目标位置、参数等信息。"
+    },
+    {
+      "name": "CLOCK BUFFER",
+      "description": "时钟缓冲器，对参考时钟进行扇出与电平转换，驱动后级PLL工作。"
+    },
+    {
+      "name": "PLL",
+      "description": "锁相环，对参考时钟进行倍频与相位锁定，生成系统第一本振信号。"
+    },
+    {
+      "name": "CLOCK BUFFER",
+      "description": "时钟缓冲器，对参考时钟进行扇出与电平转换，驱动后级DDS工作。"
+    },
+    {
+      "name": "DDS",
+      "description": "直接数字频率合成器，生成高频率分辨率的中频本振信号。"
+    },
+    {
+      "name": "FREQUENCY MULTIPLIER CHAIN",
+      "description": "频率倍增链，对DDS输出信号进行倍频与功率放大，生成系统第二本振信号。"
+    },
+    {
+      "name": "POWER MANAGEMENT",
+      "description": "电源管理模块，为全系统各功能器件提供稳定、适配的供电电源。"
+    }
+  ],
+  "signal_flow": {
+    "main": "发射主路径：FPGA -> DAC -> AMP -> 带通滤波器 -> MIXER -> RF/IF AMP -> 带通滤波器 -> MIXER -> RF/IF AMP -> 带通滤波器 -> PA -> 带通滤波器 -> 环形器 -> 天线; 接收主路径：天线 -> 环形器 -> 带通滤波器 -> LNA -> 带通滤波器 -> MIXER -> RF/IF AMP -> 带通滤波器 -> MIXER -> 带通滤波器 -> ADC DRIVER -> ADC -> FPGA -> VIDEO PROCESSING -> DISPLAY",
+    "branches": [
+      "第一本振路径：REF CLK -> CLOCK BUFFER -> PLL -> 带通滤波器 -> 发射第一级混频器本振端、接收第一级混频器本振端",
+      "第二本振路径：REF CLK -> CLOCK BUFFER -> DDS -> FREQUENCY MULTIPLIER CHAIN -> 发射第二级混频器本振端、接收第二级混频器本振端",
+      "天线控制路径：FPGA -> MOTOR CONTROL -> 伺服电机 -> 天线",
+      "功率监测路径：发射链路输出 -> LOG AMP DETECTORS -> FPGA",
+      "供电路径：POWER MANAGEMENT -> 全系统所有器件供电"
+    ]
+  },
+  "application_scene": "机械扫描跟踪雷达收发信号链"
+}

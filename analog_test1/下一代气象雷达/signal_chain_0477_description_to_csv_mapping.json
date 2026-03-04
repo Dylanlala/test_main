@@ -1,0 +1,98 @@
+{
+  "mapping": [
+    {
+      "device": "Data Isolation",
+      "csv_files": [
+        "0477_DATA_ISOLATION_ed188a24_522_table_1_Digital_Isolation_Technology.csv"
+      ],
+      "comment": "数字隔离技术"
+    },
+    {
+      "device": "VREF",
+      "csv_files": [
+        "0477_VREF_cc444175_b43_table_1_Voltage_References.csv"
+      ],
+      "comment": "电压基准源"
+    },
+    {
+      "device": "SP DAC",
+      "csv_files": [
+        "0477_SP_DAC_7c3d1171_0b6_table_1_Precision_D_A_Converters.csv",
+        "0477_SP_DAC_7c3d1171_0b6_table_2_High_Speed_D_A_Converters__30MSPS.csv"
+      ],
+      "comment": "设定值数模转换器"
+    },
+    {
+      "device": "CMP DAC",
+      "csv_files": [
+        "0477_CMP_DAC_8b0e3b7a_e72_table_1_Precision_D_A_Converters.csv",
+        "0477_CMP_DAC_8b0e3b7a_e72_table_2_High_Speed_D_A_Converters__30MSPS.csv"
+      ],
+      "comment": "合规阈值数模转换器"
+    },
+    {
+      "device": "Driver Amp",
+      "csv_files": [
+        "0477_DRIVERAMP_9e16ac9a_05d_table_1_Difference_Amplifiers.csv"
+      ],
+      "comment": "输出驱动放大器"
+    },
+    {
+      "device": "AMP (Guard)",
+      "csv_files": [
+        "0477_AMP_17472932_3e4_table_1_Operational_Amplifiers__Op_Amps_.csv"
+      ],
+      "comment": "保护端驱动放大器"
+    },
+    {
+      "device": "Current sense IN-AMP",
+      "csv_files": [
+        "0477_CURRENT_SENSE_IN_AMP_5f35a6ad_a9d_table_1_Difference_Amplifiers.csv"
+      ],
+      "comment": "电流检测仪表放大器"
+    },
+    {
+      "device": "Voltage Sense IN-AMP",
+      "csv_files": [
+        "0477_VOLTAGE_SENSE_IN_AMP_c04808d5_b3c_table_1_Instrumentation_Amplifiers.csv"
+      ],
+      "comment": "电压检测仪表放大器"
+    },
+    {
+      "device": "ADC Driver (I ADC)",
+      "csv_files": [
+        "0477_ADC_DRIVER_3ff71f0e_a3b_table_1_ADC_Drivers.csv",
+        "0477_ADC_DRIVER_3ff71f0e_a3b_table_2_Rail-to-Rail_Op_Amps.csv",
+        "0477_ADC_DRIVER_4668d90a_148_table_1_ADC_Drivers.csv",
+        "0477_ADC_DRIVER_4668d90a_148_table_2_Rail-to-Rail_Op_Amps.csv"
+      ],
+      "comment": "电流测量ADC驱动放大器"
+    },
+    {
+      "device": "I ADC",
+      "csv_files": [
+        "0477_I_ADC_263d4c08_0e0_table_1_Precision_A_D_Converters.csv"
+      ],
+      "comment": "电流测量模数转换器"
+    },
+    {
+      "device": "ADC Driver (V ADC)",
+      "csv_files": [
+        "0477_ADC_DRIVER_3ff71f0e_a3b_table_1_ADC_Drivers.csv",
+        "0477_ADC_DRIVER_3ff71f0e_a3b_table_2_Rail-to-Rail_Op_Amps.csv",
+        "0477_ADC_DRIVER_4668d90a_148_table_1_ADC_Drivers.csv",
+        "0477_ADC_DRIVER_4668d90a_148_table_2_Rail-to-Rail_Op_Amps.csv"
+      ],
+      "comment": "电压测量ADC驱动放大器"
+    },
+    {
+      "device": "V ADC",
+      "csv_files": [
+        "0477_V_ADC_025d82ed_503_table_1_Precision_A_D_Converters.csv"
+      ],
+      "comment": "电压测量模数转换器"
+    }
+  ],
+  "summary": "根据提供的信号链描述和CSV文件列表，以下是器件/模块与CSV文件的映射关系：",
+  "note": ""
+}

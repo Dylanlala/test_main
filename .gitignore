@@ -1,0 +1,40 @@
+# API Keys / 密钥（切勿提交）
+static/key*.txt
+*.key
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+*.egg
+
+# 爬取与缓存
+adi_rag_pipeline/cache/
+*.zip
+
+# 生成结果与索引（可选：若不想把大索引推上去则取消下一行注释）
+# adi_rag_pipeline/adi_solution_index/
+# result/
+# expert_case_index/
+# adi_rag_pipeline/adi_rag_documents.json
+
+# 日志与临时
+*.log
+*.tmp
+.DS_Store
+.idea/
+*.iml
+
+# 大文件/数据（按需取消注释）
+# analog_devices_data_test/

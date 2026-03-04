@@ -1,0 +1,5 @@
+{
+  "mapping": [],
+  "summary": "本信号链（chain_id=0484）在 exports_signal_chain_csv 中无对应选型表（即不存在以 `0484_` 开头的 CSV 文件）。",
+  "note": "图中器件与选型表无映射关系。"
+}

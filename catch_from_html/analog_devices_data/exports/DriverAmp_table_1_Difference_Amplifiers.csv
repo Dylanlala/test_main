@@ -1,0 +1,12 @@
+﻿组件名称,DriverAmp
+模块名称,Difference Amplifiers
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,# of Amps,Common Mode In (min) (V),Common Mode In (max) (V),Input Beyond Supply,Gain (min) (V/V),Gain (max) (V/V),BW - low gain (typ) (Hz),Slew Rate (typ) (V/µs),Iq/Amp (max) (A),Vs span (min) (V),Vs span (max) (V),产品链接
+AD8271,Programmable Gain Precision Difference Amplifier,Production,685,¥13.34000 (AD8271ARMZ),10-Lead MSOP,1,-15.4,15.4,Slightly,0.5,2,20M,30,2.6m,5,36,https://www.analog.com/zh/products/ad8271
+AD8274,"Very Low Distortion, Precision Difference Amplifier",Production,1783,¥11.12000 (AD8274ARMZ),"8-Lead SOIC,8-Lead MSOP",1,-40.5,40.5,Yes,0.5,2,20M,20,2.6m,5,36,https://www.analog.com/zh/products/ad8274
+AD8276,"Low Power, Wide Supply Range, Low Cost Unity-Gain Difference Amplifier",Production,6376,¥10.17000 (AD8276ARMZ),"CHIPS OR DIE,8-Lead SOIC,8-Lead MSOP",1,-30.2,27,Yes,1,1,550k,1.1,200µ,2,36,https://www.analog.com/zh/products/ad8276
+AD8279,"Low Power, Wide Supply Range, Low Cost Difference Amplifiers, G = ½, 2",Production,533,¥17.13000 (AD8279ARZ-R7),14-Lead SOIC,2,-45.3,40.5,Yes,0.5,2,1M,1.3,350µ,2,36,https://www.analog.com/zh/products/ad8279
+,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/lt1997-1
+,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/lt1997-2
+,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/lt1997-3
+,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/lt6375
+,,,,,,,,,,,,,,,,,https://www.analog.com/zh/products/lt6376

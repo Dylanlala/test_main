@@ -1,0 +1,9 @@
+﻿组件名称,Amp
+模块名称,Instrumentation Amplifiers
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,# of Amps,Vos (max) (V),Vos TC (max) (V/°C),Gain Set,Gain (min) (V/V),Gain (max) (V/V),BW - low gain (typ) (Hz),Ibias (max) (A),Input Voltage Noise (typ) (V/rtHz),Iq/Amp (max) (A),Vs span (min) (V),Vs span (max) (V),Space,产品链接
+AD8422,"High Performance, Low Power, Rail-to-Rail Precision Instrumentation Amplifier",Recommended for New Designs,6995,¥22.31000 (AD8422ARMZ-R7),"8-Lead LFCSP (3mm x 3mm w/ EP),8-Lead SOIC,8-Lead MSOP",1,25µ,,Resistor,1,1000,2.2M,500p,8n,368µ,4.6,36,No,https://www.analog.com/cn/ad8422
+AD8224,"Precision, Dual-Channel, JFET Input, Rail-to-Rail Instrumentation Amplifier",Production,1576,$4.91 (AD8224ACPZ-R7),"16-Lead LFCSP (4mm x 4mm x 0.85mm),16-Lead LFCSP (4mm x 4mm w/ EP)",2,175µ,5µ,Resistor,1,1000,1.5M,10p,14n,800µ,4.5,36,No,https://www.analog.com/cn/ad8224
+AD8226,"Wide Supply Range, Rail-to-Rail Output Instrumentation Amplifier",Production,6408,¥11.61000 (AD8226ARMZ),"8-Lead SOIC,8-Lead MSOP",1,50µ,1µ,Resistor,1,1000,1.5M,27n,22n,425µ,2.2,36,No,https://www.analog.com/cn/ad8226
+AD8235,40 μA Micropower Instrumentation Amplifier in WLCSP Package,Production,0,¥16.22000 (AD8235ACBZ-P7),11-Ball WLCSP (2.04mm x 1.57mm),1,2.5m,700n,Resistor,5,200,23k,50p,76n,40µ,1.8,5.5,No,https://www.analog.com/cn/ad8235
+,,,,,,,,,,,,,,,,,,,https://www.analog.com/cn/ad8236
+,,,,,,,,,,,,,,,,,,,https://www.analog.com/cn/ad8426

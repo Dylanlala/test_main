@@ -1,0 +1,85 @@
+{
+  "page_info": {
+    "url": "https://www.analog.com/cn/solutions/aerospace-and-defense/phased-array/analog-hybrid-beamforming.html",
+    "title": "Analog and Hybrid Beamforming",
+    "keywords": "analog beamforming, hybrid beamforming, bfic, phased array radar, single beam, multibeam, adef",
+    "description": "Hybrid beamforming integrated circuits are the key enabler of single beam, phased array radar, and multibeam hybrid systems. ",
+    "component_overview": "Multi-Channel Beamforming Integrated Circuits (BFICs) are the key enabler of single-beam phased array radar and multi-beam hybrid systems. With a growing portfolio of up/downconverters, GaN power amplifiers and T/R modules, clocking, and power management solutions, ADI offers a complete RF signal chain portfolio.",
+    "navigation_path": "主页/解决方案概要/航空航天和防务/相控阵/Analog and Hybrid Beamforming"
+  },
+  "value_and_benefits": {
+    "title": "The Value of Analog and Hybrid Beamforming",
+    "contents": "The flexible approach to analog and hybrid beamforming offers the ability to realize highly capable arrays with reduced size, weight, and power relative to fully digital arrays.",
+    "characteristics": [
+      "Flexible array architecture implementation",
+      "Reduced SWaP",
+      "Reduced cooling requirements"
+    ]
+  },
+  "hardware_products": [
+    {
+      "category": "Featured Products",
+      "model": "ADAR1000",
+      "description": "4 通道 X 频段和 Ku 频段波束形成器，8 GHz 至 16 GHz",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/adar1000-fbl.png?rev=473df42c3b274b06ae1af91b135caf8a&sc_lang=zh&h=100px&w=100px&hash=ACADC5809B0F450A7787764213F426E1",
+      "image_filename": "adar1000-fbl.png",
+      "local_image_path": "analog_devices_data_final\\Analog_and_Hybrid_Beamforming\\product_images\\adar1000-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/adar1000.html"
+    },
+    {
+      "category": "Featured Products",
+      "model": "ADAR4000",
+      "description": "2 GHz 至 18 GHz、单波束、4 元件波束形成器",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/adar4000-fbl.png?rev=ebc19b292b4c453bba8f42c82fd706bd&h=100px&w=100px&hash=E485FB3199852913753A37B1FBD74FAB",
+      "image_filename": "adar4000-fbl.png",
+      "local_image_path": "analog_devices_data_final\\Analog_and_Hybrid_Beamforming\\product_images\\adar4000-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/adar4000.html"
+    },
+    {
+      "category": "Featured Products",
+      "model": "ADAR4001",
+      "description": "2 GHz to 18 GHz, Single Beam, 4-Element Beamformer",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/chip/adar4001.png?rev=5269ef8df6ca4e12bbc74452e0aad341&sc_lang=zh&h=100px&w=100px&hash=FCD50828931AD5451439B332F9F118DF",
+      "image_filename": "adar4001.png",
+      "local_image_path": "analog_devices_data_final\\Analog_and_Hybrid_Beamforming\\product_images\\adar4001.png",
+      "product_link": "https://www.analog.com/cn/products/adar4001.html"
+    },
+    {
+      "category": "Featured Products",
+      "model": "ADAR3006",
+      "description": "ADAR3006 10.7 GHz to 12.75 GHz 4-beam/4-element Ku band beamformer",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/chip/adar3006.png?rev=718ed7c00d5240368bc7dd378712a0f9&sc_lang=zh&h=100px&w=100px&hash=089E10DE36140A652401978AF0174975",
+      "image_filename": "adar3006.png",
+      "local_image_path": "analog_devices_data_final\\Analog_and_Hybrid_Beamforming\\product_images\\adar3006.png",
+      "product_link": "https://www.analog.com/cn/products/adar3006.html"
+    }
+  ],
+  "evaluation_products": [
+    {
+      "category": "Evaluation Boards",
+      "model": "X波段相控阵平台",
+      "description": "可扩展32元件混合波束成形相控阵雷达开发平台",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/evaluation-board-images/images/x-band-diagram.png?rev=44c907c71c9448348afe3735c2347031&sc_lang=zh&h=100px&w=100px&hash=5EF4F928FC955151AD70CF3ACDFDBEFF",
+      "image_filename": "X波段相控阵平台_x-band-diagram.png",
+      "local_image_path": "analog_devices_data_final\\Analog_and_Hybrid_Beamforming\\product_images\\X波段相控阵平台_x-band-diagram.png",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/x-band-development-platform.html"
+    }
+  ],
+  "reference_products": [
+    {
+      "category": "Reference Designs",
+      "model": "CN0566",
+      "description": "相控阵（相位器）开发平台",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/reference-circuits/cn0566/cn0566_01.gif?rev=d3f27a9c9364492bae1a483060f7d0d4&sc_lang=zh&h=100px&w=100px&hash=1F612B867EFAB34A9117481FB7B4F8E1",
+      "image_filename": "cn0566_01.gif",
+      "local_image_path": "analog_devices_data_final\\Analog_and_Hybrid_Beamforming\\product_images\\cn0566_01.gif",
+      "product_link": "https://www.analog.com/cn/resources/reference-designs/circuits-from-the-lab/cn0566.html"
+    }
+  ],
+  "signal_chains": {
+    "module_title": "信号链",
+    "total_count": 0,
+    "active_chain_id": null,
+    "chains": []
+  }
+}

@@ -1,0 +1,7 @@
+﻿模块名称,ADC DRIVER
+表格名称,Fully Differential Amplifiers
+Part #,# of Channels,BW -3 dB (typ) (Hz),Slew Rate (typ) (V/us),Gain Set,Gain (min) (dB),Gain (max) (dB),Is (typ) (A),Vs span (min) (V),Vs span (max) (V),Eval / Ref Circuit,Shut- down,Temp Range,NF (typ) (dB),Input Type,OIP3 (typ) (dBm),VNoise Density (typ) (V/rtHz),Iout (typ) (A),Distortion 2nd Harmonic (typ) (dBc),Distortion 3rd Harmonic (typ) (dBc),Amp Architecture,Amp Features,US Price 1000 to 4999 ($ US),Product Description,Status,Package,Automotive,Reliability Level,Comments,Over-the-Top,Gain Range,-1dB BW (Hz),70dBc IM3 BW (typ) (Hz),80dBc IM3 BW (typ) (Hz),90dBc IM3 BW (typ) (Hz),Gain (V/V),产品链接
+ADL5561,1,2.9G,9.8k,Pin Strap,3,15.5,40m,3,3.6,,,,,,,,,,,,,$3.68 (ADL5561ACPZ-R7),,,"16 ld LFCSP (3x3mm, 1.5mm exposed pad)",,,,,,,,,,,http://www.analog.com/zh/adl5561
+ADL5562,1,3.3G,9.8k,Pin Strap,3,15.5,80m,3,3.6,,,,,,,,,,,,,$3.68 (ADL5562ACPZ-R7),,,"16 ld LFCSP (3x3mm, 1.6mm exposed pad)",,,,,,,,,,,http://www.analog.com/zh/adl5562
+ADA4937-1,1,1.9G,6k,,,,39.5m,3,5.25,,,,,,,,,,,,,$3.79 (ADA4937-1YCPZ-R7),,,"16 ld LFCSP (3x3mm, 1.3mm exposed pad)",,,,,,,,,,,http://www.analog.com/zh/ada4937-1
+ADA4938-1,1,1G,4.7k,,,,40m,4.5,11,,,,,,,,,,,,,$3.79 (ADA4938-1ACPZ-RL),,,"16 ld LFCSP (3x3mm, 1.3mm exposed pad)",,,,,,,,,,,http://www.analog.com/zh/ada4938-1

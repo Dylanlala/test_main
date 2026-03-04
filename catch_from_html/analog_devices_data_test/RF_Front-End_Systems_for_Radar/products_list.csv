@@ -1,0 +1,10 @@
+﻿类型,型号,描述,图片文件名,本地图片路径,产品链接
+硬件产品,ADTR1107,6 GHz 至 18 GHz 前端 IC,adtr1107-fbl.png,analog_devices_data_final\RF_Front-End_Systems_for_Radar\product_images\adtr1107-fbl.png,https://www.analog.com/cn/products/adtr1107.html
+硬件产品,ADPA1122,43dBm、20W、GaN 功率放大器，8.2GHz 至 11.8GHz,adpa1122-fbl.png,analog_devices_data_final\RF_Front-End_Systems_for_Radar\product_images\adpa1122-fbl.png,https://www.analog.com/cn/products/adpa1122.html
+硬件产品,ADPA1106,46 dBm (40 W)、2.7 GHz至3.5 GHz GaN功率放大器,adpa1106-fbl.png,analog_devices_data_final\RF_Front-End_Systems_for_Radar\product_images\adpa1106-fbl.png,https://www.analog.com/cn/products/adpa1106.html
+硬件产品,ADPA1107,45.0 dBm (35 W)、4.8 GHz to 6.0 GHz、GaN 功率放大器,adpa1107-fbl.png,analog_devices_data_final\RF_Front-End_Systems_for_Radar\product_images\adpa1107-fbl.png,https://www.analog.com/cn/products/adpa1107.html
+硬件产品,ADPA1105,46 dBm (40 W)、0.9 GHz至1.6 GHz GaN功率放大器,adpa1105-fbl.png,,https://www.analog.com/cn/products/adpa1105.html
+评估板,EVAL-ADTR1107,使用 6 GHz 至 18 GHz 前端 IC 评估 ADTR1107,EVAL-ADTR1107_adtr1107-evalzangle-web.gif,analog_devices_data_final\RF_Front-End_Systems_for_Radar\product_images\EVAL-ADTR1107_adtr1107-evalzangle-web.gif,https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-adtr1107.html
+评估板,EVAL-ADPA1106,评估 ADPA1106 46 dBm (40 W)、2.7 GHz 至 3.5 GHz、GaN 功率放大器,eval-adpa1106_evalz_angle-web.gif,,https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-adpa1106.html
+评估板,EVAL-AD9081,AD9081 评估板,EVAL-AD9081_eval-ad9082_ad9081.png,analog_devices_data_final\RF_Front-End_Systems_for_Radar\product_images\EVAL-AD9081_eval-ad9082_ad9081.png,https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-ad9081.html
+评估板,X波段相控阵平台,可扩展32元件混合波束成形相控阵雷达开发平台,X波段相控阵平台_x-band-diagram.png,analog_devices_data_final\RF_Front-End_Systems_for_Radar\product_images\X波段相控阵平台_x-band-diagram.png,https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/x-band-development-platform.html

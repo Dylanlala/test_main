@@ -1,0 +1,94 @@
+{
+  "devices": [
+    {
+      "name": "直流供电输入源",
+      "description": "为车载显示系统的电源变换链路提供原始直流电能输入。"
+    },
+    {
+      "name": "Power",
+      "description": "为LED背光模块提供专用供电输入。"
+    },
+    {
+      "name": "Automotive Head-Unit",
+      "description": "车载主机单元，输出串行GMSL音视频信号与控制指令，是显示内容的上游来源。"
+    },
+    {
+      "name": "Protection Device",
+      "description": "电源防护器件，对输入电源做过流、过压、ESD防护，避免后级电路受异常工况损坏。"
+    },
+    {
+      "name": "Display PMIC",
+      "description": "显示专用电源管理集成电路，实现系统电源的一级管理与分配，为后级电源变换模块供电。"
+    },
+    {
+      "name": "HV Buck",
+      "description": "高压降压变换器，将较高的直流输入电压降压至显示驱动所需的高压电平。"
+    },
+    {
+      "name": "HV PMIC",
+      "description": "高压域电源管理芯片，负责高压电源轨的调节、监控与分配。"
+    },
+    {
+      "name": "HV Boost",
+      "description": "高压升压变换器，将输入电压升压至显示面板驱动所需的高压工作电平。"
+    },
+    {
+      "name": "HV Buck Boost",
+      "description": "高压升降压变换器，在宽输入电压范围内输出稳定的高压电源，适配不同工况需求。"
+    },
+    {
+      "name": "LV Buck",
+      "description": "低压降压变换器，将中高压输入转换为数字电路所需的低压直流电平。"
+    },
+    {
+      "name": "LV PMIC",
+      "description": "低压域电源管理芯片，负责低压电源轨的调节、监控与分配，为数字控制模块供电。"
+    },
+    {
+      "name": "LDO",
+      "description": "低压差线性稳压器，输出低纹波稳定低压电源，为对电源噪声敏感的模拟/数字器件供电。"
+    },
+    {
+      "name": "Display Deserializer",
+      "description": "GMSL显示解串器，将车载主机输入的串行GMSL信号解串，输出并行视频信号与控制接口信号。"
+    },
+    {
+      "name": "LED Backlight",
+      "description": "LED背光模组，为显示面板提供背光光源，支持亮度调节，同时输出复位信号至显示驱动模块。"
+    },
+    {
+      "name": "Timing Controller",
+      "description": "时序控制器，产生显示驱动所需的行场同步、时序控制信号，协调源极与栅极驱动模块的工作节奏。"
+    },
+    {
+      "name": "Source Driver",
+      "description": "显示源极驱动器，将数字视频信号转换为对应模拟电压，驱动显示面板的像素列。"
+    },
+    {
+      "name": "Shift Register (Gate Driver)",
+      "description": "栅极驱动移位寄存器，按照时序逐行选通显示面板的像素行，配合源极驱动完成画面刷新。"
+    },
+    {
+      "name": "Touch-Screen Controller",
+      "description": "触控屏控制器，采集处理显示面板的触控感应信号，转换为可识别的触控坐标与交互数据。"
+    },
+    {
+      "name": "MCU",
+      "description": "微控制单元，负责整个显示系统的逻辑控制、通信交互、状态检测与异常处理。"
+    },
+    {
+      "name": "Display",
+      "description": "车载显示面板，接收驱动信号实现图像可视化输出，同时集成触控感应层采集用户触控输入。"
+    }
+  ],
+  "signal_flow": {
+    "main": "显示下行主路径：Automotive Head-Unit -> Display Deserializer -> Source Driver -> Display；触控上行主路径：Display -> Touch-Screen Controller -> MCU -> Display Deserializer -> Automotive Head-Unit",
+    "branches": [
+      "系统电源供给路径：直流供电输入源 -> Protection Device -> Display PMIC -> HV Buck/HV PMIC/HV Boost/HV Buck Boost，输出AVDD/VCOM等电源轨供给Timing Controller、Source Driver、Shift Register (Gate Driver)、Display；HV PMIC -> LV Buck -> LDO，供给低压数字电路；HV Boost/HV Buck Boost -> LV PMIC，供给低压数字电路",
+      "背光与复位路径：Power -> LED Backlight -> Display，提供显示背光；LED Backlight -> Timing Controller/Source Driver，输出RST复位信号完成模块复位",
+      "时序驱动路径：Timing Controller -> Shift Register (Gate Driver) -> Display，输出栅极行选通时序控制信号",
+      "系统控制路径：Display Deserializer <-> MCU（UART/PC接口）；Display Deserializer -> Touch-Screen Controller（I2C&GPIO接口）；MCU -> Touch-Screen Controller，实现系统控制与触控数据交互"
+    ]
+  },
+  "application_scene": "车载信息娱乐显示系统"
+}

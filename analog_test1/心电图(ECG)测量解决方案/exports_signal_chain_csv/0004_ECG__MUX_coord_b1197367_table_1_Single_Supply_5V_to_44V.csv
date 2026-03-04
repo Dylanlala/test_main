@@ -1,0 +1,6 @@
+﻿组件名称,ECG Mux
+模块名称,Single Supply 5V to 44V
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,# of Channels,Device Primary Function,Device Config,Switch Ron (typ) (Ohms),Charge Injection (C),Leakage Switch ON (typ) (A),BW -3 dB (typ) (Hz),Interface,Vs Span Single (min) (V),Vs Span Single (max) (V),Comments,产品链接
+ADG1204,"Low Capacitance, Low Charge Injection, ±15 V/+12 V, 4:1 iCMOS Multiplexer",Production,3952,¥23.14000 (ADG1204YRUZ-REEL7),"12-Lead LFCSP (3mm x 3mm x 0.75mm),14-Lead TSSOP",1,Mux,4:1,120,-700f,20p,800M,Parallel,10.8,13.2,"Low Capacitance, Low Charge Injection, ±15 V/+12 V, 4:1 iCMOS Multiplexer",https://www.analog.com/cn/adg1204
+ADG1406,"9.5 Ω RON, 16-Channel, Differential 8-Channel, ±15 V/+12 V/±5 V iCMOS Multiplexers",Production,528,¥53.68000 (ADG1406BRUZ-REEL7),"32-Lead LFCSP (5mm x 5mm w/ EP),28-Lead TSSOP (4.4mm x 9.7mm)",1,Mux,16:1,9.5,10p,50p,60M,Parallel,5,16.5,"9.5 Ω RON, 16-Channel, Differential 8-Channel, ±15 V/+12 V/±5 V iCMOS Multiplexers",https://www.analog.com/cn/adg1406
+ADG1436,"1.5 Ω On Resistance, ±15 V/12 V/±5 V, iCMOS®, Dual SPDT Switch",Production,3641,¥31.62000 (ADG1436YRUZ-REEL7),"16-Lead LFCSP (4mm x 4mm w/ EP),16-Lead TSSOP",2,Switch,2:1 SPDT,1.5,-20p,100p,110M,Parallel,5,16.5,"1.5 Ω On Resistance, ±15 V/12 V/±5 V, iCMOS®, Dual SPDT Switch",https://www.analog.com/cn/adg1436

@@ -1,0 +1,32 @@
+{
+  "page_info": {
+    "url": "https://www.analog.com/cn/solutions/automotive/automotive-ethernet-connectivity/10base-t1s-mac-phy-solutions.html",
+    "title": "10BASE-T1S MAC-PHY解决方案",
+    "keywords": "Mac-phy，物理层设备，媒体访问控制器，ieee，非屏蔽双绞线，oaspi，汽车",
+    "description": "ADI提供符合10BASE-T1S标准的MAC-PHY解决方案，可通过开放联盟SPI接口与各种主机控制器直接连接。",
+    "component_overview": "MAC-PHY设备是具有集成媒体访问控制器(MAC)的高性能以太网物理层(PHY)设备，非常适合用于支持下一代汽车电气/电子(E/E)架构。ADI公司(ADI)提供符合10BASE-T1S标准的MAC-PHY解决方案，支持通过非屏蔽双绞线(UTP)实现点对点和多点连接，从而能够通过开放联盟SPI (OASPI)接口直接连接各种主机控制器。 ADI的10BASE-T1S MAC-PHY解决方案符合IEEE 802.3™-2022标准，并与一系列经济高效的微控制器兼容。我们提供软件驱动程序、评估套件以及设计和开发工具，以支持将MAC-PHY解决方案集成到您的下一代汽车平台中。",
+    "navigation_path": "主页/解决方案概要/汽车解决方案/汽车以太网连接技术/10BASE-T1S MAC-PHY解决方案"
+  },
+  "value_and_benefits": {
+    "title": "价值和优势",
+    "contents": "ADI的10BASE-T1S MAC-PHY解决方案是一款超低功耗、功能齐全的高性能产品，可为区域汽车架构中的传感器和执行器提供最后一英里的连接。在多点拓扑中使用10BASE-T1S MAC-PHY可简化连接，减少线束的使用。这些设备可支持至少8个节点、多点操作模式下至少25米的布线长度以及点对点配置中至少15米的布线长度。ADI的MAC-PHY设备减少了对协议转换的需要，并消除了网关，有助于简化下一代汽车设计中的E/E系统。该解决方案提供广泛的功能，例如支持多ID的PLCA以及开放联盟TC10和TC14的所有功能。",
+    "characteristics": [
+      "超低差分电容",
+      "完整的功能集",
+      "系统级成本节省"
+    ]
+  },
+  "hardware_products": [
+    {
+      "category": "产品特性",
+      "model": "AD3306",
+      "description": "Robust, Automotive, Low Power 10BASE-T1S MAC-PHY",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/products/image/functional-block-diagrams/ad3306-fbl.png?rev=61911684ed6b42d7b2db4b8f5553c4e2&sc_lang=zh&h=100px&w=100px&hash=A4A6AA8A321B42C7FA7F7438975BBF33",
+      "image_filename": "ad3306-fbl.png",
+      "local_image_path": "analog_devices_data_final\\10BASE-T1S_MAC-PHY解决方案\\product_images\\ad3306-fbl.png",
+      "product_link": "https://www.analog.com/cn/products/ad3306.html"
+    }
+  ],
+  "evaluation_products": [],
+  "reference_products": []
+}

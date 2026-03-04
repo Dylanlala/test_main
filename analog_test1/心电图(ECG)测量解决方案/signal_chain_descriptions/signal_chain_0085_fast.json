@@ -1,0 +1,76 @@
+{
+  "devices": [
+    {
+      "name": "ECG导联电极(RA/LA/RL/LL/V1-V6)",
+      "description": "贴附于人体体表，采集原始心电、呼吸生理信号。"
+    },
+    {
+      "name": "Defibrillation Protection",
+      "description": "除颤防护电路，阻隔除颤高压脉冲，避免后级采集电路受高压损坏。"
+    },
+    {
+      "name": "Clinical ECG Integrated AFE",
+      "description": "临床心电集成模拟前端，完成心电、呼吸信号的模拟调理、模数转换，同时支持电压基准、导联脱落检测、起搏信号检测功能。"
+    },
+    {
+      "name": "Power for ADAS100x",
+      "description": "ADAS100x系列心电模拟前端的专用供电模块，为AFE提供稳定工作电源。"
+    },
+    {
+      "name": "Processor",
+      "description": "主处理器，对采集的生理信号进行分析处理，同时管控存储、显示、无线通信等外围模块。"
+    },
+    {
+      "name": "Motion Detection",
+      "description": "运动检测模块，采集人体运动状态数据，用于校正心电信号的运动伪差。"
+    },
+    {
+      "name": "Flash",
+      "description": "闪存单元，用于存储设备固件、配置参数以及采集的生理数据。"
+    },
+    {
+      "name": "External Memory",
+      "description": "外部扩展存储单元，提供大容量数据存储空间与运行缓存。"
+    },
+    {
+      "name": "Processor Power",
+      "description": "处理器供电模块，为主处理器及周边存储模块提供稳定工作电源。"
+    },
+    {
+      "name": "Display",
+      "description": "显示模块，实时展示心电波形、呼吸波形、设备运行状态等信息。"
+    },
+    {
+      "name": "Display Backlight/Led Drivers",
+      "description": "显示背光及LED驱动模块，为显示屏提供背光驱动，以及状态指示灯驱动。"
+    },
+    {
+      "name": "Main Powered Battery (Backup)",
+      "description": "主供电/备用电池模块，为整机提供主电源供应，以及断电时的备用供电。"
+    },
+    {
+      "name": "TX/Rx",
+      "description": "射频收发模块，实现无线信号的收发，完成生理数据的远程无线传输。"
+    },
+    {
+      "name": "Bluetooth",
+      "description": "蓝牙通信模块，实现设备与蓝牙终端的短距离无线数据交互。"
+    },
+    {
+      "name": "RF Power",
+      "description": "射频供电模块，为射频收发模块与蓝牙通信模块提供稳定工作电源。"
+    }
+  ],
+  "signal_flow": {
+    "main": "ECG导联电极(RA/LA/RL/LL/V1-V6) -> Defibrillation Protection -> Clinical ECG Integrated AFE -> Processor -> Display；无线发射路径1：Processor -> TX/Rx -> 发射天线；无线发射路径2：Processor -> Bluetooth -> 外部蓝牙接收终端",
+    "branches": [
+      "电源分支：Main Powered Battery (Backup) -> Power for ADAS100x -> Clinical ECG Integrated AFE",
+      "电源分支：Main Powered Battery (Backup) -> Processor Power -> External Memory、Processor",
+      "电源分支：Main Powered Battery (Backup) -> Display Backlight/Led Drivers -> Display",
+      "电源分支：Main Powered Battery (Backup) -> RF Power -> TX/Rx、Bluetooth",
+      "存储分支：Processor <-> Flash；Processor <-> External Memory",
+      "运动检测分支：Motion Detection -> Processor"
+    ]
+  },
+  "application_scene": "临床多导联心电监护设备信号链"
+}

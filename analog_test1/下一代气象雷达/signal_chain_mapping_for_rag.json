@@ -1,0 +1,295 @@
+{
+  "0001": {
+    "chain_id": "0001",
+    "image_basename": "signal_chain_0001.png",
+    "description_file": "signal_chain_0001_fast.json",
+    "description_preview": "### 1. 器件与模块列表\n- **FPGA**：现场可编程门阵列，实现数字发射基带信号生成、接收信号数字处理、系统时序控制与外设驱动控制功能。\n- **REF CLK**：参考时钟源，为全系统提供高稳定度、低相位噪声的基准时钟信号。\n- **DAC**：数模转换器，将FPGA输出的数字发射基带信号转换为模拟基带信号。\n- **AMP**：基带放大器，对DAC输出的模拟基带信号进行幅度放大，适配后级混频器输入电平要求。\n- **MIXER**：发射第一级上变频混频器，将基带信号与第一本振信号混频得到第一中频信号。\n- **RF/IF AMP**：第一中频放大器，对第一级上变频输出的中频信号进行功率放大。\n- **MIXER**：发射第二级上变频混频器，将第一中频信号与第二本振信号混频得到发射射频信号。\n- **RF/IF AMP**：射频驱动放大器，对第二级上变频输出的射频信号进行功率放大，驱动后级功率放大器。\n- **PA**：功率放大器，将发射射频信号放大到额定功率，满足天线发射功率要求。\n- **LOG AMP DETECTORS**：对数检波放大器，实时检测发射链路功率电平，...",
+    "mapping_json_file": "signal_chain_0001_description_to_csv_mapping.json",
+    "csv_files_for_chain": [
+      "0001_ADC_241f6396_2aa_table_1_High_Speed_ADC____10_MSPS.csv",
+      "0001_ADC_DRIVER_57acd3b2_7b9_table_1_Fully_Differential_Amplifiers.csv",
+      "0001_AMP_5242f4f7_c55_table_1_Gain_Blocks.csv",
+      "0001_AMP_5242f4f7_c55_table_2_Video_Operational_Amplifiers__Op_Amps_.csv",
+      "0001_CLOCK_BUFFER_3f8d2681_772_table_1_Clock_Generation___Distribution.csv",
+      "0001_CLOCK_BUFFER_5b6d9446_b5b_table_1_Clock_Generation___Distribution.csv",
+      "0001_DAC_ba65b1ca_f1f_table_1_Precision_DAC.csv",
+      "0001_DDS_5b9a1263_c64_table_1_Direct_Digital_Synthesis.csv",
+      "0001_LNA_a17f30cd_20b_table_1_Low_Noise_Amplifier.csv",
+      "0001_LOG_AMP_DETECTORS_dcd22c49_14f_table_1_Log_Detectors.csv",
+      "0001_MIXER_4ac474b6_e8e_table_1_Mixers.csv",
+      "0001_MIXER_58a50daa_a64_table_1_Mixers.csv",
+      "0001_MIXER_8987c607_5d6_table_1_Mixers.csv",
+      "0001_MIXER_f947f088_807_table_1_Mixers.csv",
+      "0001_PLL_7a640e85_76c_table_1_Fractional-N_PLL.csv",
+      "0001_REF_CLK_4286b930_901_table_1_Clock_Generation_Devices.csv",
+      "0001_RF_IF_AMP_c00eb80f_6d8_table_1_Gain_Blocks.csv",
+      "0001_RF_IF_AMP_d8fe9bfb_d0c_table_1_Driver_Amplifiers.csv",
+      "0001_RF_IF_AMP_f9afaacc_1f9_table_1_Gain_Blocks.csv",
+      "0001_VIDEO__PROCESSING_14eca9d6_0af_table_1_Master_CAT-5_Cable_Video_Devices.csv",
+      "0001_VIDEO__PROCESSING_14eca9d6_0af_table_2_Video_Encoders.csv",
+      "0001_VIDEO__PROCESSING_14eca9d6_0af_table_3_Standard_DAC.csv",
+      "0001_VIDEO__PROCESSING_14eca9d6_0af_table_4_Master_HDMI.csv",
+      "0001_VIDEO__PROCESSING_14eca9d6_0af_table_5_Video_Encoders.csv",
+      "0001_VIDEO__PROCESSING_14eca9d6_0af_table_6_CAT-5_Video_Drivers.csv",
+      "0001_VIDEO__PROCESSING_14eca9d6_0af_table_7_Operational_Amplifiers__Op_Amps_.csv",
+      "0001_VIDEO__PROCESSING_14eca9d6_0af_table_8_Operational_Amplifiers__Op_Amps_.csv"
+    ],
+    "mapping_data": {
+      "mapping": [
+        {
+          "device": "REF CLK",
+          "csv_files": [
+            "0001_REF_CLK_4286b930_901_table_1_Clock_Generation_Devices.csv"
+          ],
+          "comment": "参考时钟源"
+        },
+        {
+          "device": "DAC",
+          "csv_files": [
+            "0001_DAC_ba65b1ca_f1f_table_1_Precision_DAC.csv"
+          ],
+          "comment": "数模转换器"
+        },
+        {
+          "device": "AMP",
+          "csv_files": [
+            "0001_AMP_5242f4f7_c55_table_1_Gain_Blocks.csv",
+            "0001_AMP_5242f4f7_c55_table_2_Video_Operational_Amplifiers__Op_Amps_.csv"
+          ],
+          "comment": "基带放大器"
+        },
+        {
+          "device": "MIXER",
+          "csv_files": [
+            "0001_MIXER_4ac474b6_e8e_table_1_Mixers.csv",
+            "0001_MIXER_58a50daa_a64_table_1_Mixers.csv",
+            "0001_MIXER_8987c607_5d6_table_1_Mixers.csv",
+            "0001_MIXER_f947f088_807_table_1_Mixers.csv"
+          ],
+          "comment": "混频器"
+        },
+        {
+          "device": "RF/IF AMP",
+          "csv_files": [
+            "0001_RF_IF_AMP_c00eb80f_6d8_table_1_Gain_Blocks.csv",
+            "0001_RF_IF_AMP_d8fe9bfb_d0c_table_1_Driver_Amplifiers.csv",
+            "0001_RF_IF_AMP_f9afaacc_1f9_table_1_Gain_Blocks.csv"
+          ],
+          "comment": "中频/射频放大器"
+        },
+        {
+          "device": "LOG AMP DETECTORS",
+          "csv_files": [
+            "0001_LOG_AMP_DETECTORS_dcd22c49_14f_table_1_Log_Detectors.csv"
+          ],
+          "comment": "对数检波放大器"
+        },
+        {
+          "device": "LNA",
+          "csv_files": [
+            "0001_LNA_a17f30cd_20b_table_1_Low_Noise_Amplifier.csv"
+          ],
+          "comment": "低噪声放大器"
+        },
+        {
+          "device": "ADC DRIVER",
+          "csv_files": [
+            "0001_ADC_DRIVER_57acd3b2_7b9_table_1_Fully_Differential_Amplifiers.csv"
+          ],
+          "comment": "模数转换器驱动放大器"
+        },
+        {
+          "device": "ADC",
+          "csv_files": [
+            "0001_ADC_241f6396_2aa_table_1_High_Speed_ADC____10_MSPS.csv"
+          ],
+          "comment": "模数转换器"
+        },
+        {
+          "device": "CLOCK BUFFER",
+          "csv_files": [
+            "0001_CLOCK_BUFFER_3f8d2681_772_table_1_Clock_Generation___Distribution.csv",
+            "0001_CLOCK_BUFFER_5b6d9446_b5b_table_1_Clock_Generation___Distribution.csv"
+          ],
+          "comment": "时钟缓冲器"
+        },
+        {
+          "device": "PLL",
+          "csv_files": [
+            "0001_PLL_7a640e85_76c_table_1_Fractional-N_PLL.csv"
+          ],
+          "comment": "锁相环"
+        },
+        {
+          "device": "DDS",
+          "csv_files": [
+            "0001_DDS_5b9a1263_c64_table_1_Direct_Digital_Synthesis.csv"
+          ],
+          "comment": "直接数字频率合成器"
+        }
+      ],
+      "summary": "根据提供的信号链描述和CSV文件列表，以下是器件/模块与CSV文件的映射关系：",
+      "note": ""
+    }
+  },
+  "0461": {
+    "chain_id": "0461",
+    "image_basename": "signal_chain_0461.png",
+    "description_file": "signal_chain_0461_fast.json",
+    "description_preview": "### 1. 器件与模块列表\n- **Consumer Video Connectivity（Remote Media Port）**：远程媒体端口消费类视频接入模块，适配手机、苹果接口等外接消费电子的音视频输入，完成信号预处理。\n- **Audio CODEC**：音频编解码器，对输入的模拟音频信号完成模数转换、编解码处理，输出数字音频信号。\n- **APIX2（Remote Media Port 发送端1）**：APIX2总线发送模块，将预处理后的音视频信号编码为APIX2格式，传输至车机端。\n- **APIX2（Remote Media Port 发送端2）**：APIX2总线发送模块，接收外接外设输入信号，编码为APIX2格式传输至车机端。\n- **LDI LVDS**：LDI格式LVDS信号源，输出车载显示接口格式的视频信号至APIX2接收模块。\n- **APIX2（Head-Unit 接收端1）**：APIX2总线接收模块，解码远程端口传输的APIX2信号，同时接收LDI LVDS输入，输出至车机处理器。\n- **APIX2（Head-Unit 接收端2）**：APIX2总...",
+    "mapping_json_file": "signal_chain_0461_description_to_csv_mapping.json",
+    "csv_files_for_chain": [],
+    "mapping_data": {
+      "mapping": [],
+      "summary": "本信号链（chain_id=0461）在 exports_signal_chain_csv 中无对应选型表（即不存在以 `0461_` 开头的 CSV 文件）。",
+      "note": "图中器件与选型表无映射关系。"
+    }
+  },
+  "0477": {
+    "chain_id": "0477",
+    "image_basename": "signal_chain_0477.png",
+    "description_file": "signal_chain_0477_fast.json",
+    "description_preview": "### 1. 器件与模块列表\n- **Host**：上位机主机，实现测量参数配置、测量指令下发、测量数据的接收、存储与显示。\n- **Data Isolation**：数字信号隔离模块，实现上位机与后端测量系统的数字通信信号电气隔离，抑制共模干扰，提升系统可靠性。\n- **Isolated Power**：隔离供电模块，为后端所有测量控制电路提供与上位机侧电气隔离的供电电源，避免地环路干扰。\n- **Control Logic Micro Processor**：控制逻辑微处理器，负责解析上位机指令、配置DAC参数、采集ADC数据、执行闭环控制逻辑与系统保护逻辑。\n- **VREF**：高精度电压基准源，为系统内所有DAC、ADC器件提供高精度、高稳定性的参考电压，保障输出与测量精度。\n- **SP DAC**：设定值数模转换器，将微处理器输出的数字设定值转换为模拟设定电压，作为输出闭环控制的参考基准。\n- **CMP DAC**：合规阈值数模转换器，将微处理器输出的数字阈值转换为模拟电压，作为输出过压、过流保护的判断阈值。\n- **I-V Clamping and complianc...",
+    "mapping_json_file": "signal_chain_0477_description_to_csv_mapping.json",
+    "csv_files_for_chain": [
+      "0477_ADC_DRIVER_3ff71f0e_a3b_table_1_ADC_Drivers.csv",
+      "0477_ADC_DRIVER_3ff71f0e_a3b_table_2_Rail-to-Rail_Op_Amps.csv",
+      "0477_ADC_DRIVER_4668d90a_148_table_1_ADC_Drivers.csv",
+      "0477_ADC_DRIVER_4668d90a_148_table_2_Rail-to-Rail_Op_Amps.csv",
+      "0477_AMP_17472932_3e4_table_1_Operational_Amplifiers__Op_Amps_.csv",
+      "0477_CMP_DAC_8b0e3b7a_e72_table_1_Precision_D_A_Converters.csv",
+      "0477_CMP_DAC_8b0e3b7a_e72_table_2_High_Speed_D_A_Converters__30MSPS.csv",
+      "0477_CURRENT_SENSE_IN_AMP_5f35a6ad_a9d_table_1_Difference_Amplifiers.csv",
+      "0477_DATA_ISOLATION_ed188a24_522_table_1_Digital_Isolation_Technology.csv",
+      "0477_DRIVERAMP_9e16ac9a_05d_table_1_Difference_Amplifiers.csv",
+      "0477_INTEGRATED_SMU_coord_80d23b7e_table_1_ATE__DPS___PMU.csv",
+      "0477_INTEGRATED_SMU_coord_80d23b7e_table_2_ATE__DPS___PMU.csv",
+      "0477_I_ADC_263d4c08_0e0_table_1_Precision_A_D_Converters.csv",
+      "0477_I_V_CLAMPING_AND_COMPLIANCE_CONTROL_coord_2ac64a26_table_1_Video_Operational_Amplifiers__Op_Amps_.csv",
+      "0477_I_V_CLAMPING_AND_COMPLIANCE_CONTROL_coord_2ac64a26_table_2_Low_Noise_Op_Amps_____10nV_vHz_.csv",
+      "0477_MUX_10435f1b_da3_table_1_Single_Supply_Analog_Switches___Multiplexers.csv",
+      "0477_MUX_2fb66686_048_table_1_Single_Supply_5V_to_44V.csv",
+      "0477_MUX_887c26e7_166_table_1_Single_Supply_Analog_Switches___Multiplexers.csv",
+      "0477_MUX_90359e4d_b1f_table_1_Single_Supply_Analog_Switches___Multiplexers.csv",
+      "0477_POWERBLOCK_c2c30acc_ffa_table_1_isoPower.csv",
+      "0477_POWERBLOCK_c2c30acc_ffa_table_2_Ultralow_Noise_Regulators.csv",
+      "0477_POWERBLOCK_c2c30acc_ffa_table_3_LDO_Plus.csv",
+      "0477_SP_DAC_7c3d1171_0b6_table_1_Precision_D_A_Converters.csv",
+      "0477_SP_DAC_7c3d1171_0b6_table_2_High_Speed_D_A_Converters__30MSPS.csv",
+      "0477_VOLTAGE_SENSE_IN_AMP_c04808d5_b3c_table_1_Instrumentation_Amplifiers.csv",
+      "0477_VREF_cc444175_b43_table_1_Voltage_References.csv",
+      "0477_V_ADC_025d82ed_503_table_1_Precision_A_D_Converters.csv"
+    ],
+    "mapping_data": {
+      "mapping": [
+        {
+          "device": "Data Isolation",
+          "csv_files": [
+            "0477_DATA_ISOLATION_ed188a24_522_table_1_Digital_Isolation_Technology.csv"
+          ],
+          "comment": "数字隔离技术"
+        },
+        {
+          "device": "VREF",
+          "csv_files": [
+            "0477_VREF_cc444175_b43_table_1_Voltage_References.csv"
+          ],
+          "comment": "电压基准源"
+        },
+        {
+          "device": "SP DAC",
+          "csv_files": [
+            "0477_SP_DAC_7c3d1171_0b6_table_1_Precision_D_A_Converters.csv",
+            "0477_SP_DAC_7c3d1171_0b6_table_2_High_Speed_D_A_Converters__30MSPS.csv"
+          ],
+          "comment": "设定值数模转换器"
+        },
+        {
+          "device": "CMP DAC",
+          "csv_files": [
+            "0477_CMP_DAC_8b0e3b7a_e72_table_1_Precision_D_A_Converters.csv",
+            "0477_CMP_DAC_8b0e3b7a_e72_table_2_High_Speed_D_A_Converters__30MSPS.csv"
+          ],
+          "comment": "合规阈值数模转换器"
+        },
+        {
+          "device": "Driver Amp",
+          "csv_files": [
+            "0477_DRIVERAMP_9e16ac9a_05d_table_1_Difference_Amplifiers.csv"
+          ],
+          "comment": "输出驱动放大器"
+        },
+        {
+          "device": "AMP (Guard)",
+          "csv_files": [
+            "0477_AMP_17472932_3e4_table_1_Operational_Amplifiers__Op_Amps_.csv"
+          ],
+          "comment": "保护端驱动放大器"
+        },
+        {
+          "device": "Current sense IN-AMP",
+          "csv_files": [
+            "0477_CURRENT_SENSE_IN_AMP_5f35a6ad_a9d_table_1_Difference_Amplifiers.csv"
+          ],
+          "comment": "电流检测仪表放大器"
+        },
+        {
+          "device": "Voltage Sense IN-AMP",
+          "csv_files": [
+            "0477_VOLTAGE_SENSE_IN_AMP_c04808d5_b3c_table_1_Instrumentation_Amplifiers.csv"
+          ],
+          "comment": "电压检测仪表放大器"
+        },
+        {
+          "device": "ADC Driver (I ADC)",
+          "csv_files": [
+            "0477_ADC_DRIVER_3ff71f0e_a3b_table_1_ADC_Drivers.csv",
+            "0477_ADC_DRIVER_3ff71f0e_a3b_table_2_Rail-to-Rail_Op_Amps.csv",
+            "0477_ADC_DRIVER_4668d90a_148_table_1_ADC_Drivers.csv",
+            "0477_ADC_DRIVER_4668d90a_148_table_2_Rail-to-Rail_Op_Amps.csv"
+          ],
+          "comment": "电流测量ADC驱动放大器"
+        },
+        {
+          "device": "I ADC",
+          "csv_files": [
+            "0477_I_ADC_263d4c08_0e0_table_1_Precision_A_D_Converters.csv"
+          ],
+          "comment": "电流测量模数转换器"
+        },
+        {
+          "device": "ADC Driver (V ADC)",
+          "csv_files": [
+            "0477_ADC_DRIVER_3ff71f0e_a3b_table_1_ADC_Drivers.csv",
+            "0477_ADC_DRIVER_3ff71f0e_a3b_table_2_Rail-to-Rail_Op_Amps.csv",
+            "0477_ADC_DRIVER_4668d90a_148_table_1_ADC_Drivers.csv",
+            "0477_ADC_DRIVER_4668d90a_148_table_2_Rail-to-Rail_Op_Amps.csv"
+          ],
+          "comment": "电压测量ADC驱动放大器"
+        },
+        {
+          "device": "V ADC",
+          "csv_files": [
+            "0477_V_ADC_025d82ed_503_table_1_Precision_A_D_Converters.csv"
+          ],
+          "comment": "电压测量模数转换器"
+        }
+      ],
+      "summary": "根据提供的信号链描述和CSV文件列表，以下是器件/模块与CSV文件的映射关系：",
+      "note": ""
+    }
+  },
+  "0484": {
+    "chain_id": "0484",
+    "image_basename": "signal_chain_0484.png",
+    "description_file": "signal_chain_0484_fast.json",
+    "description_preview": "### 1. 器件与模块列表\n- **接收天线**：接收Ka频段空间入射的射频电磁波信号，转换为电信号输入接收链路。\n- **LNA**：低噪声放大器，对接收的Ka频段射频信号进行低噪声放大，提升接收信噪比与灵敏度。\n- **RF Mixer**：Ka频段下变频混频器，将输入的Ka频段射频信号与本振信号混频，输出C频段中频信号。\n- **Gain Block**：中频增益放大模块，对C频段中频信号进行功率放大，补偿链路插入损耗。\n- **RF Mixer**：C频段下变频混频器，将输入的C频段中频信号与本振信号混频，输出低于500MHz的低中频模拟信号。\n- **DSA**：数字步进衰减器，实现信号功率的数字可控调节，适配后级ADC的输入动态范围。\n- **ADC Driver**：模数转换器驱动放大器，对低中频模拟信号进行电平匹配与驱动，满足ADC输入阻抗与电平要求。\n- **ADC**：模数转换器，对输入的模拟低中频信号进行采样量化，转换为数字信号输出至后端处理单元。\n- **DSP**：数字信号处理器，对ADC输出的数字回波信号以及IMU测量数据进行运算处理，完成目标检测、成像等...",
+    "mapping_json_file": "signal_chain_0484_description_to_csv_mapping.json",
+    "csv_files_for_chain": [],
+    "mapping_data": {
+      "mapping": [],
+      "summary": "本信号链（chain_id=0484）在 exports_signal_chain_csv 中无对应选型表（即不存在以 `0484_` 开头的 CSV 文件）。",
+      "note": "图中器件与选型表无映射关系。"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+﻿模块名称,RF IF AMP
+表格名称,Gain Blocks
+Part #,Eval / Ref Circuit,RF Primary Function,Freq Response RF (min) (Hz),Freq Response RF (max) (Hz),Gain (typ) (dB),OP1dB (typ) (dBm),OIP3 (typ) (dBm),NF (typ) (dB),Device Match,Vs (typ) (V),Is (typ) (A),US Price 100 to 499 ($ US),Package,Product Description,Status,Automotive,Reliability Level,Temp Range,US Price 1000 to 4999 ($ US),Comments,Over-the-Top,-1dB BW (Hz),Rin/Rout (Ohms),70dBc IM3 BW (typ) (Hz),80dBc IM3 BW (typ) (Hz),90dBc IM3 BW (typ) (Hz),产品链接
+ADL5541,,Gain Block,20M,6G,14.7,16.3,39.2,3.8,Internal,5,90m,,8 ld LFCSP (3x3mm 1.74x1.45mm EP),,,,,,,,,,,,,,http://www.analog.com/zh/adl5541
+ADL5542,,Gain Block,20M,6G,18.7,18,39,3.2,Internal,5,93m,,8 ld LFCSP (3x3mm 1.74x1.45mm EP),,,,,,,,,,,,,,http://www.analog.com/zh/adl5542
+ADL5601,,Gain Block,50M,4G,15,19,43,3.7,Internal,5,83m,,3 ld SOT89,,,,,,¥22.75000 (ADL5601ARKZ-R7),,,,,,,,http://www.analog.com/zh/adl5601
+ADL5602,,Gain Block,50M,4G,19.3,19.3,42,3.3,Internal,5,89m,,3 ld SOT89,,,,,,¥22.75000 (ADL5602ARKZ-R7),,,,,,,,http://www.analog.com/zh/adl5602

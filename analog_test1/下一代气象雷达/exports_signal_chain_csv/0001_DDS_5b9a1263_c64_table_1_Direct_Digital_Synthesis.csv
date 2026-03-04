@@ -1,0 +1,5 @@
+﻿组件名称,DDS
+模块名称,Direct Digital Synthesis
+Part #,Eval / Ref Circuit,Device Primary Function,Clock Input (max) (Hz),DAC Resolution (bit),# of Channels,Tuning Word Width (max),Power (typ) (W),Amplitude Tuning Control,Sweep Accumulator,Ref Clock Multiplier on Chip,Iout FS (max) (A),US Price 1000 to 4999 ($ US),Programmable Modulus,Ref Clock Multiplier Range,Interface,Comparator on Chip,Is (typ) (A),Vs+ (min) (V),Vs+ (max) (V),Automotive,Clock Features,Product Description,Status,Package,Reliability Level,Temp Range,产品链接
+AD9910,"Evaluation board, Reference circuit",DDS,1G,14,1,32,715m,Yes,Yes,Yes,30m,¥397.16000 (AD9910BSVZ-REEL),,,,,,,,,,,,100 ld TQFP w/ 5mm exposed pad,,,http://www.analog.com/zh/ad9910
+AD9959,"Evaluation board, Reference circuit",DDS,500M,10,4,32,580m,Yes,Yes,Yes,10m,$38.72 (AD9959BCPZ-REEL7),,,,,,,,,,,,56 ld LFCSP (8x8mm),,,http://www.analog.com/zh/ad9959

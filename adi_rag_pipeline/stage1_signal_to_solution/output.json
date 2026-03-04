@@ -1,0 +1,410 @@
+{
+  "scenarios": [
+    {
+      "title": "适应性电压和电流测量",
+      "description": "信号链选项为测量直流和低频信号提供出色的精度、稳定性和可重复性。",
+      "optimizations": [
+        {
+          "direction": "低延迟测量",
+          "modules": [
+            {
+              "name": "保护",
+              "part": "ADG5421F",
+              "description": "±60 V故障保护和检测、11 Ω RON、双通道SPST开关",
+              "url": "https://www.analog.com/cn/products/adg5421f.html"
+            },
+            {
+              "name": "增益",
+              "part": "LTC6373",
+              "description": "具有25 pA输入偏置电流的36V、全差分可编程增益仪器仪表放大器",
+              "url": "https://www.analog.com/cn/products/ltc6373.html"
+            },
+            {
+              "name": "ADC驱动器",
+              "part": "ADA4896-2",
+              "description": "1 nV/√Hz、低功耗、轨到轨输出放大器",
+              "url": "https://www.analog.com/cn/products/ada4896-2.html"
+            },
+            {
+              "name": "基准电压源",
+              "part": "LTC6655LN",
+              "description": "0.25 ppm噪声、低漂移精密基准电压源",
+              "url": "https://www.analog.com/cn/products/ltc6655.html"
+            },
+            {
+              "name": "ADC",
+              "part": "AD4630-24",
+              "description": "双通道、24位、2 Msps、低功耗SAR ADC",
+              "url": "https://www.analog.com/cn/products/ad4630-24.html"
+            },
+            {
+              "name": "隔离",
+              "part": "MAX22444",
+              "description": "增强型、快速、低功耗、四通道数字隔离器",
+              "url": "https://www.analog.com/cn/products/max22444.html"
+            },
+            {
+              "name": "隔离",
+              "part": "MAX22665",
+              "description": "快速、低功耗的六通道增强型数字隔离器",
+              "url": "https://www.analog.com/cn/products/max22665.html"
+            }
+          ],
+          "block_diagram_url": "https://www.analog.com/cn/_/media/analog/en/technologies/precision-technology/precision-narrow-bandwidth/low-latency-measurement-signal-chain/blockdiagram.svg?rev=460fe58c9dca432681b3221ffa2d9c9b&sc_lang=zh&la=zh&hash=9459B2E6E2EAB781B81A7B04B78664B7"
+        },
+        {
+          "direction": "最低噪声和最低漂移",
+          "modules": [
+            {
+              "name": "开关",
+              "part": "ADG1211",
+              "description": "L低电容、低电荷注入、±15 V/+12 V iCMOS、四通道单刀单掷开关",
+              "url": "https://www.analog.com/cn/products/adg1211.html"
+            },
+            {
+              "name": "增益",
+              "part": "ADA4625-1",
+              "description": "36 V、18 MHz、低噪声、快速稳定单电源、RRO、JFET 运算放大器",
+              "url": "https://www.analog.com/cn/products/ada4625-1.html"
+            },
+            {
+              "name": "ADC驱动器",
+              "part": "ADA4523-1",
+              "description": "36 V、低噪声、零漂移运算放大器",
+              "url": "https://www.analog.com/cn/products/ada4523-1.html"
+            },
+            {
+              "name": "基准电压源",
+              "part": "ADR1000",
+              "description": "烤箱补偿、埋入式齐纳二极管、6.62 V 基准电压源",
+              "url": "https://www.analog.com/cn/products/adr1000.html"
+            },
+            {
+              "name": "基准驱动器",
+              "part": "ADA4523-1",
+              "description": "36 V、低噪声、零漂移运算放大器",
+              "url": "https://www.analog.com/cn/products/ada4523-1.html"
+            },
+            {
+              "name": "ADC",
+              "part": "AD4030-24",
+              "description": "24 位、2 MSPS、SAR ADC",
+              "url": "https://www.analog.com/cn/products/ad4030-24.html"
+            },
+            {
+              "name": "隔离",
+              "part": "MAX22444",
+              "description": "增强型、快速、低功耗、四通道数字隔离器",
+              "url": "https://www.analog.com/cn/products/max22444.html"
+            },
+            {
+              "name": "隔离",
+              "part": "MAX22665",
+              "description": "快速、低功耗的六通道增强型数字隔离器",
+              "url": "https://www.analog.com/cn/products/max22665.html"
+            }
+          ],
+          "block_diagram_url": "https://www.analog.com/cn/_/media/analog/en/technologies/precision-technology/precision-narrow-bandwidth/lowest-noise-and-lowest-drift-signal-chain/blockdiagram.svg?rev=af5e739a9d2144619d5323ae884ef34a&sc_lang=zh&la=zh&hash=F653D044AF8D2C7DBA26CFE7057D3EF4"
+        },
+        {
+          "direction": "最佳精度 - 出色的稳定性",
+          "modules": [
+            {
+              "name": "保护",
+              "part": "ADG5421F",
+              "description": "±60 V 故障保护和检测、11 Ω RON、双路 SPST 开关",
+              "url": "https://www.analog.com/cn/products/adg5421f.html"
+            },
+            {
+              "name": "增益",
+              "part": "ADA4522-2",
+              "description": "双通道55V、EMI增强型、零漂移、超低噪声、RRO运算放大器",
+              "url": "https://www.analog.com/cn/products/ada4522-2.html"
+            },
+            {
+              "name": "基准电压源",
+              "part": "LTC6655LN",
+              "description": "0.25ppm 噪声、低漂移、精准基准系列",
+              "url": "https://www.analog.com/cn/products/ltc6655.html"
+            },
+            {
+              "name": "ADC",
+              "part": "AD7177-2",
+              "description": "32位、10 kSPS Σ-Δ型ADC，具有100 μs建立时间，集成真轨到轨缓冲器",
+              "url": "https://www.analog.com/cn/products/ad7177-2.html"
+            },
+            {
+              "name": "隔离",
+              "part": "MAX22664",
+              "description": "快速、低功耗的六通道增强型数字隔离器",
+              "url": "https://www.analog.com/cn/products/max22664.html"
+            }
+          ],
+          "block_diagram_url": "https://www.analog.com/cn/_/media/analog/en/technologies/precision-technology/precision-narrow-bandwidth/sc07-adapt-volt-curr-meas02.svg?rev=85ea7599b6584e479bf6ee20233d186e&sc_lang=zh&la=zh&hash=CC6E86FF4FFAF79209E215321EBE5A71"
+        }
+      ],
+      "resources": {
+        "ltspice": [
+          {
+            "name": "低延迟测量",
+            "url": "https://www.analog.com/media/en/simulation-models/ltspice-demo-circuits/adaptable-measurement-low-latency.zip"
+          }
+        ],
+        "power_solution": [
+          {
+            "name": "最低噪声和最低漂移",
+            "url": "https://www.analog.com/media/en/news-marketing-collateral/product-selection-guide/adaptable-measurement-lowest-noise-drift.pdf"
+          },
+          {
+            "name": "低延迟测量",
+            "url": "https://www.analog.com/media/en/news-marketing-collateral/product-selection-guide/adaptable-measure-low-latency.pdf"
+          },
+          {
+            "name": "最佳精度 - 出色的稳定性",
+            "url": "https://www.analog.com/media/en/news-marketing-collateral/product-selection-guide/adaptable-measure-optimum-precision.pdf"
+          }
+        ],
+        "application_page": null
+      }
+    },
+    {
+      "title": "全集成电压和电流测量",
+      "description": "紧凑的信号链选项为测量直流和低频信号提供出色的性能。",
+      "optimizations": [
+        {
+          "direction": "多路复用 - 精度优化型传感器就绪",
+          "modules": [
+            {
+              "name": "基准电压源",
+              "part": "LTC6655LN",
+              "description": "0.25ppm 噪声、低漂移、精准基准系列",
+              "url": "https://www.analog.com/cn/products/ltc6655.html"
+            },
+            {
+              "name": "ADC",
+              "part": "AD7190",
+              "description": "内置PGA的4.8 KHZ、超低噪声、24位Σ-Δ型ADC",
+              "url": "https://www.analog.com/cn/products/ad7190.html"
+            },
+            {
+              "name": "隔离",
+              "part": "ADuM141E",
+              "description": "带输出使能和1个反向通道的鲁棒、四通道隔离器",
+              "url": "https://www.analog.com/cn/products/adum141e.html"
+            }
+          ],
+          "block_diagram_url": "https://www.analog.com/cn/_/media/analog/en/technologies/precision-technology/precision-narrow-bandwidth/sc08-int-volt-curr-meas01.svg?rev=84e7a22df75b406cb8c9a14181c54c0d&sc_lang=zh&la=zh&hash=29D49BD2A108E08A49FB44E0F9AC7DE3"
+        },
+        {
+          "direction": "小尺寸 - 低功耗 - 传感器就绪",
+          "modules": [
+            {
+              "name": "基准电压源",
+              "part": "ADR4525",
+              "description": "超低噪声、高精度2.5V基准电压源",
+              "url": "https://www.analog.com/cn/products/adr4525.html"
+            },
+            {
+              "name": "数据采集解决方案",
+              "part": "AD7124-4",
+              "description": "集成PGA和基准电压源的4通道、低噪声、低功耗24位Σ-Δ型ADC",
+              "url": "https://www.analog.com/cn/products/ad7124-4.html"
+            },
+            {
+              "name": "数据采集解决方案",
+              "part": "AD7124-8",
+              "description": "集成PGA和基准电压源的8通道、低噪声、低功耗24位Σ-Δ型ADC",
+              "url": "https://www.analog.com/cn/products/ad7124-8.html"
+            },
+            {
+              "name": "隔离",
+              "part": "ADuM1441",
+              "description": "微功耗四通道数字隔离器，默认高电平（3/1通道方向性）",
+              "url": "https://www.analog.com/cn/products/adum1441.html"
+            }
+          ],
+          "block_diagram_url": null
+        },
+        {
+          "direction": "密度和延迟优化型传感器就绪",
+          "modules": [
+            {
+              "name": "数据采集解决方案",
+              "part": "AD4858",
+              "description": "缓冲8通道同步采样、20位1 MSPS DAS",
+              "url": "https://www.analog.com/cn/products/ad4858.html"
+            },
+            {
+              "name": "隔离",
+              "part": "ADN4622",
+              "description": "5.7 kV rms/1.5 kV rms、四通道 LVDS 2.5 千兆位隔离器（2 个反转通道）",
+              "url": "https://www.analog.com/cn/products/adn4622.html"
+            }
+          ],
+          "block_diagram_url": "https://www.analog.com/cn/_/media/analog/en/technologies/precision-technology/precision-narrow-bandwidth/sc09-int-volt-curr-meas02.svg?rev=e196688df6d74f77ad170fb762d73ae6&sc_lang=zh&la=zh&hash=DF3F1632FDF853CF7EBEF49A20BFD04B"
+        }
+      ],
+      "resources": {
+        "ltspice": null,
+        "power_solution": [
+          {
+            "name": "多路复用 - 精度优化型传感器就绪",
+            "url": "https://www.analog.com/media/en/news-marketing-collateral/product-selection-guide/fully-integrated-multiplexed-accuracy-optimzed.pdf"
+          },
+          {
+            "name": "小尺寸 - 低功耗 - 传感器就绪",
+            "url": "https://www.analog.com/media/en/news-marketing-collateral/product-selection-guide/fully-integrated-small-low-power.pdf"
+          },
+          {
+            "name": "密度和延迟优化型传感器就绪",
+            "url": "https://www.analog.com/media/en/news-marketing-collateral/product-selection-guide/fully-integrated-density-latency-optimized.pdf"
+          }
+        ],
+        "application_page": null
+      }
+    },
+    {
+      "title": "适应性电压驱动",
+      "description": "信号链选项提供高精度、高度稳定的可编程电压源。",
+      "optimizations": [
+        {
+          "direction": "噪声和稳定性优化型",
+          "modules": [
+            {
+              "name": "基准电压源",
+              "part": "ADR1000",
+              "description": "烤箱补偿、埋入式齐纳二极管、6.62 V 基准电压源",
+              "url": "https://www.analog.com/cn/products/adr1000.html"
+            },
+            {
+              "name": "参考增益级",
+              "part": "ADA4077-1",
+              "description": "4 MHz、7 nV/√Hz、低失调和漂移、高精度单通道放大器",
+              "url": "https://www.analog.com/cn/products/ada4077-1.html"
+            },
+            {
+              "name": "力/检测参考驱动",
+              "part": "AD8676",
+              "description": "超高精度、36 V、2.8 nV/√Hz双路RRO运算放大器",
+              "url": "https://www.analog.com/cn/products/ad8676.html"
+            },
+            {
+              "name": "隔离",
+              "part": "MAX22664",
+              "description": "快速、低功耗的六通道增强型数字隔离器",
+              "url": "https://www.analog.com/cn/products/max22664.html"
+            },
+            {
+              "name": "DAC",
+              "part": "AD5791",
+              "description": "11ppm、20位、±1 LSB INL、电压输出DAC",
+              "url": "https://www.analog.com/cn/products/ad5791.html"
+            },
+            {
+              "name": "输出缓冲器",
+              "part": "AD8675",
+              "description": "36 V、精密、2.8 nV/√Hz轨到轨输出运算放大器",
+              "url": "https://www.analog.com/cn/products/ad8675.html"
+            },
+            {
+              "name": "保护",
+              "part": "ADG5401F",
+              "description": "故障保护，6 Ω RON带 0.6 kΩ 反馈通道的 SPST 开关",
+              "url": "https://www.analog.com/cn/products/adg5401f.html"
+            }
+          ],
+          "block_diagram_url": "https://www.analog.com/cn/_/media/analog/en/technologies/precision-technology/precision-narrow-bandwidth/sc10-adaptable-voltage-drive01-2.svg?rev=b979cba085d449b7a15815c44937906c&sc_lang=zh&la=zh&hash=1D30E76AE2320F09BA67EDF4DC168A80"
+        },
+        {
+          "direction": "密度优化型",
+          "modules": [
+            {
+              "name": "基准电压源",
+              "part": "LTC6655",
+              "description": "0.25ppm 噪声、低漂移、精准基准系列",
+              "url": "https://www.analog.com/cn/products/ltc6655.html"
+            },
+            {
+              "name": "参考增益级",
+              "part": "ADA4077-1",
+              "description": "4 MHz、7 nV/√Hz、低失调和漂移、高精度单通道放大器",
+              "url": "https://www.analog.com/cn/products/ada4077-1.html"
+            },
+            {
+              "name": "隔离",
+              "part": "MAX22664",
+              "description": "快速、低功耗的六通道增强型数字隔离器",
+              "url": "https://www.analog.com/cn/products/max22664.html"
+            },
+            {
+              "name": "DAC",
+              "part": "AD5790",
+              "description": "可供系统立即使用的20位、±2 LSB INL电压输出DAC",
+              "url": "https://www.analog.com/cn/products/ad5790.html"
+            },
+            {
+              "name": "输出缓冲器",
+              "part": "AD8675",
+              "description": "36 V、精密、2.8 nV/√Hz轨到轨输出运算放大器",
+              "url": "https://www.analog.com/cn/products/ad8675.html"
+            },
+            {
+              "name": "保护",
+              "part": "ADG5401F",
+              "description": "故障保护，6 Ω RON带 0.6 kΩ 反馈通道的 SPST 开关",
+              "url": "https://www.analog.com/cn/products/adg5401f.html"
+            }
+          ],
+          "block_diagram_url": null
+        },
+        {
+          "direction": "成本优化型",
+          "modules": [
+            {
+              "name": "基准电压源",
+              "part": "LTC6655",
+              "description": "0.25ppm 噪声、低漂移、精准基准系列",
+              "url": "https://www.analog.com/cn/products/ltc6655.html"
+            },
+            {
+              "name": "缓冲器",
+              "part": "ADA4077-1",
+              "description": "4 MHz、7 nV/√Hz、低失调和漂移、高精度单通道放大器",
+              "url": "https://www.analog.com/cn/products/ada4077-1.html"
+            },
+            {
+              "name": "隔离",
+              "part": "MAX22664",
+              "description": "快速、低功耗的六通道增强型数字隔离器",
+              "url": "https://www.analog.com/cn/products/max22664.html"
+            },
+            {
+              "name": "DAC",
+              "part": "LTC2756",
+              "description": "串行 18 位 SoftSpan IOUT DAC",
+              "url": "https://www.analog.com/cn/products/ltc2756.html"
+            },
+            {
+              "name": "放大器",
+              "part": "AD8675",
+              "description": "36 V、精密、2.8 nV/√Hz轨到轨输出运算放大器",
+              "url": "https://www.analog.com/cn/products/ad8675.html"
+            },
+            {
+              "name": "保护",
+              "part": "ADG5401F",
+              "description": "故障保护，6 Ω RON带 0.6 kΩ 反馈通道的 SPST 开关",
+              "url": "https://www.analog.com/cn/products/adg5401f.html"
+            }
+          ],
+          "block_diagram_url": "https://www.analog.com/cn/_/media/analog/en/technologies/precision-technology/precision-narrow-bandwidth/sc11-adaptable-voltage-drive02.svg?rev=8358a902d3d4424ab1d92ef9ab1afba"
+        }
+      ],
+      "resources": {
+        "ltspice": null,
+        "power_solution": null,
+        "application_page": null
+      }
+    }
+  ]
+}

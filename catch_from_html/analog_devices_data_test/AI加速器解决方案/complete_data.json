@@ -1,0 +1,43 @@
+{
+  "page_info": {
+    "url": "https://www.analog.com/cn/solutions/data-center/ai-accelerators/ai-accelerators-complete-solution.html",
+    "title": "AI加速器解决方案",
+    "keywords": "",
+    "description": "ADI公司针对数据中心到边缘的AI加速器提供电源管理解决方案，其先进的解决方案支持高性能硬件加速器设计。",
+    "component_overview": "ADI公司针对数据中心到边缘的AI加速器提供电源管理解决方案，其先进的解决方案支持高性能硬件加速器设计。",
+    "navigation_path": "主页/解决方案概要/数据中心解决方案/AI加速器/AI加速器解决方案"
+  },
+  "value_and_benefits": {
+    "title": "价值和优势",
+    "contents": "我们的多相电源转换和负载点(POL)产品提供高效率和高功率密度，而我们的电源监视器和精密温度测量产品提供高精度电量计量和洞察信息，有助于改善电源管理。我们还为多种AI加速器应用提供DC-DC电源转换解决方案。在解决与AI、ML ASIC和处理器相关的电源挑战时，我们的多相控制器和集成式功率级解决方案可以帮助客户满足严苛的动态要求。最后，我们的Silent Switcher™和耦合电感技术让同步降压转换器达到新的性能水平。 此外，2 MHz或更高的开关频率选项、先进封装解决方案、高效率和超低EMI，这些组合技术能够提供紧凑、低EMI的电源解决方案。",
+    "characteristics": [
+      "高效率、高功率密度",
+      "低EMI",
+      "先进封装解决方案"
+    ]
+  },
+  "hardware_products": [],
+  "evaluation_products": [],
+  "reference_products": [],
+  "signal_chains": {
+    "module_title": "信号链",
+    "total_count": 1,
+    "active_chain_id": "0679",
+    "chains": [
+      {
+        "list_name": "加速器模块",
+        "data_target": "ISC-0679",
+        "chain_id": "0679",
+        "is_active": true,
+        "is_more_option": false,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0679.png",
+          "filename": "signal_chain_0679.png",
+          "local_path": "analog_devices_data_final\\AI加速器解决方案\\signal_chains\\signal_chain_0679.png",
+          "chain_id": "0679"
+        },
+        "signal_chain_hotspots": []
+      }
+    ]
+  }
+}

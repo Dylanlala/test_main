@@ -1,0 +1,5 @@
+﻿组件名称,PowerBlock
+模块名称,LDO Plus
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,Number of Outputs,Vin (min) (V),Vin (max) (V),Output Current (typ) (A),Output Voltage,Dropout Voltage (typ) (V),RMS Noise (typ) (V),Isupply (typ) (A),Power Management Features,产品链接
+LT3091,"–36V, 1.5A Negative Linear Regulator with Programmable Current Limit",Recommended for New Designs,2766,$3.45 (LT3091EDE#PBF),"7-Lead TO-220,7-Lead DD Pak,16-Lead TSSOP w/ EP,14-Lead DFN (4mm x 3mm w/ EP)",1,-36,-1.5,1.5,-Adj,300m,18µ,1.2m,"Cable Drop Compensation, Current Source Reference, Output Current Monitor, Shutdown",https://www.analog.com/zh/products/lt3091
+LT3081,1.5A Single Resistor Rugged Linear Regulator with Monitors,Recommended for New Designs,2792,$3.14 (LT3081EDF#PBF),"7-Lead TO-220 (Flow 06),7-Lead TO-220,7-Lead DD Pak,16-Lead TSSOP w/ EP,12-Lead DFN (4mm x 4mm w/ EP)",1,1.2,36,1.5,Adjustable To Zero,1.21,27µ,1.1m,"Cable Drop Compensation, Current Source Reference, Output Current Monitor, Temperature Monitor",https://www.analog.com/zh/products/lt3081

@@ -1,0 +1,4 @@
+﻿组件名称,Amp
+模块名称,Rail-to-Rail Op Amps
+Part #,Description,Product Lifecycle,Availability,Price (1000+) ($ US),Package,# of Amps,Common Mode In (min) (V),Common Mode In (max) (V),Input Beyond Supply,Gain (min) (V/V),Gain (max) (V/V),BW - low gain (typ) (Hz),Slew Rate (typ) (V/µs),Iq/Amp (max) (A),Vs span (min) (V),Vs span (max) (V),产品链接
+AD8275,"G = 0.2, Level Translation, 16-Bit ADC Driver",Production,5516,¥17.13000 (AD8275ARMZ),8-Lead MSOP,1,-12.3,12,Yes,0.2,0.2,15M,25,2.3m,3.3,15,https://www.analog.com/cn/ad8275

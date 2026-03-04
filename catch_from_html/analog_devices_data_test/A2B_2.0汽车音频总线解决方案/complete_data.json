@@ -1,0 +1,137 @@
+{
+  "page_info": {
+    "url": "https://www.analog.com/cn/solutions/a2b-automotive-audio-bus/a2b-automotive-audio-bus-2-0.html",
+    "title": "A2B™ 2.0汽车音频总线解决方案",
+    "keywords": "a2b 2.0：汽车音频总线 2.0；汽车音频总线；车载音频；音频数据总线；音频连接性",
+    "description": "A2B 2.0汽车音频总线是ADI市场领先的A2B 技术的新一代演进版本，构建于现有A2B 1.0系列产品过去十年所奠定的坚实可靠基础之上。",
+    "component_overview": "A 2 B  2.0汽车音频总线是ADI市场领先的A 2 B 技术的新一代演进版本，构建于现有A 2 B  1.0系列产品过去十年所奠定的坚实可靠基础之上。高性能、低延迟和易用性仍然是A 2 B  2.0价值主张的核心要素。A 2 B 2.0本质上仍是一款EMC性能优异的技术，专为汽车电子应用场景设计，总线可用带宽提升至原先的4倍（100 Mbps，全双工），能够更从容地应对未来车载架构向高清音频转型的发展趋势。A 2 B  2.0沿用了与A 2 B  1.0完全相同的线缆/连接器架构，助力车企(OEM)轻松升级车载音频系统。此外，A 2 B  2.0器件具备出色的集成度，最高能将系统成本降低30%。",
+    "navigation_path": "主页/解决方案概要/A2B汽车音频总线技术/A/2/B™ 2.0汽车音频总线解决方案"
+  },
+  "value_and_benefits": {
+    "title": "价值和优势",
+    "contents": "",
+    "characteristics": [
+      "带宽提升4倍：A2B 2.0 总线带宽提升至原先的4倍，可支持多达119路上行/下行音频通道，即便对于最先进的汽车音频系统，也能轻松满足需求。支持OASPI以太网隧道传输：集成行业标准的开放联盟SPI (OASPI)接口，可通过 A2B  2.0网络实现以太网数据隧道传输，大幅提升连接性与灵活性。系统成本最高降低30%：通过增强功能集成度并减少外部物料清单(eBOM)元件，实现显著成本节约，在本地供电系统中最高可降本30%。保持低延迟和易用性：延续A2B技术标志性的低延迟（62微秒）与易用性优势，确保无缝集成与可靠性能。全面开发支持：依托丰富的低成本评估板及功能强大的调试/仿真系统，简化从概念设计到最终验证的全流程开发。"
+    ]
+  },
+  "layout2_modules": [
+    {
+      "module_name": "价值和优势",
+      "description": "",
+      "table": {
+        "headers": [],
+        "rows": []
+      },
+      "images": []
+    }
+
+  ],
+  "hardware_products": [],
+  "evaluation_products": [
+    {
+      "category": "评估板和套件",
+      "model": "A2B-Analyzer-HP",
+      "description": "Next generation A2B Node Emulator and Bus Traffic Monitor- Designed to support A2B1.0 and A2B2.0 transceivers, currently supports A2B2.0 transceivers.",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/evaluation-board-images/images/a2b-analyzer-hp-angle-evaluation-board.jpg?rev=57f1f9a26fcd4d7c90630a5c9aaffebb&sc_lang=zh&h=100px&w=100px&hash=07E95EB4C69DF20959D62B6089DDC266",
+      "image_filename": "a2b-analyzer-hp-angle-evaluation-board.jpg",
+      "local_image_path": "analog_devices_data_final\\A2B_2.0汽车音频总线解决方案\\product_images\\a2b-analyzer-hp-angle-evaluation-board.jpg",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/a2b-analyzer-hp.html"
+    },
+    {
+      "category": "评估板和套件",
+      "model": "ADAA24XX-EV-B2BX",
+      "description": "SigmaDSP 音频底板",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/evaluation-board-images/images/adaa24xx-ev-b2bx-angle-evaluation-board.jpg?rev=8e8df477c9e343ad886fcf4684910214&sc_lang=zh&h=100px&w=100px&hash=754D274CFD314CBA5BCA0DAC95F545AE",
+      "image_filename": "adaa24xx-ev-b2bx-angle-evaluation-board.jpg",
+      "local_image_path": "analog_devices_data_final\\A2B_2.0汽车音频总线解决方案\\product_images\\adaa24xx-ev-b2bx-angle-evaluation-board.jpg",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/adaa24xx-ev-b2bx.html"
+    },
+    {
+      "category": "评估板和套件",
+      "model": "ADAA245X-EV-A1CA",
+      "description": "A2B 2.0 迷你模块",
+      "image_url": "https://www.analog.com/cn/_/media/analog/en/evaluation-board-images/images/adaa245x-ev-a1ca-angle-evaluation-board.jpg?rev=5e72e70cd2d943ebad59719557eda766&sc_lang=zh&h=100px&w=100px&hash=7FA9FC61F7838AA187E7BB5C4763EDBA",
+      "image_filename": "adaa245x-ev-a1ca-angle-evaluation-board.jpg",
+      "local_image_path": "analog_devices_data_final\\A2B_2.0汽车音频总线解决方案\\product_images\\adaa245x-ev-a1ca-angle-evaluation-board.jpg",
+      "product_link": "https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/adaa245x-ev-a1ca.html"
+    }
+  ],
+  "reference_products": [],
+  "signal_chains": {
+    "module_title": "信号链",
+    "total_count": 5,
+    "active_chain_id": "0527",
+    "chains": [
+      {
+        "list_name": "音响主机ECU",
+        "data_target": "ISC-0527",
+        "chain_id": "0527",
+        "is_active": true,
+        "is_more_option": false,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0527.png",
+          "filename": "signal_chain_0527.png",
+          "local_path": "analog_devices_data_final\\A2B_2.0汽车音频总线解决方案\\signal_chains\\signal_chain_0527.png",
+          "chain_id": "0527"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "低音炮/分布式放大器",
+        "data_target": "ISC-0520",
+        "chain_id": "0520",
+        "is_active": false,
+        "is_more_option": false,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0520.png",
+          "filename": "signal_chain_0520.png",
+          "local_path": "analog_devices_data_final\\A2B_2.0汽车音频总线解决方案\\signal_chains\\signal_chain_0520.png",
+          "chain_id": "0520"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "有源噪声控制(ANC)/道路噪声消除(RNC)箱",
+        "data_target": "ISC-0532",
+        "chain_id": "0532",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0532.png",
+          "filename": "signal_chain_0532.png",
+          "local_path": "analog_devices_data_final\\A2B_2.0汽车音频总线解决方案\\signal_chains\\signal_chain_0532.png",
+          "chain_id": "0532"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "高级音频放大器",
+        "data_target": "ISC-0525",
+        "chain_id": "0525",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0525.png",
+          "filename": "signal_chain_0525.png",
+          "local_path": "analog_devices_data_final\\A2B_2.0汽车音频总线解决方案\\signal_chains\\signal_chain_0525.png",
+          "chain_id": "0525"
+        },
+        "signal_chain_hotspots": []
+      },
+      {
+        "list_name": "远程信息处理紧急呼叫(E-Call)箱",
+        "data_target": "ISC-0519",
+        "chain_id": "0519",
+        "is_active": false,
+        "is_more_option": true,
+        "image_info": {
+          "img_url": "https://www.analog.com/packages/isc/v2824/zh/isc-0519.png",
+          "filename": "signal_chain_0519.png",
+          "local_path": "analog_devices_data_final\\A2B_2.0汽车音频总线解决方案\\signal_chains\\signal_chain_0519.png",
+          "chain_id": "0519"
+        },
+        "signal_chain_hotspots": []
+      }
+    ]
+  }
+}

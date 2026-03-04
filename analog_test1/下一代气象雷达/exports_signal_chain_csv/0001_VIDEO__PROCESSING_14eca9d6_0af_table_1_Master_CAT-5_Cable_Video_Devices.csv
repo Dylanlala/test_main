@@ -1,0 +1,4 @@
+﻿组件名称,VIDEO PROCESSING
+模块名称,Master CAT-5 Cable Video Devices
+Part #,Eval / Ref Circuit,Amplifier Primary Function,# of Channels,Input Type,BW -3 dB (typ) (Hz),Iout (typ) (A),Diff Phase Error (typ) (°),Diff Gain Error (typ) (%),Prop Delay V p-p (typ) (s p-p),Temp Range,Shut- down,Is (typ) (A),Vs span (min) (V),Vs span (max) (V),Product Description,Automotive,Reliability Level,产品链接
+ADA4433-1,"Evaluation board, Reference circuit",Video Varible Filter,1,Differential,9.9M,29,1.7,0.5,,-40 to 125°C,,13.2m,2.6,3.6,,,,http://www.analog.com/zh/ada4433-1

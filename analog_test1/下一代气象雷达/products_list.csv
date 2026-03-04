@@ -1,0 +1,5 @@
+﻿类型,型号,描述,图片文件名,本地图片路径,产品链接
+硬件产品,ADAR1000,4 通道 X 频段和 Ku 频段波束形成器，8 GHz 至 16 GHz,adar1000-fbl.png,analog_devices_data_final\下一代气象雷达\product_images\adar1000-fbl.png,https://www.analog.com/cn/products/adar1000.html
+硬件产品,HMC8415,"40 W (46 dBm), 9 GHz to 10.5 GHz, GaN Power Amplifier",hmc8415lp6ge-fbl.png,analog_devices_data_final\下一代气象雷达\product_images\hmc8415lp6ge-fbl.png,https://www.analog.com/cn/products/hmc8415.html
+硬件产品,ADMV8913,X频段、数字可调谐、高通和低通滤波器,admv8913-ep-fbd.png,analog_devices_data_final\下一代气象雷达\product_images\admv8913-ep-fbd.png,https://www.analog.com/cn/products/admv8913.html
+硬件产品,ADTR1107,6 GHz 至 18 GHz 前端 IC,adtr1107-fbl.png,analog_devices_data_final\下一代气象雷达\product_images\adtr1107-fbl.png,https://www.analog.com/cn/products/adtr1107.html

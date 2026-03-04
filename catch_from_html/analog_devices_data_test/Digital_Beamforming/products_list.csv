@@ -1,0 +1,5 @@
+﻿类型,型号,描述,图片文件名,本地图片路径,产品链接
+硬件产品,AD9084,Apollo MxFE 四路 16 位 28GSPS 射频 DAC 和四路 12 位 20 GSPS 射频 ADC,ad9084-fbl.png,analog_devices_data_final\Digital_Beamforming\product_images\ad9084-fbl.png,https://www.analog.com/cn/products/ad9084.html
+硬件产品,AD9081,MxFE™ 四通道 16 位 12GSPS RFDAC 和四通道 12 位 4GSPS RFADC,ad9081-fbl.png,analog_devices_data_final\Digital_Beamforming\product_images\ad9081-fbl.png,https://www.analog.com/cn/products/ad9081.html
+硬件产品,AD9088,Apollo MxFE八通道16位、16 GSPS RF DAC和八通道12位、8 GSPS RF ADC,ad9088-fbl.png,analog_devices_data_final\Digital_Beamforming\product_images\ad9088-fbl.png,https://www.analog.com/cn/products/ad9088.html
+评估板,QUAD-MxFE平台,16Tx/16Rx直接L/S/C频段采样相控阵/雷达/电子战/卫星通信开发平台,QUAD-MxFE平台_adquadmxfe1ebzangle-web.gif,analog_devices_data_final\Digital_Beamforming\product_images\QUAD-MxFE平台_adquadmxfe1ebzangle-web.gif,https://www.analog.com/cn/resources/evaluation-hardware-and-software/evaluation-boards-kits/quad-mxfe.html
